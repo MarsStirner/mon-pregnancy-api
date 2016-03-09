@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "/api-docs/medical-examination",
+  "properties": {
+    "date": {
+      "type": "object",
+      "id": "/api-docs/medical-examination/general/date",
+      "description": "Дата осмотра"
+    },
+    "growth": {
+      "type": "number",
+      "id": "/api-docs/medical-examination/general/growth",
+      "description": "Рост пациентки"
+    },
+    "weight": {
+      "type": "number",
+      "id": "/api-docs/medical-examination/general/weight",
+      "description": "Масса пациентки на осмотре"
+    },
+    "body_mass_index": {
+      "type": "number",
+      "id": "/api-docs/medical-examination/general/body_mass_index",
+      "description": "Индекс массы тела"
+    },
+    "WGR": {
+      "type": "integer",
+      "id": "/api-docs/medical-examination/general/WGR",
+      "description": "Массо-ростовой коэффициент (МРК)"
+    }
+  },
+  "required": [
+    "date",
+    "growth",
+    "weight"
+  ]
+}

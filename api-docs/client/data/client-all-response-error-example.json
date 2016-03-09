@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "code": 406,
+    "errors": [
+      {
+        "instance": {
+          "insurance_document_series": "0944",
+          "insurance_document_issuing_authority": "22001",
+          "insurance_document_beg_date": "03-02-02",
+          "insurance_document_number": "7837833"
+        },
+        "path": "insurance_documents/0",
+        "error": "'insurance_document_type' is a required property"
+      }
+    ],
+    "name": "Не валидные данные",
+    "traceback": [
+      [
+        "/home/mmalkov/workspace/nemesis/nemesis/lib/apiutils.py",
+        97,
+        "wrapper",
+        "result = func(*args, **kwargs)"
+      ],
+      [
+        "/home/mmalkov/workspace/Hippocrates/hippocrates/blueprints/risar/views/api/integration/api.py",
+        39,
+        "api_client_save",
+        "xform.validate(data)"
+      ],
+      [
+        "/home/mmalkov/workspace/Hippocrates/hippocrates/blueprints/risar/views/api/integration/xform.py",
+        119,
+        "validate",
+        "errors=errors,"
+      ]
+    ]
+  },
+  "result": null
+}

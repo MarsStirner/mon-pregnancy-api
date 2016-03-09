@@ -1,0 +1,51 @@
+{
+  "meta":{
+    "code": "200",
+    "name": "ОК"
+  },
+  "result":
+  {
+    "FIO": {
+      "middlename": "Иванова",
+      "name": "Василиса",
+      "surname": "Петровна"
+    },
+    "birthday_date": "1990-02-12",
+    "gender": 2,
+    "document": {
+      "document_type_code": 14,
+      "document_series": "4004",
+      "document_number": "342908",
+      "document_beg_date": "2004-10-31",
+      "document_issuing_authority": "ТП № 30 отдела УФМС по СПб и Лен.области"
+    },
+    "residential_address": {
+      "KLADR_locality": "7800000000000",
+      "KLADR_street": "78000000000076900",
+      "house": "12а",
+      "flat": "404",
+      "locality_type": 1
+    },
+    "blood_type_info": [
+      {
+        "blood_type": "B(III)Rh+"
+      }
+    ],
+    "allergies_info": [
+      {
+
+        "allergy_power": 4,
+        "allergy_substance": "ромашка"
+      }
+    ],
+    "medicine_intolerance_info": [
+      {
+
+        "medicine_intolerance__power": 4,
+        "medicine_substance": "анальгетики"
+      }
+    ],
+    "patient_external_code": "47584934859034854",
+    "patient_risar_id": "347483"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mon-pregnancy-api",
+  "version": "0.0.1",
+  "description": "Описание API БАРС: Мониторинг беременных",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "api",
+    "pregnancy",
+    "monitoring"
+  ],
+  "author": "Oleg Rusak",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-apidoc": "^0.2.2",
+    "gulp-livereload": "^3.8.1",
+    "tv4": "^1.2.7"
+  },
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
