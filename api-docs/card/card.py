@@ -8,7 +8,7 @@ Current Success.
 ------------------------------------------------------------------------------------------
 @apiDefine CreateSuccess
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного клиента.
-@apiSuccessExample {json} Успешный ответ (проба)
+@apiSuccessExample {json} Успешный ответ
 {}
 """
 
