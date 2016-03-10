@@ -8,7 +8,7 @@ Current Success.
 ------------------------------------------------------------------------------------------
 @apiDefine CreateSuccess
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного клиента.
-@apiSuccessExample {json} Успешный ответ
+@apiSuccessExample {json} Успешный ответ (проба)
 {}
 """
 
@@ -92,7 +92,7 @@ JSON пример _.
 @apiName DeleteCard
 @apiGroup Card
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для удаления данных медицинской карты.
+@apiDescription Метод asd sa предназначен для удаления данных медицинской карты.
 
 @apiParam {Number} api_version Версия API от целое положительной число.
 @apiParam {String} external_system_id Код внешней системы.
