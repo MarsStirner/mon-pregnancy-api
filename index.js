@@ -1,13 +1,14 @@
 /**
  * Created by ORusak on 09.03.2016.
  */
+'use strict';
 
-const static = require('node-static');
+const staticServer = require('node-static');
 
 //
 // Create a node-static server instance to serve the './public' folder
 //
-let file = new static.Server('./public');
+let file = new staticServer.Server('./public');
 
 require('http').createServer(function (request, response) {
     request.addListener('end', function () {
@@ -16,4 +17,4 @@ require('http').createServer(function (request, response) {
         //
         file.serve(request, response);
     }).resume();
-}).listen(8080);
+}).listen(3000);
