@@ -8,7 +8,7 @@ const staticServer = require('node-static');
 //
 // Create a node-static server instance to serve the './public' folder
 //
-let file = new staticServer.Server('./public');
+let file = new staticServer.Server(__dirname + '/public');
 
 require('http').createServer(function (request, response) {
     request.addListener('end', function () {
