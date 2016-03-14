@@ -1,0 +1,154 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "puerperacheckout",
+	"description": "Осмотр родильницы акушером-гинекологом",
+	"type": "object",
+	"properties": {
+		"date": {
+			"description": "Дата осмотра",
+			"type": "string",
+			"format": "date"
+		},
+		"time": {
+			"description": "Время осмотра",
+			"type": "string",
+			"pattern": "^([0-9]|0[0-9]|1[0-9]|2[0-3]):([0-5][0-9])$"
+		},
+		"date_of_childbirth": {
+			"description": "Дата родов",
+			"type": "string",
+			"format": "date"
+		},
+		"hospital": {
+			"description": "ЛПУ осмотра (Реестр ЛПУ!!!???)",
+			"type": "string"
+		},
+		"doctor": {
+			"description": "Врач (Реестр сотрудников ЛПУ !!!???)",
+			"type": "string"
+		},
+		"time_since_childbirth": {
+			"description": "Срок после родов, недель",
+			"type": "integer"
+		},
+		"": {
+			"description": "Жалобы, справочник \"Жалобы_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Нет",
+				"Повышенная температура",
+				"Боли внизу живота",
+				"Кровотечение",
+				"Нагрубание молочных желез"
+			]
+		},
+		"nipples": {
+			"description": "Состояние сосков, справочник \"Состояние сосков_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Трещины",
+				"Воспаление"
+			]
+		},
+		"secretion": {
+			"description": "Выделения, справочник \"Выделения_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Светлые",
+				"Мутные",
+				"Зловонные"
+			]
+		},
+		"breast": {
+			"description": "Состоние молочных желез, справочник \"Состояние молочных желез_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Без изменений",
+				"Нагрубание",
+				"Местное уплотнение",
+				"Покраснение",
+				"Трещины сосков"
+			]
+		},
+		"lactation": {
+			"description": "Лактация, справочник \"Лактация_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Норма",
+				"Другое"
+			]
+		},
+		"uterus": {
+			"description": "Состояние матки, справочник \"Состояние матки_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Нормальное сокращение",
+				"Атоническое состояние",
+				"Гипотоническое состояние",
+				"Выпадение",
+				"Послеоперационное осложнение"
+			]
+		},
+		"": {
+			"description": "Состояние послеоперационного рубца, справочник \"Состояние послеоперационного рубца_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Норма",
+				"Другое"
+			]
+		},
+		"state": {
+			"description": "Общее состояние, справочник rbRisarState",
+			"type": "string",
+			"enum": ["srednejtajesti", "tajeloe", "udovletvoritel_noe"]
+		},
+		"ad_right_high": {
+			"description": "AD правая рука верхн.",
+			"type": "number",
+			"format": "double"
+		},
+		"ad_left_high": {
+			"description": "AD левая рука верхн.",
+			"type": "number",
+			"format": "double"
+		},
+		"ad_right_low": {
+			"description": "AD правая рука ниж.",
+			"type": "number",
+			"format": "double"
+		},
+		"ad_left_low": {
+			"description": "AD левая рука ниж.",
+			"type": "number",
+			"format": "double"
+		},
+		"veins": {
+			"description": "Состояние вен, справочник rbRisarVein",
+			"type": "string",
+			"enum": ["noma", "poverhnostnyjvarikoz", "varikoznoerassirenieven"]
+		},
+		"diagnosis": {
+			"description": "Основной диагноз, код диагноза по МКБ-10",
+			"type": "string",
+			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
+		},
+		"contraception_recommendations": {
+			"description": "Рекомендации по контрацепции, справочник \"Рекомендации по контрацепции_родильница\" ",
+			"type": "string",
+			"enum": [
+				"Нет",
+				"ВМС",
+				"Гормональные",
+				"Стерилизация"
+			]
+		},
+		"treatment": {
+			"description": "Лечение",
+			"type": "string"
+		},
+		"recommendations": {
+			"description": "Рекомендации",
+			"type": "string"
+		}
+	}
+}
