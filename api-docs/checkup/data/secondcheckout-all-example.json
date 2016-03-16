@@ -1,0 +1,28 @@
+{
+	"dynamic_monitoring": {
+		"date": "2011-11-11",
+		"time": "18:00",
+		"doctor": "Иванов И.И.",
+		"ad_right_high": 120,
+		"ad_left_high": 80,
+		"ad_right_low": 80,
+		"ad_left_low": 120,
+		"weight": 70
+	},
+	"somatic_status": {
+		"state": "udovletvoritel_noe",
+		"complaints": "oteki"
+	},
+	"obstetric_status": {
+		"uterus_state": "normal_nyjtonus"
+	},
+	"medical_report": {
+		"pregnancy_week": 42,
+		"next_visit_date": "2011-11-12",
+		"pregnancy_continuation": true,
+		"abortion_refusal": true,
+		"diagnosis_osn": "Q00.0",
+		"recommendations": "улыбаться",
+		"notes": "мало улыбается"
+	}
+}

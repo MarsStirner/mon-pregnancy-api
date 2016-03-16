@@ -83,7 +83,6 @@
 					"description": "Лимфоузлы, справочник rbRisarLymph",
 					"type": "string",
 					"enum": [
-						"*",
 						"boleznennye",
 						"neboleznennye",
 						"nepal_piruutsa",
@@ -96,7 +95,6 @@
 					"description": "Молочные железы, справочник rbRisarBreast",
 					"type": "string",
 					"enum": [
-						"*",
 						"bezpatologiceskihizmenenij",
 						"mestnoeuplotnenie",
 						"nagrubanie",
@@ -108,7 +106,6 @@
 					"description": "Тоны сердца, справочник rbRisarHeart_Tones",
 					"type": "string",
 					"enum": [
-						"*",
 						"akzentIItona",
 						"aritmicnye",
 						"asnye",
@@ -121,13 +118,12 @@
 				"pulse": {
 					"description": "Пульс, справочник, справочник rbRisarPulse",
 					"type": "string",
-					"enum": ["*", "defizitpul_sa", "udovletvoritel_nogonapolnenia"]
+					"enum": ["defizitpul_sa", "udovletvoritel_nogonapolnenia"]
 				},
 				"nipples": {
 					"description": "Состояние сосков, справочник rbRisarNipples",
 					"type": "string",
 					"enum": [
-						"*",
 						"norma",
 						"tresiny",
 						"vospalenie"
@@ -136,13 +132,12 @@
 				"mouth": {
 					"description": "Полость рта, справочник rbRisarMouth",
 					"type": "string",
-					"enum": ["*", "nujdaetsavsanazii", "sanirovana"]
+					"enum": ["nujdaetsavsanazii", "sanirovana"]
 				},
 				"respiratory": {
 					"description": "Органы дыхания, справочник rbRisarBreathe",
 					"type": "string",
 					"enum": [
-						"*",
 						"dyhaniejestkoe",
 						"dyhanievezikularnoe",
 						"hripyotsutstvuut",
@@ -154,7 +149,6 @@
 					"description": "Органы брюшной полости, справочник rbRisarStomach",
 					"type": "string",
 					"enum": [
-						"*",
 						"jivotmagkijbezboleznennyj",
 						"jivotnaprajennyj",
 						"jivotuvelicenzascetberemennojmatki"
@@ -163,13 +157,12 @@
 				"liver": {
 					"description": "Печень, справочник rbRisarLiver",
 					"type": "string",
-					"enum": ["*", "nepal_piruetsa", "uvelicena"]
+					"enum": ["nepal_piruetsa", "uvelicena"]
 				},
 				"urinoexcretory": {
 					"description": "Мочевыводящая система, справочник rbRisarUrinoexcretory",
 					"type": "string",
 					"enum": [
-						"*",
 						"moceispuskanieucasennoe",
 						"moceispuskanievnorme",
 						"СindromПasternazkogo"
@@ -357,7 +350,7 @@
 				"fetus_heartbeat": {
 					"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
 					"type": "string",
-					"enum": ["*", "asnoe", "ritmicnoe"]
+					"enum": ["asnoe", "ritmicnoe"]
 				},
 				"fetus_heart_rate": {
 					"description": "ЧСС плода",
@@ -426,7 +419,6 @@
 					"description": "Тело матки, справочник rbRisarBody_Of_Womb",
 					"type": "string",
 					"enum": [
-						"*",
 						"bezboleznennopripal_pazii",
 						"boleznennopripal_pazii",
 						"magkovatojkonsistenzii",
@@ -536,5 +528,5 @@
 			]
 		}
 	},
-	"required": ["general_info", "omatic_status", "obstetric_status", "medical_report"]
+	"required": ["general_info", "somatic_status", "obstetric_status", "medical_report"]
 }

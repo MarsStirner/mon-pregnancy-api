@@ -1,0 +1,56 @@
+{
+	"status":{
+		"code": "200",
+		"name": "ОК",
+		"external_exam_obs_id": "123456"
+		},
+	"data": {
+		"general_info": {
+			"date": "2011-11-11",
+			"time": "18:00",
+			"doctor": "Иванов И.И.",
+			"height": 175,
+			"weight": 70
+		},
+		"somatic_status": {
+			"state": "udovletvoritel_noe",
+			"subcutaneous_fat": "izbytocnorazvita",
+			"tongue": "01",
+			"complaints": "oteki",
+			"skin": "suhaa",
+			"lymph": "boleznennye",
+			"breast": "nagrubanie",
+			"heart_tones": "akzentIItona",
+			"pulse": "defizitpul_sa",
+			"nipples": "norma",
+			"mouth": "sanirovana",
+			"respiratory": "hripyotsutstvuut",
+			"abdomen": "jivotnaprajennyj",
+			"liver": "nepal_piruetsa",
+			"urinoexcretory": "СindromПasternazkogo",
+			"ad_right_high": 120,
+			"ad_left_high": 120,
+			"ad_right_low": 80,
+			"ad_left_low": 80,
+			"veins": "noma",
+			"heart_rate": 80
+		},
+		"obstetric_status": {
+			"uterus_state": "normal_nyjtonus",
+			"dssp": 1,
+			"dscr": 1,
+			"dstr": 1,
+			"cext": 1,
+			"soloviev_index": 1
+		},
+		"medical_report": {
+			"pregnancy_week": 42,
+			"next_visit_date": "2011-11-12",
+			"pregnancy_continuation": true,
+			"abortion_refusal": true,
+			"diagnosis_osn": "Q00.0",
+			"recommendations": "улыбаться",
+			"notes": "мало улыбается"
+		}
+	}
+}	
