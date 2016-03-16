@@ -80,7 +80,7 @@ Current Errors.
 
 """
 @api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/ Регистрация первичных осмотров акушеров-гинекологов
-@apiName PostObsExamination
+@apiName PostObsFirstExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
@@ -93,7 +93,7 @@ Current Errors.
 
 """
 @api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/<external_exam_obs_id>/ Изменение первичных осмотров акушеров-гинекологов
-@apiName PutObsExamination
+@apiName PutObsFirstExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
@@ -107,7 +107,7 @@ Current Errors.
 
 """
 @api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/<external_exam_obs_id>/ Удаление первичных осмотров акушеров-гинекологов
-@apiName DeleteObsExamination
+@apiName DeleteObsFirstExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
@@ -123,7 +123,7 @@ Current Errors.
 
 """
 @api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/ Регистрация повторных осмотров акушеров-гинекологов
-@apiName PostObsExamination
+@apiName PostObsSecondExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
@@ -136,7 +136,7 @@ Current Errors.
 
 """
 @api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/<external_exam_obs_id>/ Изменение повторных осмотров акушеров-гинекологов
-@apiName PutObsExamination
+@apiName PutObsSecondExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
@@ -150,7 +150,7 @@ Current Errors.
 
 """
 @api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/<external_exam_obs_id>/ Удаление повторных осмотров акушеров-гинекологов
-@apiName DeleteObsExamination
+@apiName DeleteObsSecondExamination
 @apiGroup Obs-Examination
 @apiVersion 0.1.0
 @apiPermission auth
