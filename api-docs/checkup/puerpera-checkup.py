@@ -17,9 +17,32 @@
 Current Success.
 ------------------------------------------------------------------------------------------
 @apiDefine CreateSuccess
-@apiSuccess (Success 2xx) {json} 200 Данные сохраненного клиента.
+@apiSuccess (Success 2xx) {json} 200 Данные сохраненного осмотра.
 @apiSuccessExample {json} Успешный ответ
-{}
+{
+  "status":{
+    "code": "200",
+    "name": "ОК",
+    "external_exam_puerpera_id": "123456"
+    },
+  "data": {
+    "date": "2011-11-12",
+    "time": "18:00",
+    "date_of_childbirth": "2011-11-11",
+    "hospital": "ЛПУ",
+    "doctor": "Иванов И.И.",
+    "time_since_childbirth": 1,
+    "state": "srednejtajesti",
+    "ad_right_high": 120,
+    "ad_left_high": 120,
+    "ad_right_low": 80,
+    "ad_left_low": 80,
+    "veins": "noma",
+    "diagnosis": "Q00.0",
+    "contraception_recommendations": "01",
+    "recommendations": "апельсиновый сок 3 р.д. натощак"
+  }
+}
 """
 
 """
@@ -70,7 +93,7 @@ Current Errors.
 """
 
 """
-@api {post} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/puerpera/<external_system_id>/ Регистрация осмотров родильницы
+@api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/ Регистрация осмотров родильницы
 @apiName PostPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -83,7 +106,7 @@ Current Errors.
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id>/<external_system_id>/ Изменение осмотров родильницы
+@api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id>/ Изменение осмотров родильницы
 @apiName PutPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -97,7 +120,7 @@ Current Errors.
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id>/<external_system_id>/ Удаление осмотров родильницы
+@api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id> Удаление осмотров родильницы
 @apiName DeletePuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -111,7 +134,7 @@ Current Errors.
 """
 
 """
-@api {get} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/puerpera/<external_system_id>/ Получение списка осмотров родильницы
+@api {get} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/ Получение списка осмотров родильницы
 @apiName GetPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0

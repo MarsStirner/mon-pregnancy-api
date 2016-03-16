@@ -1,0 +1,24 @@
+{
+	"status":{
+		"code": "200",
+		"name": "ОК",
+		"external_exam_puerpera_id": "123456"
+		},
+	"data": {
+		"date": "2011-11-12",
+		"time": "18:00",
+		"date_of_childbirth": "2011-11-11",
+		"hospital": "ЛПУ",
+		"doctor": "Иванов И.И.",
+		"time_since_childbirth": 1,
+		"state": "srednejtajesti",
+		"ad_right_high": 120,
+		"ad_left_high": 120,
+		"ad_right_low": 80,
+		"ad_left_low": 80,
+		"veins": "noma",
+		"diagnosis": "Q00.0",
+		"contraception_recommendations": "01",
+		"recommendations": "апельсиновый сок 3 р/д натощак"
+	}
+}

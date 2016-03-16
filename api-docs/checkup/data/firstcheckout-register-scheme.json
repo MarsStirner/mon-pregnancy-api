@@ -32,7 +32,8 @@
 					"type": "number",
 					"format": "double"
 				}
-			}
+			},
+			"required": ["date", "time", "doctor", "height", "weight"]
 		},
 		"somatic_status": {
 			"description": "Данные соматического статуса",
@@ -211,7 +212,30 @@
 					"description": "ССС: пульс",
 					"type": "integer"
 				}
-			}
+			},
+			"required": [
+				"state",
+				"subcutaneous_fat",
+				"tongue",
+				"complaints",
+				"skin",
+				"lymph",
+				"breast",
+				"heart_tones",
+				"pulse",
+				"nipples",
+				"mouth",
+				"respiratory",
+				"abdomen",
+				"liver",
+				"urinoexcretory",
+				"ad_right_high",
+				"ad_left_high",
+				"ad_right_low",
+				"ad_left_low",
+				"veins",
+				"heart_rate"
+			]
 		},
 		"obstetric_status": {
 			"description": "Акушерский статус",
@@ -340,7 +364,15 @@
 					"type": "number",
 					"format": "double"
 				}
-			}
+			},
+			"required": [
+				"uterus_state",
+				"dssp",
+				"dscr",
+				"dstr",
+				"cext",
+				"soloviev_index"
+			]
 		},
 		"vaginal_examination": {
 			"description": "Влагалищное исследование",
@@ -435,7 +467,8 @@
 					"description": "Отделяемое и при наличии данных з уретры взято на анализ",
 					"type": "boolean"
 				}
-			}
+			},
+			"required": ["vagina", "cervix"]
 		},
 		"medical_report": {
 			"description": "Заключение",
@@ -494,7 +527,14 @@
 					"description": "Примечания",
 					"type": "string"
 				}
-			}
+			},
+			"required":[
+				"pregnancy_week",
+				"next_visit_date",
+				"pregnancy_continuation",
+				"diagnosis_osn"
+			]
 		}
-	}
+	},
+	"required": ["general_info", "omatic_status", "obstetric_status", "medical_report"]
 }

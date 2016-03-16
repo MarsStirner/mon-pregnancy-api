@@ -32,70 +32,39 @@
 			"type": "integer"
 		},
 		"complaints": {
-			"description": "Жалобы, справочник \"Жалобы_родильница\" ",
+			"description": "Жалобы, справочник rbRisarComplaints_Puerpera",
 			"type": "string",
-			"enum": [
-				"Нет",
-				"Повышенная температура",
-				"Боли внизу живота",
-				"Кровотечение",
-				"Нагрубание молочных желез"
-			]
+			"pattern": "^(0[1-5])$"
 		},
 		"nipples": {
-			"description": "Состояние сосков, справочник \"Состояние сосков_родильница\" ",
+			"description": "Состояние сосков, справочник rbRisarNipples_Puerpera",
 			"type": "string",
-			"enum": [
-				"Трещины",
-				"Воспаление"
-			]
+			"pattern": "^(01|02)$"
 		},
 		"secretion": {
-			"description": "Выделения, справочник \"Выделения_родильница\" ",
+			"description": "Выделения, справочник rbRisarSecretion_Puerpera",
 			"type": "string",
-			"enum": [
-				"Светлые",
-				"Мутные",
-				"Зловонные"
-			]
+			"pattern": "^(0[1-3])$"
 		},
 		"breast": {
-			"description": "Состоние молочных желез, справочник \"Состояние молочных желез_родильница\" ",
+			"description": "Состоние молочных желез, справочник rbRisarBreast_Puerpera",
 			"type": "string",
-			"enum": [
-				"Без изменений",
-				"Нагрубание",
-				"Местное уплотнение",
-				"Покраснение",
-				"Трещины сосков"
-			]
+			"pattern": "^(0[1-5])$"
 		},
 		"lactation": {
-			"description": "Лактация, справочник \"Лактация_родильница\" ",
+			"description": "Лактация, справочник rbRisarLactation_Puerpera",
 			"type": "string",
-			"enum": [
-				"Норма",
-				"Другое"
-			]
+			"pattern": "^(01|02)$"
 		},
 		"uterus": {
-			"description": "Состояние матки, справочник \"Состояние матки_родильница\" ",
+			"description": "Состояние матки, справочник rbRisarUterus_Puerpera",
 			"type": "string",
-			"enum": [
-				"Нормальное сокращение",
-				"Атоническое состояние",
-				"Гипотоническое состояние",
-				"Выпадение",
-				"Послеоперационное осложнение"
-			]
+			"pattern": "^(0[1-5])$"
 		},
 		"scar": {
-			"description": "Состояние послеоперационного рубца, справочник \"Состояние послеоперационного рубца_родильница\" ",
+			"description": "Состояние послеоперационного рубца, справочник rbRisarScar_Puerpera",
 			"type": "string",
-			"enum": [
-				"Норма",
-				"Другое"
-			]
+			"pattern": "^(01|02)$"
 		},
 		"state": {
 			"description": "Общее состояние, справочник rbRisarState",
@@ -133,14 +102,9 @@
 			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
 		},
 		"contraception_recommendations": {
-			"description": "Рекомендации по контрацепции, справочник \"Рекомендации по контрацепции_родильница\" ",
+			"description": "Рекомендации по контрацепции, справочник rbRisarContraception_Puerpera",
 			"type": "string",
-			"enum": [
-				"Нет",
-				"ВМС",
-				"Гормональные",
-				"Стерилизация"
-			]
+			"pattern": "^(0[1-4])$"
 		},
 		"treatment": {
 			"description": "Лечение",
@@ -150,5 +114,13 @@
 			"description": "Рекомендации",
 			"type": "string"
 		}
-	}
+	},
+	"required": [
+		"date",
+		"time",
+		"date_of_childbirth",
+		"hospital",
+		"doctor",
+		"diagnosis"
+	]
 }

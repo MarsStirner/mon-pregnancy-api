@@ -63,7 +63,17 @@
 					"description": "Комментарии к другим анализам",
 					"type": "string"
 				}
-			}
+			},
+			"required": [
+				"date",
+				"time",
+				"doctor",
+				"ad_right_high",
+				"ad_left_high",
+				"ad_right_low",
+				"ad_left_low",
+				"weight"
+			]
 		},
 		"somatic_status": {
 			"description": "Данные соматического статуса",
@@ -193,7 +203,8 @@
 					"description": "Физиологические отправления",
 					"type": "string"
 				}
-			}
+			},
+			"required": ["state", "complaints"]
 		},
 		"obstetric_status": {
 			"description": "Акушерский статус",
@@ -329,7 +340,14 @@
 					"description": "Лечение",
 					"type": "string"
 				}
-			}
+			},
+			"required": [
+				"pregnancy_week",
+				"next_visit_date",
+				"pregnancy_continuation",
+				"diagnosis_osn"
+			]
 		}
-	}
+	},
+	"required": ["dynamic_monitoring", "obstetric_status", "medical_report"]
 }
