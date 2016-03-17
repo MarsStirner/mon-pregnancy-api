@@ -13,21 +13,21 @@
           "id": "http://jsonschema.net/FIO/middlename",
           "description": "Отчество пациента",
           "minLength": 1,
-          "maxLength": 30
+          "maxLength": 255
         },
         "name": {
           "type": "string",
           "id": "http://jsonschema.net/FIO/name",
           "description": "Имя пациента",
           "minLength": 1,
-          "maxLength": 30
+          "maxLength": 255
         },
         "surname": {
           "type": "string",
           "id": "http://jsonschema.net/FIO/surname",
           "description": "Фамилия пациента",
           "minLength": 1,
-          "maxLength": 30
+          "maxLength": 255
         }
       },
       "required": [
