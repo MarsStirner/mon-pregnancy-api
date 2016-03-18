@@ -16,7 +16,7 @@
 ------------------------------------------------------------------------------------------
 Current Success.
 ------------------------------------------------------------------------------------------
-@apiDefine CreateSuccess
+@apiDefine PuerperaExaminationCreateSuccess
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного осмотра.
 @apiSuccessExample {json} Успешный ответ
 {
@@ -88,7 +88,7 @@ Current Errors.
 @apiVersion 0.1.0
 @apiDescription Описание ошибок и успешных ответов.
 
-@apiUse CreateSuccess
+@apiUse PuerperaExaminationCreateSuccess
 
 @apiUse CreateError
 """
@@ -99,7 +99,9 @@ Current Errors.
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
 @apiPermission auth
-@apiDescription Регистрация данных осмотра родильницы.
+@apiDescription Регистрация данных осмотра родильницы.</br>
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-scheme.json">puerperacheckout-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API от целое положительной число.
 @apiParam {String} external_system_id Код внешней системы.
@@ -112,7 +114,9 @@ Current Errors.
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
 @apiPermission auth
-@apiDescription Изменение данных осмотра родильницы.
+@apiDescription Изменение данных осмотра родильницы.</br>
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-scheme.json">puerperacheckout-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API от целое положительной число.
 @apiParam {String} external_system_id Код внешней системы.
