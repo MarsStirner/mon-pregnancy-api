@@ -20,12 +20,12 @@ Current Success.
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного клиента.
 @apiSuccessExample {json} Успешный ответ
 {
-  "status":{
+  "meta":{
     "code": "200",
-    "name": "ОК",
-    "exam_obs_id": "123456"
+    "name": "ОК"
   },
   "data": {
+    "exam_obs_id": "123456",
     "general_info": {
       "date": "2011-11-11",
       "time": "18:00",
@@ -78,42 +78,6 @@ Current Success.
 """
 
 """
-------------------------------------------------------------------------------------------
-Current Errors.
-------------------------------------------------------------------------------------------
-
-@apiDefine CreateError
-@apiVersion 0.1.0
-@apiError (Error 5xx) {json} 500 исключительная ситуация, ошибка: внутренняя ошибка сервера
-@apiError (Error 4xx) {json} 406 исключительная ситуация, ошибка валидации переданных данных
-@apiError (Error 4xx) {json} 404 ошибка, запрашиваемый ресурс не найден
-
-@apiErrorExample {json} Ошибка
-{
-  "meta": {
-    "code": 406,
-    "errors": [
-      {
-        "instance": {
-          "insurance_document_series": "0944",
-          "insurance_document_issuing_authority": "22001",
-          "insurance_document_beg_date": "03-02-02",
-          "insurance_document_number": "7837833"
-        },
-        "path": "insurance_documents/0",
-        "error": "'insurance_document_type' is a required property"
-      }
-    ],
-    "name": "Не валидные данные",
-    "traceback": [
-
-    ]
-  },
-  "result": null
-}
-"""
-
-"""
 @api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName ObsSecondExamination
 @apiGroup Obs-Second-Examination
@@ -121,8 +85,6 @@ Current Errors.
 @apiDescription Описание ошибок и успешных.
 
 @apiUse ObsSecondExaminationCreateSuccess
-
-@apiUse CreateError
 """
 
 
@@ -137,9 +99,8 @@ Current Errors.
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-scheme.json">secondcheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-example.json">secondcheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
 """
 
 """
@@ -152,10 +113,9 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/seco
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-scheme.json">secondcheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-example.json">secondcheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_obs_id Код повторного осмотра врача-акушера-гинеколога во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_obs_id Код повторного осмотра врача акушера-гинеколога.
 """
 
 """
@@ -166,8 +126,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/seco
 @apiPermission auth
 @apiDescription Удаление данных повторного осмотра врача-акушера-гинеколога.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_obs_id Код повторного осмотра врача-акушера-гинеколога во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_obs_id Код повторного осмотра врача акушера-гинеколога.
 """
