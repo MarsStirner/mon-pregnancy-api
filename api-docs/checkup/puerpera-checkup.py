@@ -82,7 +82,7 @@ Current Errors.
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName PuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -94,7 +94,7 @@ Current Errors.
 """
 
 """
-@api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/ Регистрация осмотров родильницы
+@api {post} /risar/api/integration/<api_version>/card/<card_id>/checkup/puerpera/ Регистрация осмотров родильницы
 @apiName PostPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -109,7 +109,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id>/ Изменение осмотров родильницы
+@api {put} /risar/api/integration/<api_version>/card/<card_id>/checkup/puerpera/<exam_puerpera_id>/ Изменение осмотров родильницы
 @apiName PutPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -125,7 +125,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/<external_exam_puerpera_id> Удаление осмотров родильницы
+@api {delete} /risar/api/integration/<api_version>/card/<card_id>/checkup/puerpera/<exam_puerpera_id> Удаление осмотров родильницы
 @apiName DeletePuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
@@ -139,7 +139,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 """
 
 """
-@api {get} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/puerpera/ Получение списка осмотров родильницы
+@api {get} /risar/api/integration/<api_version>/card/<card_id>/checkup/puerpera/ Получение списка осмотров родильницы
 @apiName GetPuerPeraExamination
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0

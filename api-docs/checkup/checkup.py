@@ -42,7 +42,7 @@ Current Errors.
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/ Описание ошибок и успешных ответов
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов
 @apiName Examination
 @apiGroup Examination
 @apiVersion 0.1.0
@@ -55,7 +55,7 @@ Current Errors.
 
 
 """
-@api {get} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/ Получение списка осмотров беременной
+@api {get} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Получение списка осмотров беременной
 @apiName GetExamination
 @apiGroup Examination
 @apiVersion 0.1.0

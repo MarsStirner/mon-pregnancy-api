@@ -1,8 +1,7 @@
 {
 	"status":{
 		"code": "200",
-		"name": "ОК",
-		"external_exam_obs_id": "123456"
+		"name": "ОК"
 	},
 	"data": {
 		"general_info": {

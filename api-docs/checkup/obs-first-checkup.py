@@ -114,7 +114,7 @@ Current Errors.
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName ObsFirstExamination
 @apiGroup Obs-First-Examination
 @apiVersion 0.1.0
@@ -126,7 +126,7 @@ Current Errors.
 """
 
 """
-@api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/ Регистрация первичных осмотров акушеров-гинекологов
+@api {post} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/first/ Регистрация первичных осмотров акушеров-гинекологов
 @apiName PostObsFirstExamination
 @apiGroup Obs-First-Examination
 @apiVersion 0.1.0
@@ -142,7 +142,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/<external_exam_obs_id>/ Изменение первичных осмотров акушеров-гинекологов
+@api {put} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/first/<exam_obs_id>/ Изменение первичных осмотров акушеров-гинекологов
 @apiName PutObsFirstExamination
 @apiGroup Obs-First-Examination
 @apiVersion 0.1.0
@@ -158,7 +158,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/first/<external_exam_obs_id>/ Удаление первичных осмотров акушеров-гинекологов
+@api {delete} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/first/<exam_obs_id>/ Удаление первичных осмотров акушеров-гинекологов
 @apiName DeleteObsFirstExamination
 @apiGroup Obs-First-Examination
 @apiVersion 0.1.0

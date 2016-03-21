@@ -114,7 +114,7 @@ Current Errors.
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName PCExamination
 @apiGroup PC-Examination
 @apiVersion 0.1.0
@@ -126,7 +126,7 @@ Current Errors.
 """
 
 """
-@api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/pc/ Регистрация осмотров специалиста перинатального центра
+@api {post} /risar/api/integration/<api_version>/card/<card_id>/checkup/pc/ Регистрация осмотров специалиста перинатального центра
 @apiName PostPCExamination
 @apiGroup PC-Examination
 @apiVersion 0.1.0
@@ -141,7 +141,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/pc/<external_exam_pc_id>/ Изменение осмотров специалиста перинатального центра
+@api {put} /risar/api/integration/<api_version>/card/<card_id>/checkup/pc/<exam_pc_id>/ Изменение осмотров специалиста перинатального центра
 @apiName PutPCExamination
 @apiGroup PC-Examination
 @apiVersion 0.1.0
@@ -157,7 +157,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/pc/<external_exam_pc_id>/ Удаление осмотров специалиста перинатального центра
+@api {delete} /risar/api/integration/<api_version>/card/<card_id>/checkup/pc/<exam_pc_id>/ Удаление осмотров специалиста перинатального центра
 @apiName DeletePCExamination
 @apiGroup PC-Examination
 @apiVersion 0.1.0

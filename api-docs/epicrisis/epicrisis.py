@@ -98,7 +98,7 @@ Current Success.
 
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName Epicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
@@ -111,7 +111,7 @@ Current Success.
 
 
 """
-@api {post} /risar/api/integration/<int:api_version>/card/<external_system_id>/<external_card_id>/epicrisis/ Регистрация эпикриза
+@api {post} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Регистрация эпикриза
 @apiName PostEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
@@ -208,7 +208,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 
 
 """
-@api {put} /risar/api/integration/<int:api_version>/card/<external_system_id>/<external_card_id>/epicrisis/ Изменение эпикриза
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Изменение эпикриза
 @apiName PutEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
@@ -222,7 +222,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 """
 
 """
-@api {delete} /risar/api/integration/<int:api_version>/card/<external_system_id>/<external_card_id>/epicrisis/ Удаление эпикриза
+@api {delete} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Удаление эпикриза
 @apiName DeleteEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0

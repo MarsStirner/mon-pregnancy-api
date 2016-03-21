@@ -114,7 +114,7 @@ Current Errors.
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
 @apiName ObsSecondExamination
 @apiGroup Obs-Second-Examination
 @apiVersion 0.1.0
@@ -128,7 +128,7 @@ Current Errors.
 
 
 """
-@api {post} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/ Регистрация повторных осмотров акушеров-гинекологов
+@api {post} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/second/ Регистрация повторных осмотров акушеров-гинекологов
 @apiName PostObsSecondExamination
 @apiGroup Obs-Second-Examination
 @apiVersion 0.1.0
@@ -143,7 +143,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/seco
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/<external_exam_obs_id>/ Изменение повторных осмотров акушеров-гинекологов
+@api {put} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/second/<exam_obs_id>/ Изменение повторных осмотров акушеров-гинекологов
 @apiName PutObsSecondExamination
 @apiGroup Obs-Second-Examination
 @apiVersion 0.1.0
@@ -159,7 +159,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/seco
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<external_system_id>/<external_card_id>/checkup/obs/second/<external_exam_obs_id>/ Удаление повторных осмотров акушеров-гинекологов
+@api {delete} /risar/api/integration/<api_version>/card/<card_id>/checkup/obs/second/<exam_obs_id>/ Удаление повторных осмотров акушеров-гинекологов
 @apiName DeleteObsSecondExamination
 @apiGroup Obs-Second-Examination
 @apiVersion 0.1.0
