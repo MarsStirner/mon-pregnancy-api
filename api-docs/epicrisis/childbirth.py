@@ -10,7 +10,7 @@ Current Success.
 @apiSuccess (Success 2xx) {json} 200 Данные сущности.
 @apiSuccessExample {json} Успешный ответ
 {
-  "status":{
+  "meta":{
     "code": "200",
     "name": "ОК"
   },
