@@ -135,9 +135,8 @@ Current Errors.
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-scheme.json">firstcheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-example.json">firstcheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
 """
 
 """
@@ -150,10 +149,9 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-scheme.json">firstcheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-example.json">firstcheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_pc_id Код осмотра специалиста перинатального центра во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_pc_id Код осмотра специалиста перинатального центра.
 """
 
 """
@@ -164,8 +162,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 @apiPermission auth
 @apiDescription Удаление данных осмотра специалиста перинатального центра.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_pc_id Код осмотра специалиста перинатального центра во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_pc_id Код осмотра специалиста перинатального центра.
 """

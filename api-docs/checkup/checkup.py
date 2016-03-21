@@ -62,7 +62,6 @@ Current Errors.
 @apiPermission auth
 @apiDescription Получение списка первичных и повторных осмотров врача акушера-гинеколога, специалиста ПЦ.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
 """

@@ -103,9 +103,8 @@ Current Errors.
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-scheme.json">puerperacheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
 """
 
 """
@@ -118,10 +117,9 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-scheme.json">puerperacheckout-all-scheme.json</a>.<br/>
 JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_puerpera_id Код осмотра родильницы во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_puerpera_id Код осмотра родильницы.
 """
 
 """
@@ -132,10 +130,9 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 @apiPermission auth
 @apiDescription Удаление данных осмотра родильницы.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
-@apiParam {String} external_exam_puerpera_id Код осмотра родильницы во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
+@apiParam {String} exam_puerpera_id Код осмотра родильницы.
 """
 
 """
@@ -146,7 +143,6 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 @apiPermission auth
 @apiDescription Получение списка осмотров родильницы.
 
-@apiParam {Number} api_version Версия API от целое положительной число.
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_card_id Код карты во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительной число
+@apiParam {String} card_id Код карты пациента.
 """

@@ -49,7 +49,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} ecard_id Код карты пациента.
+@apiParam {String} card_id Код карты пациента.
 
 @apiParamExample {json} Request-Example:
 {
@@ -72,7 +72,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis-all-example.json">epicrisis-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} ecard_id Код карты пациента.
+@apiParam {String} card_id Код карты пациента.
 """
 
 """
@@ -83,5 +83,5 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 @apiDescription Метод предназначен для удаления данных данных эпикриза случая беременности.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} ecard_id Код карты пациента.
+@apiParam {String} card_id Код карты пациента.
 """
