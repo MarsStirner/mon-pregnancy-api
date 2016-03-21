@@ -23,7 +23,7 @@ Current Success.
   "status":{
     "code": "200",
     "name": "ОК",
-    "external_exam_puerpera_id": "123456"
+    "exam_puerpera_id": "123456"
     },
   "data": {
     "date": "2011-11-12",

@@ -23,7 +23,7 @@ Current Success.
   "status":{
     "code": "200",
     "name": "ОК",
-    "external_exam_obs_id": "123456"
+    "exam_obs_id": "123456"
   },
   "data": {
     "general_info": {
