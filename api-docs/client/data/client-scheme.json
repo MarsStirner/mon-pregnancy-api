@@ -113,6 +113,7 @@
       "required": [
         "document_type_code",
         "document_series",
+		"document_number",
         "document_beg_date",
         "document_issuing_authority"
       ]
@@ -234,8 +235,11 @@
               "B(III)Rh-",
               "B(III)Rh+",
               "AB(IV)Rh-",
-              "AB(IV)Rh+"
-
+              "AB(IV)Rh+",
+			  "0(I)RhDu",
+			  "A(II)RhDu",
+			  "B(III)RhDu",
+			  "AB(IV)RhDu"
             ]
           }
         },
@@ -314,6 +318,7 @@
   "required": [
     "FIO",
     "birthday_date",
-    "gender"
+    "gender",
+	"document"
   ]
 }
