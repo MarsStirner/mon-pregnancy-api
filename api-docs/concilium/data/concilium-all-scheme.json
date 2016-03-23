@@ -1,0 +1,70 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "concilium",
+	"description": "Консилиум",
+	"type": "object",
+	"properties": {
+		"date": {
+			"description": "Дата осмотра",
+			"type": "string",
+			"format": "date"
+		},
+		"doctor": {
+			"description": "Лечащий врач",
+			"type": "string"
+		},
+		"doctors": {
+			"description": "Состав консилиума",
+			"type": "array",
+			"items": {
+				"type": "string",
+			},
+			"minItems": 2
+		},
+		"patient_presence": {
+			"description": "Присутствие пациента на консилиуме",
+			"type": "boolean"
+		},
+		"diagnosis_osn": {
+			"description": "Основной диагноз, код диагноза по МКБ-10",
+			"type": "string",
+			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
+		},
+		"reason": {
+			"description": "Причина проведения консилиума",
+			"type": "string"
+		},
+		"question": {
+			"description": "Вопрос консилиума",
+			"type": "string"
+		},
+		"patient_condition": {
+			"description": "Состояние пациента",
+			"type": "string"
+		},
+		"decision": {
+			"description": "Заключение консилиума",
+			"type": "string"
+		},
+		"opinions":{
+			"description": "Особое мнение участника консилиума (с указанием Ф.И.О. врача)",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"doctor":{
+						"description": "Врач",
+						"type": "string"
+					},
+					"opinion":{
+						"description": "Мнение врача",
+						"type": "string"
+					}
+				},
+				"required": ["doctor", "opinion"]
+			},
+			"minItems": 0
+		}
+	},
+	"required": ["date", "doctor", "doctors", "reason", "question", "decision"]
+}

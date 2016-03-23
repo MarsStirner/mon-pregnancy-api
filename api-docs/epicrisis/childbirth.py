@@ -93,7 +93,7 @@ Current Success.
 
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<card_id>/checkup/ Описание ошибок и успешных ответов.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/childbirth/ Описание ошибок и успешных ответов.
 @apiName Childbirth
 @apiGroup Childbirth
 @apiVersion 0.1.0
