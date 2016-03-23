@@ -17,7 +17,7 @@
 			"description": "Состав консилиума",
 			"type": "array",
 			"items": {
-				"type": "string",
+				"type": "string"
 			},
 			"minItems": 2
 		},
@@ -25,17 +25,13 @@
 			"description": "Присутствие пациента на консилиуме",
 			"type": "boolean"
 		},
-		"diagnosis_osn": {
+		"diagnosis": {
 			"description": "Основной диагноз, код диагноза по МКБ-10",
 			"type": "string",
 			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
 		},
 		"reason": {
 			"description": "Причина проведения консилиума",
-			"type": "string"
-		},
-		"question": {
-			"description": "Вопрос консилиума",
 			"type": "string"
 		},
 		"patient_condition": {
@@ -66,5 +62,5 @@
 			"minItems": 0
 		}
 	},
-	"required": ["date", "doctor", "doctors", "reason", "question", "decision"]
+	"required": ["date", "doctor", "doctors", "diagnosis", "reason", "decision"]
 }
