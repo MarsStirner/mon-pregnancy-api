@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "card_change_schema",
+	"id": "card_change_schema",
+	"type": "object",
+	"description":"Схема для изменения данных постановки на учёт",
+	"properties": {
+		"card_set_date": {
+			"type": "string",
+			"id": "card_change_schema/card_set_date",
+			"description": "Дата постановки на учёт"
+		},
+		"card_doctor": {
+			"type": "string",
+			"id": "card_change_schema/card_doctor",
+			"description": "Код врача, поставившего пациентку на учёт"
+		},
+		"card_LPU": {
+			"type": "string",
+			"id": "card_change_schema/card_LPU",
+			"description": "Код ЛПУ постановки на учёт в соответствии с классификатором f003"
+		}
+	}
+}

@@ -45,7 +45,6 @@
         "medicine_substance": "анальгетики"
       }
     ],
-    "patient_external_code": "47584934859034854",
-    "patient_risar_id": "347483"
+    "client_id": "347483"
   }
 }
