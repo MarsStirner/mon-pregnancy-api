@@ -94,8 +94,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных осмотра специалиста перинатального центра.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-scheme.json">firstcheckout-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-example.json">firstcheckout-all-example.json</a>.
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/firstcheckup-all-scheme.json">firstcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/firstcheckup-all-example.json">firstcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -108,8 +108,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных осмотра специалиста перинатального центра.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-scheme.json">firstcheckout-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-example.json">firstcheckout-all-example.json</a>.
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/firstcheckup-all-scheme.json">firstcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/firstcheckup-all-example.json">firstcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

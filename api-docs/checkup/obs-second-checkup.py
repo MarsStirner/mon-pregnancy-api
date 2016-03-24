@@ -96,8 +96,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных повторного осмотра врача-акушера-гинеколога.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-scheme.json">secondcheckout-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-example.json">secondcheckout-all-example.json</a>.
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -110,8 +110,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/seco
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных повторного осмотра врача-акушера-гинеколога.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-scheme.json">secondcheckout-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/secondcheckout/data/secondcheckout-all-example.json">secondcheckout-all-example.json</a>.
+Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

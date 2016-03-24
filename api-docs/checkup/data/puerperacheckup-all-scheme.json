@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"title": "puerperacheckout",
+	"title": "puerperacheckup",
 	"description": "Осмотр родильницы акушером-гинекологом",
 	"type": "object",
 	"properties": {
