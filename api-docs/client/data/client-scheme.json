@@ -98,10 +98,8 @@
       },
       "required": [
         "document_type_code",
-        "document_series",
 		"document_number",
-        "document_beg_date",
-        "document_issuing_authority"
+        "document_beg_date"
       ]
     },
     "insurance_documents": {
@@ -131,7 +129,7 @@
           },
           "insurance_document_issuing_authority": {
             "type": "string",
-            "description": "Код ИНН органа выдачи полиса медицинского страхования"
+            "description": "Код ТФОМС органа выдачи полиса медицинского страхования по классификатору f0"
           }
         },
         "required": [

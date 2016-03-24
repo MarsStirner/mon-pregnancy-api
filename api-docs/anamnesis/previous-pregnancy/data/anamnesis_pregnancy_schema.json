@@ -5,11 +5,6 @@
 	"type": "object",
 	"description": "Сведение о предыдущей беременности",
 	"properties": {
-		"patient_risar_id": {
-			"id": "anamnesis_pregnancy_register_schema/patient_risar_id",
-			"type": "string",
-			"description": "Идентификатор пациента в РИСАР"
-		},
 		"pregnancy_year": {
 				"id": "anamnesis_pregnancy_register_schema/pregnancy_year",
 				"type": "integer",
