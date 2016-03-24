@@ -4,7 +4,8 @@
 		"name": "ОК"
 	},
 	"data": {
-		"exam_puerpera_id": "123456",		
+		"exam_puerpera_id": "123456",
+		"external_id": "qwerty_012345",
 		"date": "2011-11-12",
 		"date_of_childbirth": "2011-11-11",
 		"hospital": "hospital_code_012345",

@@ -4,6 +4,7 @@
     "name": "ОК"
   },
   "data": {
+    "external_id": "qwerty_012345",
     "date": "2011-11-11",
     "hospital": "hospital_code_012345",
     "doctor": "doctor_code_012345",

@@ -4,6 +4,10 @@
 	"description": "Осмотр родильницы акушером-гинекологом",
 	"type": "object",
 	"properties": {
+		"external_id": {
+			"description": "Внешний ID",
+			"type": "string"
+		},
 		"date": {
 			"description": "Дата осмотра",
 			"type": "string",
@@ -111,6 +115,7 @@
 		}
 	},
 	"required": [
+		"external_id",
 		"date",
 		"date_of_childbirth",
 		"hospital",

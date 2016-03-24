@@ -5,6 +5,7 @@
 	},
 	"data": {
 		"exam_obs_id": "123456",
+		"external_id": "qwerty_012345",
 		"dynamic_monitoring": {
 			"date": "2011-11-11",
 			"hospital": "hospital_code_012345",

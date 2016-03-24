@@ -4,6 +4,10 @@
 	"description": "Первичный осмотр беременной акушером-гинекологом и специалистом ПЦ",
 	"type": "object",
 	"properties": {
+		"external_id": {
+			"description": "Внешний ID",
+			"type": "string"
+		},
 		"general_info": {
 			"description": "Общие данные осмотра",
 			"type": "object",
@@ -584,5 +588,5 @@
 			]
 		}
 	},
-	"required": ["general_info", "somatic_status", "obstetric_status", "medical_report"]
+	"required": ["external_id", "general_info", "somatic_status", "obstetric_status", "medical_report"]
 }

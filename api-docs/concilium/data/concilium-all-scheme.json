@@ -4,6 +4,10 @@
 	"description": "Консилиум",
 	"type": "object",
 	"properties": {
+		"external_id": {
+			"description": "Внешний ID",
+			"type": "string"
+		},
 		"date": {
 			"description": "Дата осмотра",
 			"type": "string",
@@ -66,5 +70,5 @@
 			"minItems": 0
 		}
 	},
-	"required": ["date", "hospital", "doctor", "doctors", "diagnosis", "reason", "decision"]
+	"required": ["external_id", "date", "hospital", "doctor", "doctors", "diagnosis", "reason", "decision"]
 }

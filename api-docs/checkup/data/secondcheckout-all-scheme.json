@@ -4,6 +4,10 @@
 	"description": "Повторный осмотр беременной акушером-гинекологом",
 	"type": "object",
 	"properties": {
+		"external_id": {
+			"description": "Внешний ID",
+			"type": "string"
+		},
 		"dynamic_monitoring": {
 			"description": "Лист динамического наблюдения",
 			"type": "object",
@@ -394,5 +398,5 @@
 			]
 		}
 	},
-	"required": ["dynamic_monitoring", "obstetric_status", "medical_report"]
+	"required": ["external_id", "dynamic_monitoring", "obstetric_status", "medical_report"]
 }
