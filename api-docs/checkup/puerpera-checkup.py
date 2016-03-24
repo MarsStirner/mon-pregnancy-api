@@ -66,7 +66,7 @@ Current Success.
 JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 """
 
 """
@@ -80,8 +80,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/puerperacheckout-all-example.json">puerperacheckout-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_puerpera_id Код осмотра родильницы.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} exam_puerpera_id Код осмотра родильницы.
 """
 
 """
@@ -93,6 +93,6 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/puerperacheckout/data/pu
 @apiDescription Удаление данных осмотра родильницы.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_puerpera_id Код осмотра родильницы.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} exam_puerpera_id Код осмотра родильницы.
 """

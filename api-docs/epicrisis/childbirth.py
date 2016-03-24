@@ -116,7 +116,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/childbirth/data/childbir
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 
 @apiParamExample {json} Request-Example:
 {
@@ -211,7 +211,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/childbirth/data/childbir
 JSON пример: <a href="/mon-pregnancy-api/api-docs/childbirth/data/childbirth-all-example.json">childbirth-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 """
 
 """
@@ -222,5 +222,5 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/childbirth/data/childbir
 @apiDescription Метод предназначен для удаления данных родоразрешения случая беременности.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 """

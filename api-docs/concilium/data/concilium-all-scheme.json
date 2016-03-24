@@ -9,8 +9,12 @@
 			"type": "string",
 			"format": "date"
 		},
+		"hospital": {
+			"description": "ЛПУ осмотра (код)",
+			"type": "string"
+		},
 		"doctor": {
-			"description": "Лечащий врач (код)",
+			"description": "Врач (код)",
 			"type": "string"
 		},
 		"doctors": {
@@ -62,5 +66,5 @@
 			"minItems": 0
 		}
 	},
-	"required": ["date", "doctor", "doctors", "diagnosis", "reason", "decision"]
+	"required": ["date", "hospital", "doctor", "doctors", "diagnosis", "reason", "decision"]
 }

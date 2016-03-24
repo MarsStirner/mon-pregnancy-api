@@ -100,7 +100,7 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 """
 
 """
@@ -114,8 +114,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/firstcheckout-all-example.json">firstcheckout-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_obs_id Код первичного осмотра врача акушера-гинеколога.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} exam_obs_id Код первичного осмотра врача акушера-гинеколога.
 """
 
 """
@@ -127,6 +127,6 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/firstcheckout/data/first
 @apiDescription Удаление данных первичного осмотра врача-акушера-гинеколога.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_obs_id Код первичного осмотра врача акушера-гинеколога.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} exam_obs_id Код первичного осмотра врача акушера-гинеколога.
 """

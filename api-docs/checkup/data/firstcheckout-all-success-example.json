@@ -7,7 +7,7 @@
 		"exam_obs_id": "123456",		
 		"general_info": {
 			"date": "2011-11-11",
-			"time": "18:00",
+			"hospital": "hospital_code_012345",
 			"doctor": "doctor_code_012345",
 			"height": 175,
 			"weight": 70

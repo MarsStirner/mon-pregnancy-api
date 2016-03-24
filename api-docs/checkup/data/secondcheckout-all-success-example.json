@@ -7,7 +7,7 @@
 		"exam_obs_id": "123456",
 		"dynamic_monitoring": {
 			"date": "2011-11-11",
-			"time": "18:00",
+			"hospital": "hospital_code_012345",
 			"doctor": "doctor_code_012345",
 			"ad_right_high": 120,
 			"ad_left_high": 80,

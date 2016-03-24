@@ -6,7 +6,6 @@
 	"data": {
 		"exam_puerpera_id": "123456",		
 		"date": "2011-11-12",
-		"time": "18:00",
 		"date_of_childbirth": "2011-11-11",
 		"hospital": "hospital_code_012345",
 		"doctor": "doctor_code_012345",
