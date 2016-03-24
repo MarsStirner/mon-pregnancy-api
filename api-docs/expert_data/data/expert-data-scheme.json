@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "id": "expert_data",
+  "properties": {
+    "risk_degree":{
+     "type": "string",
+     "id": "expert_data/risk_degree",
+     "description": "Степень перинатального риска. Код из справочника степеней риска"
+     },
+    "established_preeclampsia":{
+     "type": "string",
+     "id": "expert_data/established_preeclampsia",
+     "description": "Степень установленной преэклампсии. Код из справочника степеней преэклампсии"
+      },
+    "suspected_preeclampsia":{
+     "type": "string",
+     "id": "expert_data/suspected_preeclampsia",
+     "description": "Степень подозреваемой преэклампсии. Код из справочника степеней преэклампсии"
+      },
+    "estimated_birth_date":{
+     "type": "date",
+     "id": "expert_data/estimated_birth_date",
+     "description": "Предполагаемая дата родов"
+      },
+    "risk_groups":{
+     "type": "array",
+     "id": "expert_data/risk_groups",
+     "description": "Группы риска пациентки",
+     "items" : {
+        "risk_group_code": {
+          "type": "string",
+          "id": "expert_data/risk_groups/risk_group_code",
+          "description": "Код группы риска. Код из справочника групп рисков"
+        }
+          },
+    "patology_groups":{
+     "type": "array",
+     "id": "expert_data/patology_groups",
+     "description": "Группы патологий пациентки",
+     "items" : {
+        "patology_group_code": {
+          "type": "string",
+          "id": "expert_data/patology_groups/patology_group_code",
+          "description": "Код группы риска. Код из справочника групп рисков"
+        }
+          }
+        },
+    }
