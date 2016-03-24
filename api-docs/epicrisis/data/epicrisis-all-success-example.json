@@ -5,8 +5,9 @@
 	},
 	"data": {
 		"epicrisis": {
-			"hospital_chief_doctor": "",
-			"hospital_doctor": "",
+			"hospital": "hospital_code_012345",
+			"hospital_chief_doctor": "doctor_code_012345",
+			"hospital_doctor": "doctor_code_012346",
 			"date_close": "2011-11-11"
 		}
 	}

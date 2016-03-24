@@ -8,12 +8,16 @@
 			"description": "Эпикриз",
 			"type": "object",
 			"properties": {
+				"hospital": {
+					"description": "ЛПУ эпикриза (код)",
+					"type": "string"
+				},
 				"hospital_chief_doctor": {
-					"description": "Заведующая ЖК",
+					"description": "Заведующая ЖК (код)",
 					"type": "string"
 				},
 				"hospital_doctor": {
-					"description": "Лечащий врач",
+					"description": "Лечащий врач (код)",
 					"type": "string"
 				},
 				"date_close": {
@@ -23,9 +27,5 @@
 				}
 			}
 		}
-	},
-	"required": [
-		"general_info",
-		"kids"
-	]
+	}
 }
