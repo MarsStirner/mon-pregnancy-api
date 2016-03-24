@@ -10,11 +10,11 @@
 			"format": "date"
 		},
 		"doctor": {
-			"description": "Лечащий врач",
+			"description": "Лечащий врач (код)",
 			"type": "string"
 		},
 		"doctors": {
-			"description": "Состав консилиума",
+			"description": "Состав консилиума (коды врачей)",
 			"type": "array",
 			"items": {
 				"type": "string"

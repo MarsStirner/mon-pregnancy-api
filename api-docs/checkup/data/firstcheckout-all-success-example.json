@@ -8,7 +8,7 @@
 		"general_info": {
 			"date": "2011-11-11",
 			"time": "18:00",
-			"doctor": "Иванов И.И.",
+			"doctor": "doctor_code_012345",
 			"height": 175,
 			"weight": 70
 		},
