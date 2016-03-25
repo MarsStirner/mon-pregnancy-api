@@ -9,12 +9,12 @@
 			"type": "string"
 		},
 		"date": {
-			"description": "Дата осмотра",
+			"description": "Дата консилиума",
 			"type": "string",
 			"format": "date"
 		},
 		"hospital": {
-			"description": "ЛПУ осмотра (код)",
+			"description": "ЛПУ консилиума (код)",
 			"type": "string"
 		},
 		"doctor": {
