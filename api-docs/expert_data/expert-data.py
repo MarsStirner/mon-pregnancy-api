@@ -13,12 +13,19 @@ Current Success.
 {"meta":{
 "code":"200", 
 "result": { 
-      "risk_degree": "1",
-      "established_preeclampsia": "3",
-      "suspected_preeclampsia": "3",
-      "estimated_birth_date": "25-05-2015",
-      "risk_groups": ["5","6"],
-      "patology_groups": ["2"]
+                  "risk_degree": "1",
+                  "risk_diagnosis": [
+                  {
+                        "diagnosis_code": "O10.0",
+                        "diagnosis_name":
+ "Существовавшая ранее эссенциальная гипертензия, осложняющая беременность, роды и послеродовой период"
+                  }
+                  ],
+                  "established_preeclampsia": "3",
+                  "suspected_preeclampsia": "3",
+                  "estimated_birth_date": "25-05-2015",
+                  "risk_groups": ["5","6"],
+                  "patology_groups": ["2"]
   }
 }
 }
