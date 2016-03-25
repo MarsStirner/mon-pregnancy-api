@@ -373,57 +373,6 @@
 					"description": "ЧСС плода",
 					"type": "number",
 					"format": "double"
-				},
-				"first_fetal_movement": {
-					"description": "Первое шевеление плода (дата)",
-					"type": "string",
-					"format": "date"
-				},
-				"fetal_movements": {
-					"description": "Шевеление",
-					"type": "string"
-				},
-				"intrauterine_growth_retardation": {
-					"description": "Задержка в развитии плода, справочник rbRisarFetus_Delay",
-					"type": "string",
-					"enum": [
-						"1-2nedeli",
-						"4_and_more",
-						">3nedel_",
-						"otsutstvuet"
-					]	
-				},
-				"ctg_data": {
-					"description": "Данные КТГ",
-					"type": "object",
-					"properties": {
-						"fhr": {
-							"description": "Базальный ритм, справочник rbRisarBasal",
-							"type": "string",
-							"pattern": "^(0[1-4])$"
-						},
-						"fhr_variability_amp": {
-							"description": "Вариабельность (амплитуда), справочник rbRisarVariabilityRange",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_variability_freq": {
-							"description": "Вариабельность (частота в минуту), справочник rbRisarFrequencyPerMinute",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_acceleration": {
-							"description": "Акселерации за 30 минут, справочник rbRisarAcceleration",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_deceleration": {
-							"description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						}
-					},
-					"required": ["fhr", "fhr_variability_amp", "fhr_variability_freq", "fhr_acceleration", "fhr_deceleration"]
 				}
 			}
 		},
