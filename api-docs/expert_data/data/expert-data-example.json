@@ -1,6 +1,13 @@
 
 		{
 			"risk_degree": "1",
+			"risk_diagnosis": [
+			{
+				"diagnosis_code": "O10.0",
+				"diagnosis_name":
+ "Существовавшая ранее эссенциальная гипертензия, осложняющая беременность, роды и послеродовой период"
+			}
+			],
 			"established_preeclampsia": "3",
 			"suspected_preeclampsia": "3",
 			"estimated_birth_date": "25-05-2015",
