@@ -77,13 +77,8 @@
 				"description": "Список детей и информации о них",
 				"items": {
 					"type": "object",
-					"description": "Сведение о предыдущей беременности",
+					"description": "Сведение о ребенке",
 					"properties": {
-						"child_record_id":{
-							"id": "anamnesis_pregnancy_register_schema/child_information/child_record_id",
-							"type": "string",
-							"description": "Идентификатор записи о ребенке во внешней учётной системе. Нужен для того, чтобы в рамках метода изменения сведений о детях была изменена правильная запись, так как детей может быть больше 1"
-						},
 						"is_alive": {
 							"id": "anamnesis_pregnancy_register_schema/child_information/is_alive",
 							"type": "boolean",

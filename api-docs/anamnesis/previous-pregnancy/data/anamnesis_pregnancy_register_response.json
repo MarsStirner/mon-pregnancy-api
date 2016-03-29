@@ -13,7 +13,6 @@
 			"birth_pathologies": ["O64.3","O67.8"],
 			"child_information": [
 				{
-					"child_record_id":"332321",
 					"is_alive": true,
 					"weight": 3250,
 					"abnormal_development": false,
