@@ -31,7 +31,7 @@
 		"menstruation_duration": {
 			"id": "mother_anamnesis_schema/menstruation_duration",
 			"type": "string",
-			"description": "Продолжительность менструального цикла"
+			"description": "Продолжительность менструаций"
 		},
 		"menstruation_period":{
 			"id": "mother_anamnesis_schema/menstruation_period",
@@ -118,7 +118,7 @@
 		"alcohol": {
 			"id": "mother_anamnesis_schema/alcohol",
 			"type": "boolean",
-			"description": "Сведения об алкголе"
+			"description": "Сведения об алкоголе"
 		},
 		"toxic": {
 			"id": "mother_anamnesis_schema/toxic",
