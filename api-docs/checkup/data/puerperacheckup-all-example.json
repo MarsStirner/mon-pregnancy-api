@@ -5,6 +5,7 @@
 	"hospital": "hospital_code_012345",
 	"doctor": "doctor_code_012345",
 	"time_since_childbirth": 1,
+	"complaints": ["01", "02"],	
 	"state": "srednejtajesti",
 	"ad_right_high": 120,
 	"ad_left_high": 120,

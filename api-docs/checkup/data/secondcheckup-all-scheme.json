@@ -89,98 +89,125 @@
 				},
 				"complaints": {
 					"description": "Жалобы, справочник rbRisarComplaints",
-					"type": "string",
-					"enum": [
-						"epigastrii",
-						"golovnaabol_",
-						"moving",
-						"net",
-						"oteki",
-						"rvota",
-						"tosnota",
-						"zrenie"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"epigastrii",
+							"golovnaabol_",
+							"moving",
+							"net",
+							"oteki",
+							"rvota",
+							"tosnota",
+							"zrenie"
+						]
+					}
 				},
 				"skin": {
 					"description": "Кожа, справочник rbRisarSkin",
-					"type": "string",
-					"enum": [
-						"naliciekrovoizlianij",
-						"naliciesypi",
-						"obycnojokraskiivlajnosticistaa",
-						"povysennojvlajnosti",
-						"suhaa"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"naliciekrovoizlianij",
+							"naliciesypi",
+							"obycnojokraskiivlajnosticistaa",
+							"povysennojvlajnosti",
+							"suhaa"
+						]
+					}
 				},
 				"lymph": {
 					"description": "Лимфоузлы, справочник rbRisarLymph",
-					"type": "string",
-					"enum": [
-						"boleznennye",
-						"neboleznennye",
-						"nepal_piruutsa",
-						"neuvelicennye",
-						"pal_piruutsa",
-						"uvelicennye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"boleznennye",
+							"neboleznennye",
+							"nepal_piruutsa",
+							"neuvelicennye",
+							"pal_piruutsa",
+							"uvelicennye"
+						]
+					}
 				},
 				"breast": {
 					"description": "Молочные железы, справочник rbRisarBreast",
-					"type": "string",
-					"enum": [
-						"bezpatologiceskihizmenenij",
-						"mestnoeuplotnenie",
-						"nagrubanie",
-						"pokrasnenie",
-						"tresinysoskov"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"bezpatologiceskihizmenenij",
+							"mestnoeuplotnenie",
+							"nagrubanie",
+							"pokrasnenie",
+							"tresinysoskov"
+						]
+					}
 				},
 				"heart_tones": {
 					"description": "Тоны сердца, справочник rbRisarHeart_Tones",
-					"type": "string",
-					"enum": [
-						"akzentIItona",
-						"aritmicnye",
-						"asnye",
-						"gluhie",
-						"prigluseny",
-						"proslusivautsa",
-						"ritmicnye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"akzentIItona",
+							"aritmicnye",
+							"asnye",
+							"gluhie",
+							"prigluseny",
+							"proslusivautsa",
+							"ritmicnye"
+						]
+					}
 				},
 				"nipples": {
 					"description": "Состояние сосков, справочник rbRisarNipples",
-					"type": "string",
-					"enum": [
-						"norma",
-						"tresiny",
-						"vospalenie"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"norma",
+							"tresiny",
+							"vospalenie"
+						]
+					}
 				},
 				"respiratory": {
 					"description": "Органы дыхания, справочник rbRisarBreathe",
-					"type": "string",
-					"enum": [
-						"dyhaniejestkoe",
-						"dyhanievezikularnoe",
-						"hripyotsutstvuut",
-						"hripysuhie",
-						"hripyvlajnye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"dyhaniejestkoe",
+							"dyhanievezikularnoe",
+							"hripyotsutstvuut",
+							"hripysuhie",
+							"hripyvlajnye"
+						]
+					}
 				},
 				"abdomen": {
 					"description": "Органы брюшной полости, справочник rbRisarStomach",
-					"type": "string",
-					"enum": [
-						"jivotmagkijbezboleznennyj",
-						"jivotnaprajennyj",
-						"jivotuvelicenzascetberemennojmatki"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"jivotmagkijbezboleznennyj",
+							"jivotnaprajennyj",
+							"jivotuvelicenzascetberemennojmatki"
+						]
+					}
 				},
 				"liver": {
 					"description": "Печень, справочник rbRisarLiver",
-					"type": "string",
-					"enum": ["nepal_piruetsa", "uvelicena"]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": ["nepal_piruetsa", "uvelicena"]
+					}
 				},
 				"secretion": {
 					"description": "Выделения, справочник rbRisarSecretion",
@@ -225,98 +252,101 @@
 		},
 		"fetus": {
 			"description": "Плод",
-			"type": "object",
-			"properties": {
-				"fetus_lie": {
-					"description": "Положение плода, справочник rbRisarFetus_Position",
-					"type": "string",
-					"enum": ["kosoe", "poperecnoe", "prodol_noe"]
-				},
-				"fetus_position": {
-					"description": "Позиция плода, справочник rbRisarFetus_Position_2",
-					"type": "string",
-					"enum": ["pervaa", "vtoraa"]
-				},
-				"fetus_type": {
-					"description": "Вид плода, справочник rbRisarFetus_Type",
-					"type": "string",
-					"enum": ["perednij", "zadnij"]
-				},
-				"fetus_presentation": {
-					"description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
-					"type": "string",
-					"enum": [
-						"cistoagodicnoepredlejanie",
-						"golovnoepredlejanie",
-						"lizevoepredlejanie",
-						"lobnoepredlejanie",
-						"nojnoepredlejanie",
-						"perednegolovnoepredlejanie",
-						"smesannoeagodicnoepredlejanie",
-						"tazovoepredlejanie",
-						"zatylocnoepredlejanie"
-					]
-				},
-				"fetus_heartbeat": {
-					"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
-					"type": "string",
-					"enum": ["asnoe", "ritmicnoe"]
-				},
-				"fetus_heart_rate": {
-					"description": "ЧСС плода",
-					"type": "number",
-					"format": "double"
-				},
-				"first_fetal_movement": {
-					"description": "Первое шевеление плода (дата)",
-					"type": "string",
-					"format": "date"
-				},
-				"fetal_movements": {
-					"description": "Шевеление",
-					"type": "string"
-				},
-				"intrauterine_growth_retardation": {
-					"description": "Задержка в развитии плода, справочник rbRisarFetus_Delay",
-					"type": "string",
-					"enum": [
-						"1-2nedeli",
-						"4_and_more",
-						">3nedel_",
-						"otsutstvuet"
-					]	
-				},
-				"ctg_data": {
-					"description": "Данные КТГ",
-					"type": "object",
-					"properties": {
-						"fhr": {
-							"description": "Базальный ритм, справочник rbRisarBasal",
-							"type": "string",
-							"pattern": "^(0[1-4])$"
-						},
-						"fhr_variability_amp": {
-							"description": "Вариабельность (амплитуда), справочник rbRisarVariabilityRange",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_variability_freq": {
-							"description": "Вариабельность (частота в минуту), справочник rbRisarFrequencyPerMinute",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_acceleration": {
-							"description": "Акселерации за 30 минут, справочник rbRisarAcceleration",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						},
-						"fhr_deceleration": {
-							"description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
-							"type": "string",
-							"pattern": "^(0[1-3])$"
-						}
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"fetus_lie": {
+						"description": "Положение плода, справочник rbRisarFetus_Position",
+						"type": "string",
+						"enum": ["kosoe", "poperecnoe", "prodol_noe"]
 					},
-					"required": ["fhr", "fhr_variability_amp", "fhr_variability_freq", "fhr_acceleration", "fhr_deceleration"]
+					"fetus_position": {
+						"description": "Позиция плода, справочник rbRisarFetus_Position_2",
+						"type": "string",
+						"enum": ["pervaa", "vtoraa"]
+					},
+					"fetus_type": {
+						"description": "Вид плода, справочник rbRisarFetus_Type",
+						"type": "string",
+						"enum": ["perednij", "zadnij"]
+					},
+					"fetus_presentation": {
+						"description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
+						"type": "string",
+						"enum": [
+							"cistoagodicnoepredlejanie",
+							"golovnoepredlejanie",
+							"lizevoepredlejanie",
+							"lobnoepredlejanie",
+							"nojnoepredlejanie",
+							"perednegolovnoepredlejanie",
+							"smesannoeagodicnoepredlejanie",
+							"tazovoepredlejanie",
+							"zatylocnoepredlejanie"
+						]
+					},
+					"fetus_heartbeat": {
+						"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
+						"type": "string",
+						"enum": ["asnoe", "ritmicnoe"]
+					},
+					"fetus_heart_rate": {
+						"description": "ЧСС плода",
+						"type": "number",
+						"format": "double"
+					},
+					"first_fetal_movement": {
+						"description": "Первое шевеление плода (дата)",
+						"type": "string",
+						"format": "date"
+					},
+					"fetal_movements": {
+						"description": "Шевеление",
+						"type": "string"
+					},
+					"intrauterine_growth_retardation": {
+						"description": "Задержка в развитии плода, справочник rbRisarFetus_Delay",
+						"type": "string",
+						"enum": [
+							"1-2nedeli",
+							"4_and_more",
+							">3nedel_",
+							"otsutstvuet"
+						]	
+					},
+					"ctg_data": {
+						"description": "Данные КТГ",
+						"type": "object",
+						"properties": {
+							"fhr": {
+								"description": "Базальный ритм, справочник rbRisarBasal",
+								"type": "string",
+								"pattern": "^(0[1-4])$"
+							},
+							"fhr_variability_amp": {
+								"description": "Вариабельность (амплитуда), справочник rbRisarVariabilityRange",
+								"type": "string",
+								"pattern": "^(0[1-3])$"
+							},
+							"fhr_variability_freq": {
+								"description": "Вариабельность (частота в минуту), справочник rbRisarFrequencyPerMinute",
+								"type": "string",
+								"pattern": "^(0[1-3])$"
+							},
+							"fhr_acceleration": {
+								"description": "Акселерации за 30 минут, справочник rbRisarAcceleration",
+								"type": "string",
+								"pattern": "^(0[1-3])$"
+							},
+							"fhr_deceleration": {
+								"description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
+								"type": "string",
+								"pattern": "^(0[1-3])$"
+							}
+						},
+						"required": ["fhr", "fhr_variability_amp", "fhr_variability_freq", "fhr_acceleration", "fhr_deceleration"]
+					}
 				}
 			}
 		},

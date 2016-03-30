@@ -54,83 +54,107 @@
 				},
 				"tongue": {
 					"description": "Язык, справочник rbRisarTongue",
-					"type": "string",
-					"enum": ["01", "02", "03", "04", "vlajnyj"]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": ["01", "02", "03", "04", "vlajnyj"]
+					}
 				},
 				"complaints": {
 					"description": "Жалобы, справочник rbRisarComplaints",
-					"type": "string",
-					"enum": [
-						"epigastrii",
-						"golovnaabol_",
-						"moving",
-						"net",
-						"oteki",
-						"rvota",
-						"tosnota",
-						"zrenie"
-					]
+					"type": "array",
+					"items": {					
+						"type": "string",
+						"enum": [
+							"epigastrii",
+							"golovnaabol_",
+							"moving",
+							"net",
+							"oteki",
+							"rvota",
+							"tosnota",
+							"zrenie"
+						]
+					}
 				},
 				"skin": {
 					"description": "Кожа, справочник rbRisarSkin",
-					"type": "string",
-					"enum": [
-						"naliciekrovoizlianij",
-						"naliciesypi",
-						"obycnojokraskiivlajnosticistaa",
-						"povysennojvlajnosti",
-						"suhaa"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"naliciekrovoizlianij",
+							"naliciesypi",
+							"obycnojokraskiivlajnosticistaa",
+							"povysennojvlajnosti",
+							"suhaa"
+						]
+					}
 				},
 				"lymph": {
 					"description": "Лимфоузлы, справочник rbRisarLymph",
-					"type": "string",
-					"enum": [
-						"boleznennye",
-						"neboleznennye",
-						"nepal_piruutsa",
-						"neuvelicennye",
-						"pal_piruutsa",
-						"uvelicennye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"boleznennye",
+							"neboleznennye",
+							"nepal_piruutsa",
+							"neuvelicennye",
+							"pal_piruutsa",
+							"uvelicennye"
+						]
+					}
 				},
 				"breast": {
 					"description": "Молочные железы, справочник rbRisarBreast",
-					"type": "string",
-					"enum": [
-						"bezpatologiceskihizmenenij",
-						"mestnoeuplotnenie",
-						"nagrubanie",
-						"pokrasnenie",
-						"tresinysoskov"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"bezpatologiceskihizmenenij",
+							"mestnoeuplotnenie",
+							"nagrubanie",
+							"pokrasnenie",
+							"tresinysoskov"
+						]
+					}
 				},
 				"heart_tones": {
 					"description": "Тоны сердца, справочник rbRisarHeart_Tones",
-					"type": "string",
-					"enum": [
-						"akzentIItona",
-						"aritmicnye",
-						"asnye",
-						"gluhie",
-						"prigluseny",
-						"proslusivautsa",
-						"ritmicnye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"akzentIItona",
+							"aritmicnye",
+							"asnye",
+							"gluhie",
+							"prigluseny",
+							"proslusivautsa",
+							"ritmicnye"
+						]
+					}
 				},
 				"pulse": {
 					"description": "Пульс, справочник, справочник rbRisarPulse",
-					"type": "string",
-					"enum": ["defizitpul_sa", "udovletvoritel_nogonapolnenia"]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": ["defizitpul_sa", "udovletvoritel_nogonapolnenia"]
+					}
 				},
 				"nipples": {
 					"description": "Состояние сосков, справочник rbRisarNipples",
-					"type": "string",
-					"enum": [
-						"norma",
-						"tresiny",
-						"vospalenie"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"norma",
+							"tresiny",
+							"vospalenie"
+						]
+					}
 				},
 				"mouth": {
 					"description": "Полость рта, справочник rbRisarMouth",
@@ -139,37 +163,49 @@
 				},
 				"respiratory": {
 					"description": "Органы дыхания, справочник rbRisarBreathe",
-					"type": "string",
-					"enum": [
-						"dyhaniejestkoe",
-						"dyhanievezikularnoe",
-						"hripyotsutstvuut",
-						"hripysuhie",
-						"hripyvlajnye"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"dyhaniejestkoe",
+							"dyhanievezikularnoe",
+							"hripyotsutstvuut",
+							"hripysuhie",
+							"hripyvlajnye"
+						]
+					}
 				},
 				"abdomen": {
 					"description": "Органы брюшной полости, справочник rbRisarStomach",
-					"type": "string",
-					"enum": [
-						"jivotmagkijbezboleznennyj",
-						"jivotnaprajennyj",
-						"jivotuvelicenzascetberemennojmatki"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"jivotmagkijbezboleznennyj",
+							"jivotnaprajennyj",
+							"jivotuvelicenzascetberemennojmatki"
+						]
+					}
 				},
 				"liver": {
 					"description": "Печень, справочник rbRisarLiver",
-					"type": "string",
-					"enum": ["nepal_piruetsa", "uvelicena"]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": ["nepal_piruetsa", "uvelicena"]
+					}
 				},
 				"urinoexcretory": {
 					"description": "Мочевыводящая система, справочник rbRisarUrinoexcretory",
-					"type": "string",
-					"enum": [
-						"moceispuskanieucasennoe",
-						"moceispuskanievnorme",
-						"СindromPasternazkogo"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"moceispuskanieucasennoe",
+							"moceispuskanievnorme",
+							"СindromPasternazkogo"
+						]
+					}
 				},
 				"ad_right_high": {
 					"description": "AD правая рука верхн.",
@@ -332,47 +368,50 @@
 		},
 		"fetus": {
 			"description": "Плод",
-			"type": "object",
-			"properties": {
-				"fetus_lie": {
-					"description": "Положение плода, справочник rbRisarFetus_Position",
-					"type": "string",
-					"enum": ["kosoe", "poperecnoe", "prodol_noe"]
-				},
-				"fetus_position": {
-					"description": "Позиция плода, справочник rbRisarFetus_Position_2",
-					"type": "string",
-					"enum": ["pervaa", "vtoraa"]
-				},
-				"fetus_type": {
-					"description": "Вид плода, справочник rbRisarFetus_Type",
-					"type": "string",
-					"enum": ["perednij", "zadnij"]
-				},
-				"fetus_presentation": {
-					"description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
-					"type": "string",
-					"enum": [
-						"cistoagodicnoepredlejanie",
-						"golovnoepredlejanie",
-						"lizevoepredlejanie",
-						"lobnoepredlejanie",
-						"nojnoepredlejanie",
-						"perednegolovnoepredlejanie",
-						"smesannoeagodicnoepredlejanie",
-						"tazovoepredlejanie",
-						"zatylocnoepredlejanie"
-					]
-				},
-				"fetus_heartbeat": {
-					"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
-					"type": "string",
-					"enum": ["asnoe", "ritmicnoe"]
-				},
-				"fetus_heart_rate": {
-					"description": "ЧСС плода",
-					"type": "number",
-					"format": "double"
+			"type": "array",
+			"items": {			
+				"type": "object",
+				"properties": {
+					"fetus_lie": {
+						"description": "Положение плода, справочник rbRisarFetus_Position",
+						"type": "string",
+						"enum": ["kosoe", "poperecnoe", "prodol_noe"]
+					},
+					"fetus_position": {
+						"description": "Позиция плода, справочник rbRisarFetus_Position_2",
+						"type": "string",
+						"enum": ["pervaa", "vtoraa"]
+					},
+					"fetus_type": {
+						"description": "Вид плода, справочник rbRisarFetus_Type",
+						"type": "string",
+						"enum": ["perednij", "zadnij"]
+					},
+					"fetus_presentation": {
+						"description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
+						"type": "string",
+						"enum": [
+							"cistoagodicnoepredlejanie",
+							"golovnoepredlejanie",
+							"lizevoepredlejanie",
+							"lobnoepredlejanie",
+							"nojnoepredlejanie",
+							"perednegolovnoepredlejanie",
+							"smesannoeagodicnoepredlejanie",
+							"tazovoepredlejanie",
+							"zatylocnoepredlejanie"
+						]
+					},
+					"fetus_heartbeat": {
+						"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
+						"type": "string",
+						"enum": ["asnoe", "ritmicnoe"]
+					},
+					"fetus_heart_rate": {
+						"description": "ЧСС плода",
+						"type": "number",
+						"format": "double"
+					}
 				}
 			}
 		},
@@ -426,14 +465,17 @@
 				},
 				"body_of_uterus": {
 					"description": "Тело матки, справочник rbRisarBody_Of_Womb",
-					"type": "string",
-					"enum": [
-						"bezboleznennopripal_pazii",
-						"boleznennopripal_pazii",
-						"magkovatojkonsistenzii",
-						"nepodvijno",
-						"podvijno"
-					]
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": [
+							"bezboleznennopripal_pazii",
+							"boleznennopripal_pazii",
+							"magkovatojkonsistenzii",
+							"nepodvijno",
+							"podvijno"
+						]
+					}
 				},
 				"adnexa": {
 					"description": "Придатки, справочник rbRisarAppendages",

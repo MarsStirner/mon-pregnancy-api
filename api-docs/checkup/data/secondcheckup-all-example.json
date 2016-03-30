@@ -12,7 +12,7 @@
 	},
 	"somatic_status": {
 		"state": "udovletvoritel_noe",
-		"complaints": "oteki"
+		"complaints": ["oteki", "zrenie"]
 	},
 	"obstetric_status": {
 		"uterus_state": "normal_nyjtonus"
