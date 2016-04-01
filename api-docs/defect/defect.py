@@ -17,7 +17,7 @@
 Current Success.
 ------------------------------------------------------------------------------------------
 @apiDefine DefectCreateSuccess
-@apiSuccess (Success 2xx) {json} 200 Данные сохраненного дефектуры.
+@apiSuccess (Success 2xx) {json} 200 Данные сохраненной дефектуры.
 @apiSuccessExample {json} Успешный ответ
 {
     "meta":{
