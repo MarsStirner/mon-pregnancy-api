@@ -40,12 +40,12 @@
 			"description": "Выявленные организационные дефекты оказания медицинской помощи",
 			"type": "string"
 		},
-		"defect_treatment": {
-			"description": "Выявленные лечебные дефекты оказания медицинской помощи",
-			"type": "string"
-		},
 		"defect_diagnostics": {
 			"description": "Выявленные диагностические дефекты оказания медицинской помощи",
+			"type": "string"
+		},
+		"defect_treatment": {
+			"description": "Выявленные лечебные дефекты оказания медицинской помощи",
 			"type": "string"
 		},
 		"recommend_organize": {
@@ -58,6 +58,10 @@
 		},
 		"recommend_treatment": {
 			"description": "Рекомендованные мероприятия по лечению для повышения качества и уровня медицинской помощи",
+			"type": "string"
+		},
+		"recommend_other": {
+			"description": "Прочие рекомендованные мероприятия для повышения качества и уровня медицинской помощи",
 			"type": "string"
 		},
 		"hospital": {
