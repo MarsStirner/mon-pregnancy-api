@@ -20,28 +20,29 @@ Current Success.
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного осмотра.
 @apiSuccessExample {json} Успешный ответ
 {
-  "meta":{
-    "code": "200",
-    "name": "ОК"
-  },
-  "data": {
-    "exam_puerpera_id": "123456",
-    "date": "2011-11-12",
-    "time": "18:00",
-    "date_of_childbirth": "2011-11-11",
-    "hospital": "ЛПУ",
-    "doctor": "Иванов И.И.",
-    "time_since_childbirth": 1,
-    "state": "srednejtajesti",
-    "ad_right_high": 120,
-    "ad_left_high": 120,
-    "ad_right_low": 80,
-    "ad_left_low": 80,
-    "veins": "noma",
-    "diagnosis": "Q00.0",
-    "contraception_recommendations": "01",
-    "recommendations": "апельсиновый сок 3 р.д. натощак"
-  }
+    "meta":{
+        "code": "200",
+        "name": "ОК"
+    },
+    "data": {
+        "exam_puerpera_id": "123456",
+        "external_id": "qwerty_012345",
+        "date": "2011-11-12",
+        "date_of_childbirth": "2011-11-11",
+        "hospital": "hospital_code_012345",
+        "doctor": "doctor_code_012345",
+        "time_since_childbirth": 1,
+        "complaints": ["01", "02"],
+        "state": "srednejtajesti",
+        "ad_right_high": 120,
+        "ad_left_high": 120,
+        "ad_right_low": 80,
+        "ad_left_low": 80,
+        "veins": "noma",
+        "diagnosis": "Q00.0",
+        "contraception_recommendations": "01",
+        "recommendations": "апельсиновый сок 3 р/д натощак"
+    }
 }
 """
 

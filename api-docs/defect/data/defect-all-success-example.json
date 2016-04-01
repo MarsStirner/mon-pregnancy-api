@@ -1,0 +1,22 @@
+{
+    "meta":{
+        "code": "200",
+        "name": "ОК"
+    },
+    "data": {
+        "defect_id": "123456",
+        "external_id": "qwerty_012345",
+        "referral_hospital": "hospital_code_012345",
+        "referral_doctor": "doctor_code_012345",
+        "referral_date": "2011-11-11",
+        "delivered": "транспортом",
+        "diagnosis_referral": "Q00.0",
+        "diagnosis_opc": "Q00.0",
+        "defect_organize": "бизнес-процессы приуныли",
+        "recommend_organize": "не унывать",
+        "hospital": "hospital_code_54321",
+        "doctor": "doctor_code_54321",
+        "doctor_department_chief": "doctor_code_54322",
+        "doctor_chief_deputy": "doctor_code_54323"
+    }
+}

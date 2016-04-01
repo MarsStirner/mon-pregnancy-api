@@ -25,11 +25,13 @@ Current Success.
     "name": "ОК"
   },
   "data": {
+    "external_id": "qwerty_012345",
     "date": "2011-11-11",
-    "doctor": "Иванов И.И,",
+    "hospital": "hospital_code_012345",
+    "doctor": "doctor_code_012345",
     "doctors": [
-      "Петров П.П.",
-      "Сидоров С.С."
+      "doctor_code_012346",
+      "doctor_code_012347"
     ],
     "diagnosis": "Q00.0",
     "reason": "Больной заболел",
@@ -62,7 +64,7 @@ Current Success.
 JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
+@apiParam {Int} card_id Код карты пациента.
 """
 
 """
@@ -76,8 +78,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium
 JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_concilium_id Код консилиума.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} concilium_id Код консилиума.
 """
 
 """
@@ -89,6 +91,6 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium
 @apiDescription Удаление данных консилиума.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {String} card_id Код карты пациента.
-@apiParam {String} exam_concilium_id Код консилиума.
+@apiParam {Int} card_id Код карты пациента.
+@apiParam {Int} concilium_id Код консилиума.
 """

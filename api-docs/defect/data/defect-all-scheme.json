@@ -8,58 +8,25 @@
 			"description": "Внешний ID",
 			"type": "string"
 		},
-		"adress": {
-			"type": "object",
-			"description": "Домашний адрес",
-			"properties": {
-				"KLADR_locality": {
-					"type": "string",
-					"description": "Код населённого пункта адреса проживания по справочнику КЛАДР"
-				},
-				"KLADR_street": {
-					"type": "string",
-					"description": "Код улицы адреса проживания по справочнику КЛАДР"
-				},
-				"house": {
-					"type": "string",
-					"description": "Данные дома адреса проживания",
-					"maxLength":8
-				},
-				"building": {
-					"type": "string",
-					"description": "Корпус дома адреса проживания",
-					"maxLength":8
-				},
-				"flat": {
-					"type": "string",
-					"description": "Данные квартиры адреса проживания",
-					"maxLength":6
-				},
-				"locality_type": {
-					"type": "integer",
-					"description": "Тип населенного пункта: 0-село, 1 - город",
-					"enum": [0,1]
-				}
-			}
-		},
-		"hospital_of_naprav": {
+		"referral_hospital": {
 			"description": "Направившее ЛПУ (код)",
 			"type": "string"
 		},
-		"doctor_of_naprav": {
+		"referral_doctor": {
 			"description": "Кем направлена (код)",
 			"type": "string"
 		},
-		"date_of_naprav": {
+		"referral_date": {
 			"description": "Дата направления",
 			"type": "string",
 			"format": "date"
 		},
-		"doctor_dostav": {
-			"description": "Кем доставлен (код)",
-			"type": "string"
+		"delivered": {
+			"description": "Доставлен, справочник",
+			"type": "string",
+			"enum":["транспортом", "самостоятельно", "авиационный транспорт"]
 		},
-		"diagnosis_naprav": {
+		"diagnosis_referral": {
 			"description": "Диагноз при направлении",
 			"type": "string",
 			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
@@ -69,27 +36,27 @@
 			"type": "string",
 			"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
 		},
-		"defect_org": {
+		"defect_organize": {
 			"description": "Выявленные организационные дефекты оказания медицинской помощи",
 			"type": "string"
 		},
-		"defect_heal": {
+		"defect_treatment": {
 			"description": "Выявленные лечебные дефекты оказания медицинской помощи",
 			"type": "string"
 		},
-		"defect_diagnost": {
+		"defect_diagnostics": {
 			"description": "Выявленные диагностические дефекты оказания медицинской помощи",
 			"type": "string"
 		},
-		"recommend_org": {
+		"recommend_organize": {
 			"description": "Рекомендованные мероприятия по организации для повышения качества и уровня медицинской помощи",
 			"type": "string"
 		},
-		"recommend_diagnost": {
+		"recommend_diagnostics": {
 			"description": "Рекомендованные мероприятия по диагностике для повышения качества и уровня медицинской помощи",
 			"type": "string"
 		},
-		"recommend_heal": {
+		"recommend_treatment": {
 			"description": "Рекомендованные мероприятия по лечению для повышения качества и уровня медицинской помощи",
 			"type": "string"
 		},
@@ -97,15 +64,15 @@
 			"description": "ЛПУ (код)",
 			"type": "string"
 		},
-		"doctor_zaved": {
-			"description": "Заведующий отделением (код)",
-			"type": "string"
-		},
 		"doctor": {
 			"description": "Врач (код)",
 			"type": "string"
 		},
-		"doctor_zamglav": {
+		"doctor_department_chief": {
+			"description": "Заведующий отделением (код)",
+			"type": "string"
+		},
+		"doctor_chief_deputy": {
 			"description": "Заместитель главного врача по профилю (код)",
 			"type": "string"
 		}

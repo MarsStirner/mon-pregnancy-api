@@ -26,43 +26,23 @@ Current Success.
   },
   "data": {
     "exam_obs_id": "123456",
-    "general_info": {
+    "external_id": "qwerty_012345",
+    "dynamic_monitoring": {
       "date": "2011-11-11",
-      "time": "18:00",
-      "doctor": "Иванов И.И.",
-      "height": 175,
+      "hospital": "hospital_code_012345",
+      "doctor": "doctor_code_012345",
+      "ad_right_high": 120,
+      "ad_left_high": 80,
+      "ad_right_low": 80,
+      "ad_left_low": 120,
       "weight": 70
     },
     "somatic_status": {
       "state": "udovletvoritel_noe",
-      "subcutaneous_fat": "izbytocnorazvita",
-      "tongue": "01",
-      "complaints": "oteki",
-      "skin": "suhaa",
-      "lymph": "boleznennye",
-      "breast": "nagrubanie",
-      "heart_tones": "akzentIItona",
-      "pulse": "defizitpul_sa",
-      "nipples": "norma",
-      "mouth": "sanirovana",
-      "respiratory": "hripyotsutstvuut",
-      "abdomen": "jivotnaprajennyj",
-      "liver": "nepal_piruetsa",
-      "urinoexcretory": "СindromПasternazkogo",
-      "ad_right_high": 120,
-      "ad_left_high": 120,
-      "ad_right_low": 80,
-      "ad_left_low": 80,
-      "veins": "noma",
-      "heart_rate": 80
+      "complaints": ["oteki", "zrenie"]
     },
     "obstetric_status": {
-      "uterus_state": "normal_nyjtonus",
-      "dssp": 1,
-      "dscr": 1,
-      "dstr": 1,
-      "cext": 1,
-      "soloviev_index": 1
+      "uterus_state": "normal_nyjtonus"
     },
     "medical_report": {
       "pregnancy_week": 42,
@@ -74,7 +54,7 @@ Current Success.
       "notes": "мало улыбается"
     }
   }
-} 
+}
 """
 
 """
