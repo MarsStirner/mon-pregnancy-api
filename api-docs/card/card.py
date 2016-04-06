@@ -48,9 +48,6 @@ Current Errors.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 
-@apiParamExample {json} Request-Example:
-{}
-
 @apiUse CreateSuccess
 
 @apiUse CreateError
@@ -65,9 +62,6 @@ Current Errors.
 @apiDescription Метод предназначен для регистрации медицинской карты и постановки на учет
 
 @apiParam {Number} api_version Версия API, целое положительной число
-
-@apiParamExample {json} Request-Example:
-{}
 
 @apiUse CreateSuccess
 
