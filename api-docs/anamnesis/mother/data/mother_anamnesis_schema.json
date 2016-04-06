@@ -149,9 +149,9 @@
             "type": "array",
             "description": "Сведения о наследственных заболеванияъ женщины",
             "items": {
-                    "type": "string",
-                    "description": "Код наследственного заболевания по справочнику"
-                }
+                "type": "string",
+                "description": "Код наследственного заболевания по справочнику"
+            }
         },
         "finished_diseases": {
             "id": "mother_anamnesis_schema/finished_diseases",

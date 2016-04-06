@@ -25,11 +25,28 @@ Current Errors.
 """
 
 """
+@api {get} /risar/api/integration/<int:api_version>/anamnesis/mother/schema.json json-schema
+@apiName AnamnesisMotherSchema
+@apiGroup Anamnesis
+@apiVersion 0.1.0
+@apiDescription Получение данных json-schema по анамнезу матери
+
+@apiParam {Number} api_version Версия API, целое положительной число
+
+@apiUse CreateSuccess
+
+@apiUse CreateError
+
+"""
+
+"""
 @api {post} /risar/api/integration/<int:api_version>/card/<card_id>/anamnesis/mother/ Регистрация анамнеза матери
 @apiName PostMother
 @apiGroup Anamnesis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для регистрации данных анамнеза матери
+@apiDescription Метод предназначен для регистрации данных анамнеза матери<br/>
+Валидация JSON Scheme <a href="/json-data/anamnesis/mother/data/mother_anamnesis_schema.json">mother_anamnesis_schema.json</a><br/>
+JSON пример <a href="/json-data/anamnesis/mother/data/mother_anamnesis_example.json">mother_anamnesis_example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
@@ -49,6 +66,8 @@ Current Errors.
 @apiGroup Anamnesis
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных анамнеза матери
+Валидация JSON Scheme <a href="/json-data/anamnesis/mother/data/mother_anamnesis_schema.json">mother_anamnesis_schema.json</a><br/>
+JSON пример <a href="/json-data/anamnesis/mother/data/mother_anamnesis_example.json">mother_anamnesis_example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
@@ -64,7 +83,7 @@ Current Errors.
 @apiName DeleteMother
 @apiGroup Anamnesis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для удаления данных анамнеза матери.
+@apiDescription Метод предназначен для удаления данных анамнеза матери
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента

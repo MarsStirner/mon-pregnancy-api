@@ -1,23 +1,24 @@
-{"meta":{ 
-	"code": "200",
-	"result":   	 
 {
-		"FIO": "Иванов Андрей Петрович", 
-		"age": "35",
-		"education": "03",
-		"work_group": "01",
-		"professional_properties": "dust",
-		"telephone_number": "89342134590",
-		"fluorography": "Без особенностей",
-		"hiv": false,
-		"blood_type": "0(I)Rh-",
-		"smoking": false,
-		"alcohol": false,
-		"toxic": false,
-		"drugs": false,
-		"hereditary": ["01","10"],
-		"finished_diseases": "Анемия",
-		"current_diseases": "Отсутствуют"
-}
-}
+    "meta": {
+        "code": "200",
+        "result": {
+            "anamnesis_id": "123456",
+            "FIO": "Иванов Андрей Петрович",
+            "age": "35",
+            "education": "03",
+            "work_group": "01",
+            "professional_properties": "dust",
+            "telephone_number": "89342134590",
+            "fluorography": "Без особенностей",
+            "hiv": false,
+            "blood_type": "0(I)Rh-",
+            "smoking": false,
+            "alcohol": false,
+            "toxic": false,
+            "drugs": false,
+            "hereditary": ["01","10"],
+            "finished_diseases": "Анемия",
+            "current_diseases": "Отсутствуют"
+        }
+    }
 }
