@@ -19,6 +19,11 @@ gulp.task('apidoc', function(){
         },livereload.reload)
 });
 
+gulp.task('copyjson', function() {
+   gulp.src('api-docs/**/*.json')
+   .pipe(gulp.dest('public/json-data'));
+});
+
 gulp.task('watch', function() {
     livereload.listen();
     gulp.watch('api-docs/**/**/*.py', ['apidoc']);
