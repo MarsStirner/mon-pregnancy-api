@@ -494,7 +494,7 @@
 					"type": "string"
 				},
 				"parametrium": {
-					"description": "Околоматочное пространство",
+					"description": "Околоматочное пространство, справочник rbRisarParametrium",
 					"type": "string"
 				},
 				"vaginal_smear": {
