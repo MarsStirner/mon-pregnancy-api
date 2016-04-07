@@ -45,9 +45,9 @@ Current Errors.
 @apiGroup Anamnesis-Pregnancy
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации данных предыдущих беременностей матери<br/>
-Валидация JSON Scheme <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-schema.json">anamnesis-prev-pregnancy-schema.json</a><br/>
-JSON пример запроса <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-example.json">anamnesis-prev-pregnancy-example.json</a><br/>
-JSON пример ответа <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-response.json">anamnesis-prev-pregnancy-response.json</a>
+Валидация JSON Scheme <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-schema.json">anamnesis-prev-pregnancy-schema.json</a><br/>
+JSON пример запроса <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-example.json">anamnesis-prev-pregnancy-example.json</a><br/>
+JSON пример ответа <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-response.json">anamnesis-prev-pregnancy-response.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {String} card_id Код карты пациента
@@ -64,9 +64,9 @@ JSON пример ответа <a href="/json-data/anamnesis/prevpregnancy/data/
 @apiGroup Anamnesis-Pregnancy
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных предыдущих беременностей матери<br/>
-Валидация JSON Scheme <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-schema.json">anamnesis-prev-pregnancy-schema.json</a><br/>
-JSON пример запроса <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-example.json">anamnesis-prev-pregnancy-example.json</a><br/>
-JSON пример ответа <a href="/json-data/anamnesis/prevpregnancy/data/anamnesis-prev-pregnancy-response.json">anamnesis-prev-pregnancy-response.json</a>
+Валидация JSON Scheme <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-schema.json">anamnesis-prev-pregnancy-schema.json</a><br/>
+JSON пример запроса <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-example.json">anamnesis-prev-pregnancy-example.json</a><br/>
+JSON пример ответа <a href="/json-data/anamnesis/previous-pregnancy/data/anamnesis-prev-pregnancy-response.json">anamnesis-prev-pregnancy-response.json</a>
 
 @apiParam {Number} api_version Версия API от целое положительной число
 @apiParam {String} card_id Код карты пациента

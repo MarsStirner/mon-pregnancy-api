@@ -63,7 +63,7 @@ JSON пример ответа <a href="/json-data/anamnesis/mother/data/mother-
 @apiName PutMother
 @apiGroup Anamnesis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для изменения данных анамнеза матери
+@apiDescription Метод предназначен для изменения данных анамнеза матери<br/>
 Валидация JSON Scheme <a href="/json-data/anamnesis/mother/data/mother-anamnesis-schema.json">mother-anamnesis-schema.json</a><br/>
 JSON пример запроса <a href="/json-data/anamnesis/mother/data/mother-anamnesis-example.json">mother-anamnesis-example.json</a><br/>
 JSON пример ответа <a href="/json-data/anamnesis/mother/data/mother-anamnesis-response.json">mother-anamnesis-response.json</a>
