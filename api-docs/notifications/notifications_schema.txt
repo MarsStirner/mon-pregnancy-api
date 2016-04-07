@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "notifications",
+    "type": "object",
+    "description": "Оповещения (внутренняя почта)",
+    "properties": {
+        "sender": {
+            "id": "notifications/sender",
+            "type": "string",
+            "description":"Отправитель автоматического письма"
+            },
+        "receiver": {
+            "id": "notifications/receiver",
+            "type": "string",
+            "description":"Код (code) получателя автоматического письма по справочнику Сотрудники ЛПУ"
+            },
+        "send_date": {
+            "id": "notifications/send_date",
+            "type": "string",
+            "description": "Дата отправления оповещения"
+        },
+        "receive_date": {
+            "id": "notifications/receive_date",
+            "type": "string",
+            "description": "Дата получения оповещения"
+        },
+        "notification_text": {
+            "id": "notifications/notification_text",
+            "type": "string",
+            "description": "Текст оповещения"
+        }
+ }
+ }
