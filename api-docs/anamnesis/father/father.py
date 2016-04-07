@@ -25,7 +25,7 @@ Current Errors.
 """
 
 """
-@api {get} /risar/api/integration/<int:api_version>/anamnesis/father/schema.json json-schema
+@api {get} /risar/api/integration/<int:api_version>/anamnesis/father/schema.json json-schema father
 @apiName AnamnesisFatherSchema
 @apiGroup Anamnesis
 @apiVersion 0.1.0
@@ -50,9 +50,6 @@ JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_exa
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
-
-@apiParamExample {json} Request-Example:
-{}
 
 @apiUse CreateSuccess
 
