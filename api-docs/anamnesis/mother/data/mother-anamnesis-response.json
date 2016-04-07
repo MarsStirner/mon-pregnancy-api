@@ -2,7 +2,6 @@
     "meta": {
         "code": "200",
         "result": {
-            "anamnesis_id": "12345",
             "education": "05",
             "work_group": "02",
             "professional_properties": "psychic_tension",

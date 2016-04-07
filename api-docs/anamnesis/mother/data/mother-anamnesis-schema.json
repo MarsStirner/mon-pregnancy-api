@@ -3,11 +3,6 @@
     "id": "mother_anamnesis_schema",
     "type": "object",
     "properties": {
-        "anamnesis_id": {
-            "id": "mother_anamnesis_schema/anamnesis_id",
-            "type": "string",
-            "description": "Идентификатор анамнеза в системе БАРС МР"
-        },
         "education": {
             "id": "mother_anamnesis_schema/education",
             "type": "string",

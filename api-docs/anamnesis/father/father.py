@@ -45,8 +45,9 @@ Current Errors.
 @apiGroup Anamnesis
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации данных анамнеза отца<br/>
-Валидация JSON Scheme <a href="/json-data/anamnesis/father/data/father_anamnesis_schema.json">father_anamnesis_schema.json</a><br/>
-JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_example.json">father_anamnesis_example.json</a>
+Валидация JSON Scheme <a href="/json-data/anamnesis/father/data/father-anamnesis-schema.json">father-anamnesis-schema.json</a><br/>
+JSON пример запроса <a href="/json-data/anamnesis/father/data/father-anamnesis-example.json">father-anamnesis-example.json</a><br/>
+JSON пример ответа <a href="/json-data/anamnesis/father/data/father-anamnesis-response.json">father-anamnesis-response.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
@@ -58,17 +59,17 @@ JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_exa
 """
 
 """
-@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/anamnesis/father/<anamnesis_id> Изменение анамнеза отца
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/anamnesis/father/ Изменение анамнеза отца
 @apiName PutFather
 @apiGroup Anamnesis
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных анамнеза отца<br/>
-Валидация JSON Scheme <a href="/json-data/anamnesis/father/data/father_anamnesis_schema.json">father_anamnesis_schema.json</a><br/>
-JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_example.json">father_anamnesis_example.json</a>
+Валидация JSON Scheme <a href="/json-data/anamnesis/father/data/father-anamnesis-schema.json">father-anamnesis-schema.json</a><br/>
+JSON пример запроса <a href="/json-data/anamnesis/father/data/father-anamnesis-example.json">father-anamnesis-example.json</a><br/>
+JSON пример ответа <a href="/json-data/anamnesis/father/data/father-anamnesis-response.json">father-anamnesis-response.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
-@apiParam {String} anamnesis_id Код документа анамнеза
 
 @apiUse CreateSuccess
 
@@ -76,7 +77,7 @@ JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_exa
 """
 
 """
-@api {delete} /risar/api/integration/<int:api_version>/card/<card_id>/anamnesis/father/<anamnesis_id> Удаление анамнеза отца
+@api {delete} /risar/api/integration/<int:api_version>/card/<card_id>/anamnesis/father/ Удаление анамнеза отца
 @apiName DeleteFather
 @apiGroup Anamnesis
 @apiVersion 0.1.0
@@ -84,7 +85,6 @@ JSON пример <a href="/json-data/anamnesis/father/data/father_anamnesis_exa
 
 @apiParam {Number} api_version Версия API, целое положительное число
 @apiParam {String} card_id Код карты пациента
-@apiParam {String} anamnesis_id Код документа анамнеза
 
 @apiUse CreateSuccess
 

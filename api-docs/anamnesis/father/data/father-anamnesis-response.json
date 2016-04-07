@@ -2,7 +2,6 @@
     "meta": {
         "code": "200",
         "result": {
-            "anamnesis_id": "123456",
             "FIO": "Иванов Андрей Петрович",
             "age": "35",
             "education": "03",
