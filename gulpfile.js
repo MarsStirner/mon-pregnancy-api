@@ -15,6 +15,7 @@ gulp.task('apidoc', function(){
             src: "api-docs/",
             dest: "public/",
             debug: true,
+            silent: false,
             includeFilters: [ ".*\\.py$" ]
         },livereload.reload)
 });

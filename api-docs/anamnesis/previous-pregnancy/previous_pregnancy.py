@@ -92,19 +92,3 @@ JSON пример ответа <a href="/json-data/anamnesis/prevpregnancy/data/
 
 @apiUse CreateError
 """
-
-# """
-# @api {get} /risar/api/integration/<int:api_version>/card/<external_card_id>/anamnesis/prevpregnancy/ Список предыдущих беременностей матери
-# @apiName GetPreviousPregnancy
-# @apiGroup Anamnesis-Pregnancy
-# @apiVersion 0.5.0
-# @apiDescription Метод предназначен для получения списка данных предыдущих беременностей матери
-#
-# @apiParam {Number} api_version Версия API от целое положительной число.
-# @apiParam {String} external_system_id Код внешней системы.
-# @apiParam {String} external_card_id Код карты во внешней учетной системе.
-#
-# @apiUse CreateSuccess
-#
-# @apiUse CreateError
-# """
