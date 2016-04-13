@@ -54,7 +54,7 @@ Current Success.
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения списка мероприятий за заданный промежуток времени<br/>
 Валидация JSON Schema <a href="/json-data/measures_list/data/measures-list-schema.json">measures-list-schema.json</a><br/>
-JSON пример <a href="/json-data/measures_list/data/measures-list-example.json">measures-list-example.json</a>
+JSON пример <a href="/json-data/measures_list/data/measures-list-success-example.json">measures-list-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
