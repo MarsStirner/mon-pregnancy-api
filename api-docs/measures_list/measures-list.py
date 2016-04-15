@@ -48,7 +48,7 @@ Current Success.
 
 
 """
-@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/measureslist/<date_begin>/<date_end> Получение списка мероприятий
+@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/measureslist/?date_begin=<date_begin>&date_end=<date_end> Получение списка мероприятий
 @apiName GetMeasuresList
 @apiGroup Measures-List
 @apiVersion 0.1.0

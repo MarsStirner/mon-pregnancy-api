@@ -1,18 +1,18 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "measure_list",
-    "description": "Список мероприятий",
+    "description": "Список мероприятий случая",
     "type": "array",
     "items": {
-        "description": "Мероприятие",
+        "description": "Мероприятие случая",
         "type": "object",
         "properties": {
             "measure_id": {
-                "description": "ID мероприятия",
+                "description": "ID мероприятия случая",
                 "type": "string"
             },
             "measure_type_code": {
-                "description": "Код типа мероприятия, справочник rbMeasureType",
+                "description": "Код мероприятия, справочник Measure",
                 "type": "string"
             }, 
             "begin_datetime": {
