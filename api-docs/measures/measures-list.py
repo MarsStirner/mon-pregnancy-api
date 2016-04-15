@@ -37,9 +37,9 @@ Current Success.
 
 
 """
-@api {Result} /risar/api/integration/<int:api_version>/card/<card_id>/measureslist/ Описание ошибок
+@api {Result} /risar/api/integration/<int:api_version>/card/<card_id>/measures/ Описание ошибок
 @apiName MeasuresList
-@apiGroup Measures-List
+@apiGroup Measures
 @apiVersion 0.1.0
 @apiDescription Описание ошибок
 
@@ -48,9 +48,9 @@ Current Success.
 
 
 """
-@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/measureslist/?date_begin=<date_begin>&date_end=<date_end> Получение списка мероприятий
+@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/measures/list/?date_begin=<date_begin>&date_end=<date_end> Получение списка мероприятий
 @apiName GetMeasuresList
-@apiGroup Measures-List
+@apiGroup Measures
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения списка мероприятий за заданный промежуток времени<br/>
 Валидация JSON Schema <a href="/json-data/measures_list/data/measures-list-schema.json">measures-list-schema.json</a><br/>
