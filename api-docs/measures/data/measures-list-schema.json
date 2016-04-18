@@ -18,12 +18,12 @@
             "begin_datetime": {
                 "description": "Дата-время начала интервала действия мероприятия",
                 "type": "string",
-                "format": "date-time"
+                "format": "date"
             },
             "end_datetime": {
                 "description": "Дата-время конца интервала действия мероприятия",
                 "type": "string",
-                "format": "date-time"
+                "format": "date"
             },
             "status": {
                 "description": "Статус мероприятия, справочник rbMeasureStatus",

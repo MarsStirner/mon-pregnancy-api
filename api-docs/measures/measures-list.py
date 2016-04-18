@@ -18,16 +18,16 @@ Current Success.
         {
             "measure_id": "7654321",
             "measure_type_code": "000123",
-            "begin_datetime": "2012-04-23T18:25:43.511Z",
-            "end_datetime": "2012-04-23T18:25:43.511Z",
+            "begin_datetime": "2012-04-23",
+            "end_datetime": "2012-04-23",
             "status": "012",
             "result_action_id": "1234567"
         },
         {
             "measure_id": "7654322",
             "measure_type_code": "000123",
-            "begin_datetime": "2012-04-23T18:25:43.511Z",
-            "end_datetime": "2012-04-23T18:25:43.511Z",
+            "begin_datetime": "2012-04-23",
+            "end_datetime": "2012-04-23",
             "status": "012",
             "result_action_id": "1234568"
         }        
