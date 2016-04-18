@@ -3,11 +3,11 @@
 """
 
 """
-@api {Result} /risar/api/integration/<api_version>/card/<card_id>/errands/ Описание ошибок.
+@api {Result} /risar/api/integration/<api_version>/card/<card_id>/errands/ Описание ошибок
 @apiName Errand
 @apiGroup Errands
 @apiVersion 0.1.0
-@apiDescription Описание ошибок и успешных ответов.
+@apiDescription Описание ошибок
 
 @apiUse CreateError
 """
@@ -24,8 +24,8 @@ JSON пример: <a href="/json-data/errand/data/errand-all-example.json">erra
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Int} card_id Код карты пациента.
-@apiParam {Int} errand_id Код поручения.
+@apiParam {Int} card_id Код карты пациента
+@apiParam {Int} errand_id Код поручения
 
 @apiParamExample {json} Request-Example:
 {
@@ -59,8 +59,8 @@ JSON пример: <a href="/json-data/errand/data/errand-all-example.json">erra
 JSON пример: <a href="/json-data/errand/data/errand-all-example.json">errand-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Int} card_id Код карты пациента.
-@apiParam {Int} errand_id Код поручения.
+@apiParam {Int} card_id Код карты пациента
+@apiParam {Int} errand_id Код поручения
 """
 
 """
@@ -71,6 +71,6 @@ JSON пример: <a href="/json-data/errand/data/errand-all-example.json">erra
 @apiDescription Метод предназначен для удаления результатов поручения.
 
 @apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Int} card_id Код карты пациента.
-@apiParam {Int} errand_id Код поручения.
+@apiParam {Int} card_id Код карты пациента
+@apiParam {Int} errand_id Код поручения
 """
