@@ -58,8 +58,8 @@ JSON пример <a href="/json-data/measures_list/data/measures-list-success-e
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
-@apiParam {Date} date_begin Дата начала.
-@apiParam {Date} date_end Дата завершения.
+@apiParam {Date} date_begin Дата начала в формате yyyy-mm-dd.
+@apiParam {Date} date_end Дата завершения в формате yyyy-mm-dd.
 
 @apiUse MeasuresListSuccess
 """
