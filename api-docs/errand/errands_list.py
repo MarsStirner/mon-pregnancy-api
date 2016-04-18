@@ -41,7 +41,7 @@ Current Success.
 
 
 """
-@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/errands/list/ Получение списка мероприятий
+@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/errands/list/ Получение списка поручений
 @apiName GetErrandList
 @apiGroup Errands
 @apiVersion 0.1.0
