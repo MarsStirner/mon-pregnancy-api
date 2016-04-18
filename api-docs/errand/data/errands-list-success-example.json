@@ -1,0 +1,28 @@
+{
+    "meta":{
+        "code": "200",
+        "name": "ОК"
+    },
+    "data": [
+        {
+            "errand_id": "012345",
+            "hospital": "hospital_code_0123456",
+            "doctor": "doctor_code_0123456",
+            "date": "2011-11-11",
+            "comment": "требуется выполнить поручение",
+            "execution_hospital": "hospital_code_0123457",
+            "execution_doctor": "doctor_code_0123457",
+            "execution_date": "2011-11-11",
+            "execution_comment": "комментарий"
+        },
+        {
+            "errand_id": "543210",
+            "hospital": "hospital_code_0123456",
+            "doctor": "doctor_code_0123456",
+            "date": "2011-11-11",
+            "comment": "требуется выполнить поручение",
+            "execution_hospital": "hospital_code_0123457",
+            "execution_doctor": "doctor_code_0123457"
+        }
+    ]
+}

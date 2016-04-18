@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "errand",
+    "description": "Поручение",
+    "type": "object",
+    "properties": {
+        "execution_date": {
+            "description": "Фактическая дата исполнения",
+            "type": "string",
+            "format": "date"
+        },
+        "execution_comment": {
+            "description": "Текст ответа на поручение",
+            "type": "string"
+        }
+    }
+}
