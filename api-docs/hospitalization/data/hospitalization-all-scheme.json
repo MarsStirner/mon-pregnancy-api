@@ -8,6 +8,10 @@
             "description": "Внешний ID",
             "type": "string"
         },
+        "measure_id": {
+            "description": "ID мероприятия случая",
+            "type": "string"
+        },        
         "date_in": {
             "description": "Дата поступленияя",
             "type": "string",
