@@ -375,7 +375,15 @@
 					"death_reason": {
 						"description": "Причина смерти",
 						"type": "string"
-					}
+					},
+					"diseases": {
+					"description": "Заболевания новорождённого (массив, код диагноза по МКБ-10)",
+					"type": "array",
+					"items": {
+						"type": "string",
+						"pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
+					},
+					"minItems": 0
 				},
 				"required": ["alive", "sex", "weight", "length", "date"]
 			},
