@@ -70,14 +70,14 @@ Current Errors.
 
 @apiDefine CreateClientError
 @apiVersion 0.1.0
-@apiError (Error 4xx) {json} 406 исключительная ситуация, ошибка валидации переданных данных
+@apiError (Error 4xx) {json} 400 исключительная ситуация, ошибка валидации переданных данных
 @apiError (Error 4xx) {json} 404 ошибка, запрашиваемый ресурс не найден
 @apiError (Error 5xx) {json} 500 исключительная ситуация, ошибка: внутренняя ошибка сервера
 
 @apiErrorExample {json} Ошибка
 {
   "meta": {
-    "code": 406,
+    "code": 400,
     "errors": [
       {
         "instance": {
@@ -90,7 +90,7 @@ Current Errors.
         "error": "'insurance_document_type' is a required property"
       }
     ],
-    "name": "Не валидные данные",
+    "name": "Невалидные данные",
     "traceback": [
 
     ]
@@ -100,16 +100,16 @@ Current Errors.
 """
 
 """
-@api {post} /risar/api/integration/<int:api_version>/client/<external_system_id>/ Регистрация пациенток
+@api {post} /risar/api/integration/<int:api_version>/client/ Регистрация пациента
 @apiName PostClient
 @apiGroup Client
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для регистрации пациентов
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/client/data/client-register-scheme.json">client-register-scheme.json</a>.
-JSON пример: <a href="/mon-pregnancy-api/api-docs/client/data/client-register-example.json">client-register-example.json</a>
+@apiDescription Метод предназначен для регистрации пациента<br/>
+Валидация JSON Scheme <a href="/json-data/client/data/client-scheme.json">client-scheme.json</a><br/>
+JSON пример запроса <a href="/json-data/client/data/client-register-scheme.json">client-register-scheme.json</a><br/>
+JSON пример ответа <a href="/json-data/client/data/client-all-response-successful-example.json">client-all-response-successful-example.json</a>
 
-@apiParam {Number} api_version Версия API от целое положительной число
-@apiParam {String} external_system_id Код внешней системы.
+@apiParam {Number} api_version Версия API, целое положительное число
 
 @apiParamExample {json} Request-Example:
    {
@@ -172,17 +172,17 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/client/data/client-regis
 """
 
 """
-@api {put} /risar/api/integration/<int:api_version>/client/<external_system_id>/<external_client_id> Изменение пациента
+@api {put} /risar/api/integration/<int:api_version>/client/<int:client_id> Изменение пациента
 @apiName PutClient
 @apiGroup Client
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для изменения данных пациента
-Валидация JSON Scheme <a href="/mon-pregnancy-api/api-docs/client/data/client-change-scheme.json">client-change-scheme.json</a>.
-JSON пример <a href="/mon-pregnancy-api/api-docs/client/data/client-change-example.json">client-change-example.json</a>.
+@apiDescription Метод предназначен для изменения данных пациента<br/>
+Валидация JSON Scheme <a href="/json-data/client/data/client-scheme.json">client-scheme.json</a><br/>
+JSON пример запроса <a href="/json-data/client/data/client-change-example.json">client-change-example.json</a><br/>
+JSON пример ответа <a href="/json-data/client/data/client-all-response-successful-example.json">client-all-response-successful-example.json</a>
 
-@apiParam {Number} api_version Версия API от целое положительной число.1
-@apiParam {String} external_system_id Код внешней системы.
-@apiParam {String} external_client_id Код пациента во внешней учетной системе.
+@apiParam {Number} api_version Версия API, целое положительное число
+@apiParam {String} client_id Код пациента
 
 @apiUse CreateClientSuccess
 

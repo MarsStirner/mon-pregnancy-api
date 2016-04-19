@@ -1,6 +1,6 @@
 {
   "meta": {
-    "code": 406,
+    "code": 400,
     "errors": [
       {
         "instance": {
@@ -13,7 +13,7 @@
         "error": "'insurance_document_type' is a required property"
       }
     ],
-    "name": "Не валидные данные",
+    "name": "Невалидные данные",
     "traceback": [
       [
         "/home/mmalkov/workspace/nemesis/nemesis/lib/apiutils.py",
