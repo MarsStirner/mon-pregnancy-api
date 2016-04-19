@@ -18,7 +18,8 @@ Current Success.
         "hospital_planned": "hospital_code_012345",
         "hospital_emergency": "hospital_code_012346",
         "hospital_planned_list": [],
-        "hospital_emergency_list": ["hospital_code_012348", "hospital_code_012349"]
+        "hospital_emergency_list": ["hospital_code_012348", "hospital_code_012349"],
+        "hospital_emergency_list_district": []
     }
 }
 """
