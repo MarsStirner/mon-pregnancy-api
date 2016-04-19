@@ -185,7 +185,7 @@
 					"type": "boolean"
 				},
 				"perineal_tear": {
-					"description": "Разрыв промежностей (степень)",
+					"description": "Разрыв промежностей (степень), справочник rbPerinealTear",
 					"type": "string"
 				},
 				"eclampsia": {
@@ -217,7 +217,7 @@
 				},
 				"anemia": {
 					"description": "Анемия после родов (Hb<110 г/л)",
-					"type": "string"
+					"type": "boolean"
 				},
 				"infections_during_delivery": {
 					"description": "Инфекции в родах",

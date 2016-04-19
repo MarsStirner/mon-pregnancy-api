@@ -29,10 +29,10 @@
     "pathological_preliminary_period": false,
     "abnormalities_of_labor": false,
     "chorioamnionitis": false,
-    "perineal_tear": "0",
+    "perineal_tear": "01",
     "eclampsia": "net",
     "afterbirth": "plencataaplazenta",
-    "anemia": "",
+    "anemia": false,
     "infections_during_delivery": "",
     "infections_after_delivery": ""
   },
