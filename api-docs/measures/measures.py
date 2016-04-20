@@ -97,7 +97,7 @@ Current Errors.
 
 @apiDefine CreateResearchError
 @apiVersion 0.1.0
-@apiError (Error 4xx) {json} 406 исключительная ситуация, ошибка валидации переданных данных
+@apiError (Error 4xx) {json} 400 исключительная ситуация, ошибка валидации переданных данных
 @apiError (Error 4xx) {json} 404 ошибка, запрашиваемый ресурс не найден
 @apiError (Error 5xx) {json} 500 исключительная ситуация, ошибка: внутренняя ошибка сервера 
 

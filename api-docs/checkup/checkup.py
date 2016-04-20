@@ -21,13 +21,13 @@ Current Errors.
 @apiDefine ExaminationError
 @apiVersion 0.1.0
 @apiError (Error 5xx) {json} 500 исключительная ситуация, ошибка: внутренняя ошибка сервера
-@apiError (Error 4xx) {json} 406 исключительная ситуация, ошибка валидации переданных данных
+@apiError (Error 4xx) {json} 400 исключительная ситуация, ошибка валидации переданных данных
 @apiError (Error 4xx) {json} 404 ошибка, запрашиваемый ресурс не найден
 
 @apiErrorExample {json} Ошибка
 {
   "meta": {
-    "code": 406,
+    "code": 400,
     "errors": [
       {
         "instance": {
@@ -40,7 +40,7 @@ Current Errors.
         "error": "'insurance_document_type' is a required property"
       }
     ],
-    "name": "Не валидные данные",
+    "name": "Невалидные данные",
     "traceback": [
 
     ]
