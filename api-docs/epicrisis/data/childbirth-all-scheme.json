@@ -69,23 +69,11 @@
 				},
 				"pregnancy_final": {
 					"description": "Исход беременности, справочник rbRisarPregnancy_Final",
-					"type": "string",
-					"enum": ["abortom", "rodami"]
+					"type": "string"
 				},
 				"abortion": {
 					"description": "Вид аборта, справочник rbRisarAbort",
-					"type": "string",
-					"enum": [
-						"'abortmedikamentoznymmetodom-posostoaniurebenka",
-						"abortmedikamentoznymmetodom-posostoaniujensiny",
-						"drugievidypreryvaniaberemennosti(kriminal_nye)",
-						"iskusstvennyj-pojelaniujensiny",
-						"iskusstvennyj-pomed.pokazaniamjensiny",
-						"iskusstvennyj-pomed.pokazaniamploda",
-						"iskusstvennyj-posozial_nympokazaniam",
-						"neutocnennye",
-						"samoproizvol_nyj"
-					]
+					"type": "string"
 				},
 				"maternity_hospital_doctor": {
 					"description": "Лечащий врач роддома (код)",
@@ -160,13 +148,11 @@
 			"properties": {
 				"delivery_waters": {
 					"description": "Излитие околоплодных вод, справочник rbRisarDelivery_Waters",
-					"type": "string",
-					"enum": ["prejdevremennye", "rannie"]
+					"type": "string"
 				},
 				"weakness": {
 					"description": "Слабость родовых сил, справочник rbRisarWeakness",
-					"type": "string",
-					"enum": ["pervicnaa", "vtoricnaa"]
+					"type": "string"
 				},
 				"meconium_color": {
 					"description": "Мекониальная окраска амниотических вод",
@@ -190,30 +176,15 @@
 				},
 				"eclampsia": {
 					"description": "Нефропатия/эклампсия в родах, справочник rbRisarEclampsia",
-					"type": "string",
-					"enum": ["eklampsia", "nefropatia", "net"]
+					"type": "string"
 				},
 				"funiculus": {
 					"description": "Патология пуповины, справочник rbRisarFuniculus",
-					"type": "string",
-					"enum": [
-						"drugaaineutocnennaapatologiapupoviny",
-						"korotkaapupovina",
-						"obvitie",
-						"patologiasosudovpupoviny",
-						"vypadeniepupoviny",
-						"zaputyvanieiuzelpupoviny"
-					]
+					"type": "string"
 				},
 				"afterbirth": {
 					"description": "Патология плаценты, справочник rbRisarAfterbirth",
-					"type": "string",
-					"enum": [
-						"giploplaziaplazenty",
-						"plencataaplazenta",
-						"polnoeprirasenieplazenty",
-						"sosudistaapatologiaplazenty"
-					]
+					"type": "string"
 				},
 				"anemia": {
 					"description": "Анемия после родов (Hb<110 г/л)",
@@ -261,13 +232,11 @@
 			"properties": {
 				"caesarean_section": {
 					"description": "Кесарево сечение, справочник rbRisarCaesarean_Section",
-					"type": "string",
-					"enum": ["korporal_noe", "vn.m.segmente"]
+					"type": "string"
 				},
 				"obstetrical_forceps": {
 					"description": "Акушерские щипцы, справочник rbRisarObstetrical_Forceps",
-					"type": "string",
-					"enum": ["polostnye", "vyhodnye"]
+					"type": "string"
 				},
 				"vacuum_extraction": {
 					"description": "Вакуум-экстракция",
@@ -275,29 +244,19 @@
 				},
 				"indication": {
 					"description": "Показания к операции, справочник rbRisarIndication",
-					"type": "string",
-					"enum": ["kombinirovannye", "sostoronymateri", "sostoronyploda"]
+					"type": "string"
 				},
 				"specialities": {
 					"description": "Особенности операции, справочник rbRisarSpecialities",
-					"type": "string",
-					"enum": [
-						"donacalarodov",
-						"ekstrennoe",
-						"kogdaproizvodilas_operazia",
-						"periodrodov",
-						"planovoe"
-					]
+					"type": "string"
 				},
 				"anesthetization": {
 					"description": "Обезболивание, справочник rbRisarAnesthetization",
-					"type": "string",
-					"pattern": "^(0[1-9]|10)$"
+					"type": "string"
 				},
 				"hysterectomy": {
 					"description": "Гистерэктомия, справочник rbRisarHysterectomy",
-					"type": "string",
-					"enum": ["boleedvuhsutokposlerodov", "vpredelahdvuhsutokposlerodov"]
+					"type": "string"
 				},
 				"complications": {
 					"description": "Осложнения при родах (массив, код диагноза по МКБ-10)",
@@ -352,8 +311,7 @@
 					},
 					"maturity_rate": {
 						"description": "Степень доношенности, справочник rbRisarMaturity_Rate",
-						"type": "string",
-						"enum": ["donosennyj", "nedonosennyj", "perenosennyj"]
+						"type": "string"
 					},
 					"apgar_score_1": {
 						"description": "Оценка по Апгар на 1 минуту",
