@@ -150,6 +150,10 @@
 					"description": "Излитие околоплодных вод, справочник rbRisarDelivery_Waters",
 					"type": "string"
 				},
+				"pre_birth_delivery_waters": {
+					"description": "Дородовое излитие вод (при отсутствии родовой деятельности)",
+					"type": "boolean"
+				},
 				"weakness": {
 					"description": "Слабость родовых сил, справочник rbRisarWeakness",
 					"type": "string"
