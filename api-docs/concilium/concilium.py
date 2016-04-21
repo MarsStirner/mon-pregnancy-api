@@ -25,6 +25,7 @@ Current Success.
     "name": "ОК"
   },
   "data": {
+    "concilium_id": "012345",
     "external_id": "qwerty_012345",
     "date": "2011-11-11",
     "hospital": "hospital_code_012345",
