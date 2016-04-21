@@ -5,6 +5,11 @@
     "type": "object",
     "description": "Сведение о предыдущей беременности",
     "properties": {
+        "prevpregnancy_id": {
+            "id": "anamnesis_prev_pregnancy_schema/prevpregnancy_id",
+            "type": "string",
+            "description": "Идентификатор анамнеза предыдущей беременности в системе БАРС МР"
+        },
         "pregnancy_year": {
             "id": "anamnesis_prev_pregnancy_schema/pregnancy_year",
             "type": "integer",

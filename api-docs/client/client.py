@@ -52,7 +52,7 @@ Current Success.
     "medicine_intolerance_info": [
       {
 
-        "medicine_intolerance__power": 4,
+        "medicine_intolerance_power": 4,
         "medicine_substance": "анальгетики"
       }
     ],
@@ -72,6 +72,7 @@ Current Errors.
 @apiVersion 0.1.0
 @apiError (Error 4xx) {json} 400 исключительная ситуация, ошибка валидации переданных данных
 @apiError (Error 4xx) {json} 404 ошибка, запрашиваемый ресурс не найден
+@apiError (Error 4xx) {json} 409 ошибка, попытка создания дублирующей записи
 @apiError (Error 5xx) {json} 500 исключительная ситуация, ошибка: внутренняя ошибка сервера
 
 @apiErrorExample {json} Ошибка
@@ -157,7 +158,7 @@ JSON пример ответа <a href="/json-data/client/data/client-all-respon
        ],
      "medicine_intolerance_info": [
          {
-           "medicine_intolerance__power": 4,
+           "medicine_intolerance_power": 4,
            "medicine_substance": "анальгетики"
          }
       ],

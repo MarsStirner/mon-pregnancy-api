@@ -43,7 +43,7 @@
     ],
   "medicine_intolerance_info": [
       {
-        "medicine_intolerance__power": 4,
+        "medicine_intolerance_power": 4,
         "medicine_substance": "анальгетики"
       }
    ]
