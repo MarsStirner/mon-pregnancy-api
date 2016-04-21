@@ -4,6 +4,10 @@
 	"description": "Консилиум",
 	"type": "object",
 	"properties": {
+		"concilium_id": {
+			"description": "Внутренний ID",
+			"type": "string"
+		},
 		"external_id": {
 			"description": "Внешний ID",
 			"type": "string"
