@@ -61,8 +61,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных консилиума.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-scheme.json">concilium-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/concilium/data/concilium-all-scheme.json">concilium-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -75,8 +75,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных консилиума.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-scheme.json">concilium-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/concilium/data/concilium-all-scheme.json">concilium-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/concilium/data/concilium-all-example.json">concilium-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
