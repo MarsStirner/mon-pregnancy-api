@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "id": "doctor",
+  "properties": {
+    "last_name":{
+     "type": "string",
+     "id": "doctor/last_name",
+     "description": "Фамилия врача"
+     },
+    "first_name":{
+     "type": "string",
+     "id": "doctor/first_name",
+     "description": "Имя врача"
+     },
+    "patr_name":{
+     "type": "string",
+     "id": "doctor/patr_name",
+     "description": "Отчество врача"
+     },
+    "sex":{
+     "type": "integer",
+     "id": "doctor/sex",
+     "description": "Код пола врача"
+     },
+    "birth_date":{
+     "type": "string",
+     "id": "doctor/birth_date",
+     "description": "Дата рождения"
+     },
+    "SNILS":{
+     "type": "string",
+     "id": "doctor/SNILS",
+     "description": "СНИЛС врача"
+     },
+    "INN":{
+     "type": "string",
+     "id": "doctor/INN",
+     "description": "ИНН врача"
+     },
+    "organization":{
+     "type": "string",
+     "id": "doctor/organization",
+     "description": "ТФОМС код организации врача"
+     },
+    "org_structure":{
+     "type": "string",
+     "id": "doctor/org_structure",
+     "description": "Код подразделения врача"
+     },
+    "speciality":{
+     "type": "string",
+     "id": "doctor/speciality",
+     "description": "ТФОМС код специальности врача"
+     },
+    "post":{
+     "type": "string",
+     "id": "doctor/post",
+     "description": "ТФОМС код должности врача"
+     },
+    "login":{
+     "type": "string",
+     "id": "doctor/login",
+     "description": "Логин врача"
+     },
+    "regional_code":{
+     "type": "string",
+     "id": "doctor/regional_code",
+     "description": "Региональный код врача"
+     }
+    }
+  }
+  
+
