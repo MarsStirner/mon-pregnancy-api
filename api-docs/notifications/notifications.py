@@ -1,4 +1,4 @@
-"""
+п»ї"""
 @apiVersion 0.1.0
 """
 
@@ -7,12 +7,12 @@
 Current Success.
 ------------------------------------------------------------------------------------------
 @apiDefine NotificationsSuccess
-@apiSuccess (Success 2xx) {json} 200 Данные сущности.
-@apiSuccessExample {json} Успешный ответ
+@apiSuccess (Success 2xx) {json} 200 Р”Р°РЅРЅС‹Рµ СЃСѓС‰РЅРѕСЃС‚Рё.
+@apiSuccessExample {json} РЈСЃРїРµС€РЅС‹Р№ РѕС‚РІРµС‚
 {
     "meta": {
         "code": "200",
-        "name": "ОК"
+        "name": "OK"
     },
     "data": [
     {
@@ -20,7 +20,7 @@ Current Success.
     "receiver": "176", 
     "send_date": "12-12-2001",
     "receive_date": "12-12-2016"
-    "notification_text": "Пациентке Ивановой Марии Ивановне (карта 2001/234) на последнем осмотре поставили невозможность сохранения беременности."
+    "notification_text": "РЈ РїР°С†РёРµРЅС‚РєРё РРІР°РЅРѕРІРѕР№ РђРЅРЅС‹ РРІР°РЅРѕРІРЅС‹ РєР°СЂС‚Р° (2015/453). РёР·РјРµРЅРёР»Р°СЃСЊ СЃС‚РµРїРµРЅСЊ СЂРёСЃРєР° РЅР° РІС‹СЃРѕРєСѓСЋ.\n----\nРџРѕР¶Р°Р»СѓР№СЃС‚Р°, РЅРµ РѕС‚РІРµС‡Р°Р№С‚Рµ РЅР° СЌС‚Рѕ РїРёСЃСЊРјРѕ, РѕРЅРѕ Р±С‹Р»Рѕ СЃРіРµРЅРёСЂРёСЂРѕРІР°РЅРѕ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё "
     }
         ]   
 }
@@ -28,28 +28,28 @@ Current Success.
 
 
 """
-@api {Result} /risar/api/integration/<int:api_version>/notifications/list/?date_begin=<date_begin>&date_end=<date_end> Описание ошибок
+@api {Result} /risar/api/integration/<int:api_version>/notifications/list/?date_begin=<date_begin>&date_end=<date_end> РћРїРёСЃР°РЅРёРµ РѕС€РёР±РѕРє
 @apiName Notifications
 @apiGroup Notifications
 @apiVersion 0.1.0
-@apiDescription Описание ошибок
+@apiDescription РћРїРёСЃР°РЅРёРµ РѕС€РёР±РѕРє
 
 @apiUse CreateError
 """
 
 
 """
-@api {get} /risar/api/integration/<int:api_version>/notifications/list/?date_begin=<date_begin>&date_end=<date_end> Получение списка оповещений внутренней почты
+@api {get} /risar/api/integration/<int:api_version>/notifications/list/?date_begin=<date_begin>&date_end=<date_end> РџРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РѕРїРѕРІРµС‰РµРЅРёР№ РїРѕ РІРЅСѓС‚СЂРµРЅРЅРµР№ РїРѕС‡С‚Рµ
 @apiName GetNotifications
 @apiGroup Notifications
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для получения списка оповещений по внутренней почте за заданный промежуток времени<br/>
-Валидация JSON Schema <a href="/json-data/notifications/data/notifications-schema.json">notifications-schema.json</a><br/>
-JSON пример <a href="/json-data/notifications/data/notifications-example.json">notifications-example.json</a>
+@apiDescription РџРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° РѕРїРѕРІРµС‰РµРЅРёР№ РїРѕ РІРЅСѓС‚СЂРµРЅРЅРµР№ РїРѕС‡С‚Рµ Р·Р° Р·Р°РґР°РЅРЅС‹Р№ РїСЂРѕРјРµР¶СѓС‚РѕРє РІСЂРµРјРµРЅРё<br/>
+Р’Р°Р»РёРґР°С†РёСЏ JSON Schema <a href="/json-data/notifications/data/notifications-schema.json">notifications-schema.json</a><br/>
+JSON РїСЂРёРјРµСЂ <a href="/json-data/notifications/data/notifications-example.json">notifications-example.json</a>
 
-@apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Date} date_begin Дата начала в формате yyyy-mm-dd.
-@apiParam {Date} date_end Дата завершения в формате yyyy-mm-dd.
+@apiParam {Number} api_version Р’РµСЂСЃРёСЏ API, С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ
+@apiParam {Date} date_begin Р”Р°С‚Р° РЅР°С‡Р°Р»Р° РІ С„РѕСЂРјР°С‚Рµ yyyy-mm-dd.
+@apiParam {Date} date_end Р”Р°С‚Р° Р·Р°РІРµСЂС€РµРЅРёСЏ yyyy-mm-dd.
 
 @apiUse NotificationsSuccess
 """
