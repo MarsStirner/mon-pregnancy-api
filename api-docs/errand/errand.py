@@ -14,14 +14,14 @@
 
 
 """
-@api {post} /risar/api/integration/<int:api_version>/card/<card_id>/errands/<errand_id> Регистрация результатов поручения
-@apiName PostErrand
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/errands/<errand_id> Регистрация или изменение результатов поручения
+@apiName PutErrand
 @apiGroup Errands
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для регистрации результатов поручения.<br/>
+@apiDescription Метод предназначен для регистрации или изменения результатов поручения.<br/>
 Валидация JSON Schema: <a href="/json-data/errand/data/errand-all-schema.json">errand-all-schema.json</a>.<br/>
 JSON пример: <a href="/json-data/errand/data/errand-all-example.json">errand-all-example.json</a>.
-
+JSON пример успешный ответ: <a href="/json-data/errand/data/errand-all-success-example.json">errand-all-success-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента
@@ -46,21 +46,6 @@ JSON пример: <a href="/json-data/errand/data/errand-all-example.json">erra
         "execution_comment": "комментарий"
     }
 }
-"""
-
-
-"""
-@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/errands/<errand_id> Изменение результатов поручения
-@apiName PutErrand
-@apiGroup Errands
-@apiVersion 0.1.0
-@apiDescription Метод предназначен для изменения результатов поручения.<br/>
-Валидация JSON Schema: <a href="/json-data/errand/data/errand-all-schema.json">errand-all-schema.json</a>.<br/>
-JSON пример: <a href="/json-data/errand/data/errand-all-example.json">errand-all-example.json</a>.
-
-@apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Int} card_id Код карты пациента
-@apiParam {Int} errand_id Код поручения
 """
 
 """
