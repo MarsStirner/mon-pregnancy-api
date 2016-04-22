@@ -6,7 +6,7 @@
 ------------------------------------------------------------------------------------------
 Current Success.
 ------------------------------------------------------------------------------------------
-@apiDefine NotificationsListSuccess
+@apiDefine NotificationsSuccess
 @apiSuccess (Success 2xx) {json} 200 Данные сущности.
 @apiSuccessExample {json} Успешный ответ
 {
