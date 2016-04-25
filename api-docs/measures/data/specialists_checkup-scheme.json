@@ -5,7 +5,7 @@
   "properties": {
      "measure_type_code":{
      "type": "string",
-     "id": "specialists_checkup/event_type_code",
+     "id": "specialists_checkup/measure_type_code",
      "description": "Код мероприятия. Передается для идентификации типа соответствующего мероприятия"
      },
      "checkup_date":{
@@ -30,7 +30,7 @@
      }
       },
       "required": [
-        "event_type_code",
+        "measure_type_code",
         "checkup_date",
         "doctor_code",
         "lpu_code"
