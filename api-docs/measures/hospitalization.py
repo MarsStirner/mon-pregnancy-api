@@ -50,7 +50,7 @@ JSON пример успешный ответ: <a href="/json-data/measures/data
         "name": "ОК"
     },
     "data": {
-        "hospitalization_id": "123456",
+        "result_action_id": "123456",
         "external_id": "qwerty_012345",
         "measure_id": "7654321",
         "date_in": "2011-11-01",
