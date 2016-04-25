@@ -13,33 +13,6 @@
 """
 
 """
-------------------------------------------------------------------------------------------
-Current Success.
-------------------------------------------------------------------------------------------
-@apiDefine HospitalizationCreateSuccess
-@apiSuccess (Success 2xx) {json} 200 Данные сохраненной госпитализации.
-@apiSuccessExample {json} Успешный ответ
-{
-    "meta":{
-        "code": "200",
-        "name": "ОК"
-    },
-    "data": {
-        "hospitalization_id": "123456",
-        "external_id": "qwerty_012345",
-        "measure_id": "7654321",
-        "date_in": "2011-11-01",
-        "date_out": "2011-11-11",
-        "hospital": "hospital_code_012345",
-        "doctor": "doctor_code_012345",
-        "pregnancy_week": 25,
-        "diagnosis_in": "Q00.0",
-        "diagnosis_out": "Q00.0"
-    }
-}
-"""
-
-"""
 @api {post} /risar/api/integration/<api_version>/card/<card_id>/measures/hospitalization/ Регистрация госпитализации
 @apiName PostHospitalization
 @apiGroup Measures
