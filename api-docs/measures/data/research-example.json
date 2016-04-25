@@ -1,5 +1,7 @@
 {
-	"event_type_code": "52",
+	"external_id": "qwerty_012345",
+    "measure_id": "7654321",
+	"measure_type_code": "52",
 	"realization_date": "2004-10-31",
 	"lpu_code": "16787",
 	"analysis_number": "105-У",
