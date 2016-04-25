@@ -4,6 +4,10 @@
     "description": "Госпитализация",
     "type": "object",
     "properties": {
+        "hospitalization_id": {
+            "description": "ID Action с результатами госпитализации",
+            "type": "string"
+        },
         "external_id": {
             "description": "Внешний ID",
             "type": "string"
