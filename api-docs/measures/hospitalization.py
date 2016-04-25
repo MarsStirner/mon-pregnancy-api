@@ -65,7 +65,7 @@ JSON пример успешный ответ: <a href="/json-data/measures/data
 """
 
 """
-@api {put} /risar/api/integration/<api_version>/card/<card_id>/measures/hospitalization/<hospitalization_id>/ Изменение госпитализации
+@api {put} /risar/api/integration/<api_version>/card/<card_id>/measures/hospitalization/<result_action_id>/ Изменение результатов госпитализации
 @apiName PutHospitalization
 @apiGroup Measures
 @apiVersion 0.1.0
@@ -77,11 +77,11 @@ JSON пример успешный ответ: <a href="/json-data/measures/data
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
-@apiParam {Int} hospitalization_id Код госпитализации.
+@apiParam {Int} result_action_id Код результатов госпитализации.
 """
 
 """
-@api {delete} /risar/api/integration/<api_version>/card/<card_id>/measures/hospitalization/<hospitalization_id> Удаление госпитализации
+@api {delete} /risar/api/integration/<api_version>/card/<card_id>/measures/hospitalization/<result_action_id> Удаление результатов госпитализации
 @apiName DeleteHospitalization
 @apiGroup Measures
 @apiVersion 0.1.0
@@ -90,5 +90,5 @@ JSON пример успешный ответ: <a href="/json-data/measures/data
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
-@apiParam {Int} hospitalization_id Код госпитализации.
+@apiParam {Int} result_action_id Код результатов госпитализации.
 """
