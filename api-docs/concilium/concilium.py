@@ -20,25 +20,29 @@ Current Success.
 @apiSuccess (Success 2xx) {json} 200 Данные сохраненного консилиума.
 @apiSuccessExample {json} Успешный ответ
 {
-  "meta":{
-    "code": "200",
-    "name": "ОК"
-  },
-  "data": {
-    "concilium_id": "012345",
-    "external_id": "qwerty_012345",
-    "date": "2011-11-11",
-    "hospital": "hospital_code_012345",
-    "doctor": "doctor_code_012345",
-    "doctors": [
-      "doctor_code_012346",
-      "doctor_code_012347"
-    ],
-    "diagnosis": "Q00.0",
-    "reason": "Больной заболел",
-    "patient_condition": "Средненькое",
-    "decision": "Будем лечить"
-  }
+    "meta":{
+        "code": "200",
+        "name": "ОК"
+    },
+    "data": {
+        "concilium_id": "012345",
+        "external_id": "qwerty_012345",
+        "date": "2011-11-11",
+        "hospital": "hospital_code_012345",
+        "doctor": "doctor_code_012345",
+        "doctors": [
+            {
+              "doctor": "doctor_code_012346"
+            },
+            {
+              "doctor": "doctor_code_012347"
+            }
+        ],
+        "diagnosis": "Q00.0",
+        "reason": "Больной заболел",
+        "patient_condition": "Средненькое",
+        "decision": "Будем лечить"
+    }
 }
 """
 
