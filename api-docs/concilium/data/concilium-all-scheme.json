@@ -42,7 +42,7 @@
 				},
 				"required": ["doctor"]
 			},
-			"minItems": 2
+			"minItems": 3
 		},
 		"patient_presence": {
 			"description": "Присутствие пациента на консилиуме",
