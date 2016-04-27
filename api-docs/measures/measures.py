@@ -146,7 +146,7 @@ JSON пример: <a href="/json-data/measures/data/research-example.json">rese
 """
 
 """
-@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/measures/<result_action_id>/research Изменение результатов функциональных и лабораторных исследований
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/measures/research/<result_action_id> Изменение результатов функциональных и лабораторных исследований
 @apiName PutResearch
 @apiGroup Measures
 @apiVersion 0.1.0
@@ -171,7 +171,7 @@ JSON пример <a href="/json-data/measures/data/research-example.json">resea
 }
 """
 """
-@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/measures/<result_action_id>/specialists_checkup Изменение результатов осмотра пациентки врачом-специалистом
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/measures/specialists_checkup/<result_action_id> Изменение результатов осмотра пациентки врачом-специалистом
 @apiName PutSpecialistsCheckup
 @apiGroup Measures
 @apiVersion 0.1.0
