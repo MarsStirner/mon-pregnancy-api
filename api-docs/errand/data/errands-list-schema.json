@@ -38,12 +38,12 @@
                 "type": "string"
             },
             "execution_date": {
-                "description": "Плановая дата выполнения",
+                "description": "Фактическая дата выполнения",
                 "type": "string",
                 "format": "date"
             },
             "execution_comment": {
-                "description": "Текст поручения",
+                "description": "Текст ответа на поручения",
                 "type": "string"
             }
         }
