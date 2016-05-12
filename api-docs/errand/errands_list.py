@@ -23,6 +23,7 @@ Current Success.
             "comment": "требуется выполнить поручение",
             "execution_hospital": "hospital_code_0123457",
             "execution_doctor": "doctor_code_0123457",
+            "status": "executed",
             "execution_date": "2011-11-11",
             "execution_comment": "комментарий"
         },
@@ -33,7 +34,8 @@ Current Success.
             "date": "2011-11-11",
             "comment": "требуется выполнить поручение",
             "execution_hospital": "hospital_code_0123457",
-            "execution_doctor": "doctor_code_0123457"
+            "execution_doctor": "doctor_code_0123457",
+            "status": "waiting"
         }
     ]
 }
