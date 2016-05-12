@@ -4,6 +4,10 @@
     "description": "Поручение",
     "type": "object",
     "properties": {
+        "status": {
+            "description": "Статус поручения, справочник rbErrandStatus",
+            "type": "string"
+        },
         "execution_date": {
             "description": "Фактическая дата исполнения",
             "type": "string",

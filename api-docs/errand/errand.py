@@ -29,6 +29,7 @@ JSON пример успешный ответ: <a href="/json-data/errand/data/e
 
 @apiParamExample {json} Request-Example:
 {
+    "status": "executed",
     "execution_date": "2011-11-11",
     "execution_comment": "комментарий"
 }
@@ -42,6 +43,7 @@ JSON пример успешный ответ: <a href="/json-data/errand/data/e
         "name": "ОК"
     },
     "data": {
+        "status": "executed",
         "execution_date": "2011-11-11",
         "execution_comment": "комментарий"
     }

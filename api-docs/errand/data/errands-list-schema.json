@@ -28,13 +28,16 @@
                 "description": "Текст поручения",
                 "type": "string"
             },
-
             "execution_hospital": {
                 "description": "ЛПУ исполнения (код ЛПУ)",
                 "type": "string"
             },
             "execution_doctor": {
-                "description": "врач исполнитель (код врача)",
+                "description": "Врач исполнитель (код врача)",
+                "type": "string"
+            },
+            "status": {
+                "description": "Статус поручения, справочник rbErrandStatus",
                 "type": "string"
             },
             "execution_date": {
