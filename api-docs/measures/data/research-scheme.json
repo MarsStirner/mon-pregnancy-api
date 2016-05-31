@@ -52,6 +52,10 @@
      "type": "string",
      "id": "research/doctor_code",
      "description": "Врач, проводивший исследование. Код из реестра сотрудников ЛПУ"
+      },
+      "status": {
+        "description": "Статус мероприятия, справочник rbMeasureStatus",
+        "type": "string"
       }
       },
       "required": [

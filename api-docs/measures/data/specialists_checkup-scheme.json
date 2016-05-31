@@ -42,7 +42,11 @@
       "type": "string", 
       "id": "specialists_checkup/diagnosis",
       "description": "Диагноз в формате кода МКБ"
-       }
+       },
+      "status": {
+        "description": "Статус мероприятия, справочник rbMeasureStatus",
+        "type": "string"
+      }
       },
       "required": [
         "measure_type_code",
