@@ -18,8 +18,12 @@
             "type": "string"
         },
         "attach": {
-            "description": "Вложенный файл в base64",
-            "type": "string" 
+            "description": "Вложенные файлы в base64",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 0
         }
     }
 }
