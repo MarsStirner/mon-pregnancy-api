@@ -16,6 +16,10 @@
         "execution_comment": {
             "description": "Текст ответа на поручение",
             "type": "string"
+        },
+        "attach": {
+            "description": "Вложенный файл в base64",
+            "type": "string" 
         }
     }
 }
