@@ -51,10 +51,6 @@
         "status": {
             "description": "Статус мероприятия, справочник rbMeasureStatus",
             "type": "string"
-        },
-        "indications": {
-            "description": "Показания к госпитализации",
-            "type": "string"
         }
     },
     "required": ["hospital","doctor","diagnosis_in","diagnosis_out"]
