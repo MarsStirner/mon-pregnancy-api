@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+    "data":{
+        "hospital": "hospital_code_012345",
+        "date_open": "2011-11-11",
+        "date_close": "2011-11-11",
+        "medical_care": "1",
+        "finished_treatment": "1",
+        "initial_treatment": "1",
+        "treatment_result": "1",
+        "payment": "1",
+        "preliminary_diagnosis": "Q00.0",
+        "medical_services": [
+            "medical_service_code_012345"
+        ],
+        "diagnosis": "Q00.0",
+        "disease_character": "1",
+        "sick_leave": {
+            "sick_leave_type": "1",
+            "sick_leave_reason": "1",
+            "sick_leave_date_open": "2011-11-11",
+            "sick_leave_date_close": "2011-11-11"
+        },
+        "doctor": "doctor_code_012345"
+    }
+}

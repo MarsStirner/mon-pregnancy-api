@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+    "data": [
+        {
+            "schedule_ticket_id": "schedule_ticket_code_012345",
+            "hospital": "hospital_code_012345",
+            "doctor": "doctor_code_012345",
+            "date": "2011-11-11",
+            "time": "15:00"
+        },
+        {
+            "schedule_ticket_id": "schedule_ticket_code_012346",
+            "hospital": "hospital_code_012345",
+            "doctor": "doctor_code_012345",
+            "date": "2011-11-11",
+            "time": "16:00"
+        }
+    ]
+}

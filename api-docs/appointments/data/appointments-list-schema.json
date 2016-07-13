@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Appointment_list",
+    "description": "Список направлений",
+    "type": "array",
+    "items": {
+        "description": "id направления",
+        "type": "string"
+    },
+    "minItems": 0
+}

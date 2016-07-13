@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+    "data": [
+        "appointment_id_0123456",
+        "appointment_id_1234567"
+    ]
+}

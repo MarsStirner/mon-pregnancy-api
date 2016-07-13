@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+    "data": {
+        "measure_code": "measure_code_012345",
+        "diagnosis": "Q00.0",
+        "time": "11:11",
+        "date": "2011-11-11",
+        "parameters": "",
+        "referral_lpu": "hospital_code_012345",
+        "referral_date": "2011-11-11",
+        "comment": "йцук"
+    }
+}
