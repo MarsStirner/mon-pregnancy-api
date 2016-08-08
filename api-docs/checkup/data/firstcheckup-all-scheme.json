@@ -60,7 +60,7 @@
 				"complaints": {
 					"description": "Жалобы, справочник rbRisarComplaints",
 					"type": "array",
-					"items": {					
+					"items": {
 						"type": "string"
 					}
 				},
@@ -283,7 +283,7 @@
 		"fetus": {
 			"description": "Плод",
 			"type": "array",
-			"items": {			
+			"items": {
 				"type": "object",
 				"properties": {
 					"fetus_lie": {
