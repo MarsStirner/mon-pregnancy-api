@@ -19,7 +19,7 @@
                 "description": "Врач автор поручения (код врача)",
                 "type": "string"
             },
-            "communication":{
+            "communication": {
                 "description": "Контактные данные автора поручения",
                 "type": "string"
             },
@@ -53,11 +53,46 @@
                 "description": "Текст ответа на поручения",
                 "type": "string"
             },
-            "attach": {
-                "description": "Вложенные файлы в base64",
+            "attached_files": {
+                "description": "Файлы, относящиеся к поручению",
                 "type": "array",
                 "items": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "description": "id прикрепления файла",
+                            "type": "string"
+                        },
+                        "name": {
+                            "description": "Название файла",
+                            "type": "string"
+                        },
+                        "url": {
+                            "description": "Ссылка на скачивание",
+                            "type": "string"
+                        },
+                        "comment": {
+                            "description": "Комментарий",
+                            "type": "string"
+                        },
+                        "doctor_code": {
+                            "description": "Код пользователя хозяина файла",
+                            "type": "string"
+                        },
+                        "hospital_code": {
+                            "description": "Код ЛПУ пользователя хозяина файла",
+                            "type": "string"
+                        },
+                        "attach_date": {
+                            "description": "Дата прикрепления",
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "mimetype": {
+                            "description": "MIME type файла",
+                            "type": "string"
+                        }
+                    }
                 },
                 "minItems": 0
             }

@@ -17,11 +17,50 @@
             "description": "Текст ответа на поручение",
             "type": "string"
         },
-        "attach": {
-            "description": "Вложенные файлы в base64",
+        "communication": {
+            "description": "Контактные данные автора поручения",
+            "type": "string"
+        },
+        "attached_files": {
+            "description": "Файлы, относящиеся к поручению",
             "type": "array",
             "items": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "id прикрепления файла",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "Название файла",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "Ссылка на скачивание",
+                        "type": "string"
+                    },
+                    "comment": {
+                        "description": "Комментарий",
+                        "type": "string"
+                    },
+                    "doctor_code": {
+                        "description": "Код пользователя хозяина файла",
+                        "type": "string"
+                    },
+                    "hospital_code": {
+                        "description": "Код ЛПУ пользователя хозяина файла",
+                        "type": "string"
+                    },
+                    "attach_date": {
+                        "description": "Дата прикрепления",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "mimetype": {
+                        "description": "MIME type файла",
+                        "type": "string"
+                    }
+                }
             },
             "minItems": 0
         }
