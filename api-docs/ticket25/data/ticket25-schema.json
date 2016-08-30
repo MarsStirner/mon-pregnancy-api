@@ -96,25 +96,29 @@
             "description": "Травма, справочник rbTraumaType",
             "type": "string"
         },
-        "operation": {
-            "description": "Операция",
-            "type": "object",
-            "properties": {
-                "operation_code": {
-                    "description": "Операция (код)",
-                    "type": "string"
-                },
-                "operation_anesthesia": {
-                    "description": "Анестезия, справочник rbRisarOperationAnesthetization",
-                    "type": "string"
-                },
-                "operation_equipment": {
-                    "description": "Операция проведена с использованием аппаратуры, справочник rbRisarOperationEquipment",
-                    "type": "string"
-                },
-                "operation_doctor": {
-                    "description": "Врач операции (код врача)",
-                    "type": "string"
+        "operations": {
+            "description": "Операции",
+            "type": "array",
+            "items": {
+                "description": "Операция",
+                "type": "object",
+                "properties": {
+                    "operation_code": {
+                        "description": "Операция (код)",
+                        "type": "string"
+                    },
+                    "operation_anesthesia": {
+                        "description": "Анестезия, справочник rbRisarOperationAnesthetization",
+                        "type": "string"
+                    },
+                    "operation_equipment": {
+                        "description": "Операция проведена с использованием аппаратуры, справочник rbRisarOperationEquipment",
+                        "type": "string"
+                    },
+                    "operation_doctor": {
+                        "description": "Врач операции (код врача)",
+                        "type": "string"
+                    }
                 }
             }
         },
@@ -135,27 +139,31 @@
                 }
             }
         },
-        "sick_leave": {
-            "description": "Документ о временной нетрудоспособности",
-            "type": "object",
-            "properties": {
-                "sick_leave_type": {
-                    "description": "Документ о временной нетрудоспособности, справочник rbRisarSickLeaveType",
-                    "type": "string"
-                },
-                "sick_leave_reason": {
-                    "description": "Повод выдачи, справочник rbRisarSickLeaveReason",
-                    "type": "string"
-                },
-                "sick_leave_date_open": {
-                    "description": "Дата выдачи",
-                    "type": "string",
-                    "format": "date"
-                },
-                "sick_leave_date_close": {
-                    "description": "Дата закрытия",
-                    "type": "string",
-                    "format": "date"
+        "sick_leaves": {
+            "description": "Документы о временной нетрудоспособности",
+            "type": "array",
+            "items": {
+                "description": "Документ о временной нетрудоспособности",
+                "type": "object",
+                "properties": {
+                    "sick_leave_type": {
+                        "description": "Документ о временной нетрудоспособности, справочник rbRisarSickLeaveType",
+                        "type": "string"
+                    },
+                    "sick_leave_reason": {
+                        "description": "Повод выдачи, справочник rbRisarSickLeaveReason",
+                        "type": "string"
+                    },
+                    "sick_leave_date_open": {
+                        "description": "Дата выдачи",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "sick_leave_date_close": {
+                        "description": "Дата закрытия",
+                        "type": "string",
+                        "format": "date"
+                    }
                 }
             }
         },
