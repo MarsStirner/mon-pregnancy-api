@@ -18,12 +18,12 @@
         ],
         "diagnosis": "Q00.0",
         "disease_character": "1",
-        "sick_leave": {
+        "sick_leave": [{
             "sick_leave_type": "1",
             "sick_leave_reason": "1",
             "sick_leave_date_open": "2011-11-11",
             "sick_leave_date_close": "2011-11-11"
-        },
+        }],
         "doctor": "doctor_code_012345"
     }
 }
