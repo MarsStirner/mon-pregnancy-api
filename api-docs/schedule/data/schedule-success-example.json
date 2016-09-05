@@ -9,11 +9,13 @@
             "intervals": [
                 {
                     "begin_time": "11:00",
-                    "end_time": "13:00"
+                    "end_time": "13:00",
+                    "quantity": 2
                 },
                 {
                     "begin_time": "14:00",
-                    "end_time": "18:00"
+                    "end_time": "18:00",
+                    "quantity": 2
                 }
             ]
         },
@@ -22,7 +24,8 @@
             "intervals": [
                 {
                     "begin_time": "10:00",
-                    "end_time": "17:00"
+                    "end_time": "17:00",
+                    "quantity": 4
                 }
             ]
         }
