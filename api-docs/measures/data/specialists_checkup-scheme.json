@@ -43,6 +43,11 @@
       "id": "specialists_checkup/diagnosis",
       "description": "Диагноз в формате кода МКБ"
        },
+       "mis_visit_link":{
+    	      "type": "string", 
+    	      "id": "specialists_checkup/mis_visit_link",
+    	      "description": "Ссылка на просмотр прием беременной специалистом в МИС"
+    	       },
       "status": {
         "description": "Статус мероприятия, справочник rbMeasureStatus",
         "type": "string"
@@ -52,6 +57,7 @@
         "measure_type_code",
         "checkup_date",
         "doctor_code",
-        "lpu_code"
+        "lpu_code",
+        "mis_visit_link"
       ]
     }
