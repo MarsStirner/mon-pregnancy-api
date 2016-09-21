@@ -21,7 +21,7 @@
         "sex":{
             "type": "integer",
             "id": "doctor/sex",
-            "description": "Код пола врача"
+            "description": "Пол пациента: 0 - Пол не указан, 1 - Мужской, 2 - Женский"
         },
         "birth_date":{
             "type": "string",
@@ -43,20 +43,15 @@
             "id": "doctor/organization",
             "description": "ТФОМС код организации врача"
         },
-        "org_structure":{
-            "type": "string",
-            "id": "doctor/org_structure",
-            "description": "Код подразделения врача"
-        },
         "speciality":{
             "type": "string",
             "id": "doctor/speciality",
-            "description": "ТФОМС код специальности врача"
+            "description": "код специальности врача, справоник rbSpeciality"
         },
         "post":{
             "type": "string",
             "id": "doctor/post",
-            "description": "ТФОМС код должности врача"
+            "description": "код должности врача, справочник rbPost"
         },
         "login":{
             "type": "string",
