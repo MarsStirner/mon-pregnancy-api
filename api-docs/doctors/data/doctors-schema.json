@@ -63,5 +63,6 @@
             "id": "doctor/regional_code",
             "description": "Региональный код врача"
         }
-    }
+    },
+    "required": ["last_name", "first_name", "sex", "SNILS", "INN", "organization", "speciality", "post", "regional_code"]
 }
