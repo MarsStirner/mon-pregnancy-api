@@ -4,9 +4,9 @@
 
 
 """
-@api {Result} /risar/api/integration/<api_version>/doctors Описание ошибок и успешных ответов
+@api {Result} /risar/api/integration/<api_version>/doctor/ Описание ошибок и успешных ответов
 @apiName ErrorDoctor
-@apiGroup rbDoctors
+@apiGroup rbDoctor
 @apiVersion 0.1.0
 @apiDescription Описание ошибок и успешных ответов.
 
@@ -22,7 +22,7 @@
         "first_name": "Иван",
         "patr_name": "Леонидович",
         "sex": 2,
-        "birth_date": "28-11-1989",
+        "birth_date": "1989-11-28",
         "SNILS": "036789",
         "INN": "036789",
         "organization": "134",
@@ -38,13 +38,13 @@
 
 
 """
-@api {get} /risar/api/integration/<api_version>/doctors/<organization_code>/<doctor_code> Получение данных врача
+@api {get} /risar/api/integration/<api_version>/doctor/<organization_code>/<doctor_code> Получение данных врача
 @apiName GetDoctor
-@apiGroup rbDoctors
+@apiGroup rbDoctor
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных врача из реестра сотрудников ЛПУ<br/>
-Валидация JSON Schema <a href="/json-data/doctors/data/doctors-schema.json">doctors-schema.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/doctors/data/doctors-success-example.json">doctors-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/doctor/data/doctor-schema.json">doctor-schema.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/doctor/data/doctor-success-example.json">doctor-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} organization_code ТФОМС-Код организации
@@ -53,14 +53,14 @@ JSON пример успешный ответ: <a href="/json-data/doctors/data/
 
 
 """
-@api {post} /risar/api/integration/<api_version>/doctors/ Регистрация врача
+@api {post} /risar/api/integration/<api_version>/doctor/ Регистрация врача
 @apiName PostDoctor
-@apiGroup rbDoctors
+@apiGroup rbDoctor
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации данных врача в реестре врачей<br/>
-Валидация JSON Schema <a href="/json-data/doctors/data/doctors-schema.json">doctors-schema.json</a><br/>
-JSON пример <a href="/json-data/doctors/data/doctors-example.json">doctors-example.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/doctors/data/doctors-success-example.json">doctors-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/doctor/data/doctor-schema.json">doctor-schema.json</a><br/>
+JSON пример <a href="/json-data/doctor/data/doctor-example.json">doctor-example.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/doctor/data/doctor-success-example.json">doctor-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 
@@ -70,7 +70,7 @@ JSON пример успешный ответ: <a href="/json-data/doctors/data/
     "first_name": "Иван",
     "patr_name": "Леонидович",
     "sex": 2,
-    "birth_date": "28-11-1989",
+    "birth_date": "1989-11-28",
     "SNILS": "036789",
     "INN": "036789",
     "organization": "134",
@@ -83,14 +83,14 @@ JSON пример успешный ответ: <a href="/json-data/doctors/data/
 
 
 """
-@api {put} /risar/api/integration/<api_version>/doctors/<organization_code>/<doctor_code> Изменение врача
+@api {put} /risar/api/integration/<api_version>/doctor/<organization_code>/<doctor_code> Изменение врача
 @apiName PutDoctor
-@apiGroup rbDoctors
+@apiGroup rbDoctor
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных врача<br/>
-Валидация JSON Schema <a href="/json-data/doctors/data/doctors-schema.json">doctors-schema.json</a><br/>
-JSON пример <a href="/json-data/doctors/data/doctors-example.json">doctors-example.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/doctors/data/doctors-success-example.json">doctors-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/doctor/data/doctor-schema.json">doctor-schema.json</a><br/>
+JSON пример <a href="/json-data/doctor/data/doctor-example.json">doctor-example.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/doctor/data/doctor-success-example.json">doctor-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} organization_code ТФОМС-Код организации
@@ -99,9 +99,9 @@ JSON пример успешный ответ: <a href="/json-data/doctors/data/
 
 
 """
-@api {delete} /risar/api/integration/<api_version>/doctors/<organization_code>/<doctor_code> Удаление врача
+@api {delete} /risar/api/integration/<api_version>/doctor/<organization_code>/<doctor_code> Удаление врача
 @apiName DeleteDoctor
-@apiGroup rbDoctors
+@apiGroup rbDoctor
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для удаления данных врача из реестра врачей
 
