@@ -251,7 +251,7 @@
 					"type": "string"
 				},
 				"specialities": {
-					"description": "Особенности операции, справочник rbRisarSpecialities",
+					"description": "Особенности операции, код из справочника rbRisarSpecialities",
 					"type": "string"
 				},
 				"anesthetization": {
