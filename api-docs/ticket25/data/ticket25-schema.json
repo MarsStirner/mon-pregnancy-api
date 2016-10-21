@@ -132,6 +132,10 @@
                         "description": "Манипуляция, исследование (код)",
                         "type": "string"
                     },
+                    "manipulation_quantity": {
+                        "description": "Манипуляция, количество",
+                        "type": "integer"
+                    },
                     "manipulation_doctor": {
                         "description": "Врач манипуляции (код врача)",
                         "type": "string"
