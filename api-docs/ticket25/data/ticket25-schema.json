@@ -61,8 +61,17 @@
             "description": "Медицинские услуги",
             "type": "array",
             "items": {
-                "description": "Медицинская услуга (код)",
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "medical_service": {
+                        "description": "Медицинская услуга (код)",
+                        "type": "string"
+                    },
+                    "medical_service_doctor": {
+                        "description": "Врач, оказавший услугу (код врача)",
+                        "type": "string"
+                    }
+                }
             }
         },
         "diagnosis": {
