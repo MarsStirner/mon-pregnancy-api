@@ -4,9 +4,9 @@
 
 
 """
-@api {Result} /risar/api/integration/<api_version>/reference_books/organizations Описание ошибок и успешных ответов
+@api {Result} /risar/api/integration/<api_version>/organization Описание ошибок и успешных ответов
 @apiName ErrorOrganization
-@apiGroup rbOrganizations
+@apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Описание ошибок и успешных ответов.
 
@@ -22,6 +22,7 @@
         "short_name": "Саратовский ОПЦ",
         "infis_code": "16787",
         "address": "Саратов, Ленина 11",
+        "area": "77123456789",
         "phone": "+7987200000",
         "TFOMSCode": "036789",
         "INN": "036789",
@@ -39,13 +40,13 @@
 
 
 """
-@api {get} /risar/api/integration/<api_version>/reference_books/organizations/<organization_id> Получение данных организации
+@api {get} /risar/api/integration/<api_version>/organization/<organization_id> Получение данных организации
 @apiName GetOrganization
-@apiGroup rbOrganizations
+@apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных организации из реестра организаций<br/>
-Валидация JSON Schema <a href="/json-data/reference_books/data/organizations-schema.json">organizations-schema.json</a><br/>
-JSON пример <a href="/json-data/reference_books/data/organizations-success-example.json">organizations-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/organization/data/organization/organization-schema.json">organization-schema.json</a><br/>
+JSON пример <a href="/json-data/organization/data/organization-success-example.json">organization-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} organization_id ТФОМС-Код организации
@@ -53,14 +54,14 @@ JSON пример <a href="/json-data/reference_books/data/organizations-success
 
 
 """
-@api {post} /risar/api/integration/<api_version>/reference_books/organizations Регистрация организации
+@api {post} /risar/api/integration/<api_version>/organization Регистрация организации
 @apiName PostOrganization
-@apiGroup rbOrganizations
+@apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации данных организации в реестре врачей<br/>
-Валидация JSON Schema <a href="/json-data/reference_books/data/organizations-schema.json">organizations-schema.json</a><br/>
-JSON пример <a href="/json-data/reference_books/data/organizations-example.json">organizations-example.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/reference_books/data/organizations-success-example.json">organizations-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/organization/data/organization-schema.json">organization-schema.json</a><br/>
+JSON пример <a href="/json-data/organization/data/organization-example.json">organization-example.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/organization/data/organization-success-example.json">organization-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 
@@ -70,6 +71,7 @@ JSON пример успешный ответ: <a href="/json-data/reference_boo
     "short_name": "Саратовский ОПЦ",
     "infis_code": "16787",
     "address": "Саратов, Ленина 11",
+    "area": "77123456789",
     "phone": "+7987200000",
     "TFOMSCode": "036789",
     "INN": "036789",
@@ -84,14 +86,14 @@ JSON пример успешный ответ: <a href="/json-data/reference_boo
 
 
 """
-@api {put} /risar/api/integration/<api_version>/reference_books/organizations/<organization_id> Изменение организации
+@api {put} /risar/api/integration/<api_version>/organization/<organization_id> Изменение организации
 @apiName PutOrganization
-@apiGroup rbOrganizations
+@apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных организации<br/>
-Валидация JSON Schema <a href="/json-data/reference_books/data/organizations-schema.json">organizations-schema.json</a><br/>
-JSON пример <a href="/json-data/reference_books/data/organizations-example.json">organizations-example.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/reference_books/data/organizations-success-example.json">organizations-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/organization/data/organization-schema.json">organization-schema.json</a><br/>
+JSON пример <a href="/json-data/organization/data/organization/organization-example.json">organization-example.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/organization/data/organization/organization-success-example.json">organization-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} organization_id ТФОМС-Код организации
@@ -99,9 +101,9 @@ JSON пример успешный ответ: <a href="/json-data/reference_boo
 
 
 """
-@api {delete} /risar/api/integration/<api_version>/reference_books/organizations/<organization_id> Удаление организации
+@api {delete} /risar/api/integration/<api_version>/organization/<organization_id> Удаление организации
 @apiName DeleteOrganization
-@apiGroup rbOrganizations
+@apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для удаления данных организации из реестра организаций
 
