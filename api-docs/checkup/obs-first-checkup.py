@@ -70,7 +70,10 @@ Current Success.
       "next_visit_date": "2011-11-12",
       "pregnancy_continuation": true,
       "abortion_refusal": true,
-      "diagnosis_osn": "Q00.0",
+      "diagnosis_osn": {
+        "MKB": "Q00.0",
+        "descr":"описание"
+      },
       "recommendations": "улыбаться",
       "notes": "мало улыбается"
     }
