@@ -48,8 +48,8 @@ Current Success.
 @apiGroup Obs-First-Examination
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных талона посещения<br/>
-Валидация JSON Schema <a href="/json-data/checkup/data/ticket25-schema.json">ticket25-schema.json</a><br/>
-JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json">ticket25-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/ticket25/data/ticket25-schema.json">ticket25-schema.json</a><br/>
+JSON пример <a href="/json-data/ticket25/data/ticket25-success-example.json">ticket25-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -65,8 +65,8 @@ JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json
 @apiGroup Obs-Second-Examination
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных талона посещения<br/>
-Валидация JSON Schema <a href="/json-data/checkup/data/ticket25-schema.json">ticket25-schema.json</a><br/>
-JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json">ticket25-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/ticket25/data/ticket25-schema.json">ticket25-schema.json</a><br/>
+JSON пример <a href="/json-data/ticket25/data/ticket25-success-example.json">ticket25-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -81,8 +81,8 @@ JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json
 @apiGroup PC-Examination
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных талона посещения<br/>
-Валидация JSON Schema <a href="/json-data/checkup/data/ticket25-schema.json">ticket25-schema.json</a><br/>
-JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json">ticket25-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/ticket25/data/ticket25-schema.json">ticket25-schema.json</a><br/>
+JSON пример <a href="/json-data/ticket25/data/ticket25-success-example.json">ticket25-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -97,8 +97,8 @@ JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json
 @apiGroup PuerPera-Examination
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных талона посещения<br/>
-Валидация JSON Schema <a href="/json-data/checkup/data/ticket25-schema.json">ticket25-schema.json</a><br/>
-JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json">ticket25-success-example.json</a>
+Валидация JSON Schema <a href="/json-data/ticket25/data/ticket25-schema.json">ticket25-schema.json</a><br/>
+JSON пример <a href="/json-data/ticket25/data/ticket25-success-example.json">ticket25-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

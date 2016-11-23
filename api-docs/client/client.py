@@ -107,7 +107,7 @@ Current Errors.
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации пациента<br/>
 Валидация JSON Scheme <a href="/json-data/client/data/client-scheme.json">client-scheme.json</a><br/>
-JSON пример запроса <a href="/json-data/client/data/client-register-scheme.json">client-register-scheme.json</a><br/>
+JSON пример запроса <a href="/json-data/client/data/client-register-example.json">client-register-example.json</a><br/>
 JSON пример ответа <a href="/json-data/client/data/client-all-response-successful-example.json">client-all-response-successful-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительное число

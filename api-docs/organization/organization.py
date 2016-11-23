@@ -92,8 +92,8 @@ JSON пример успешный ответ: <a href="/json-data/organization/
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных организации<br/>
 Валидация JSON Schema <a href="/json-data/organization/data/organization-schema.json">organization-schema.json</a><br/>
-JSON пример <a href="/json-data/organization/data/organization/organization-example.json">organization-example.json</a><br/>
-JSON пример успешный ответ: <a href="/json-data/organization/data/organization/organization-success-example.json">organization-success-example.json</a>
+JSON пример <a href="/json-data/organization/data/organization-example.json">organization-example.json</a><br/>
+JSON пример успешный ответ: <a href="/json-data/organization/data/organization-success-example.json">organization-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} organization_id ТФОМС-Код организации
