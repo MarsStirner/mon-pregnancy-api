@@ -45,7 +45,7 @@
 @apiGroup rbOrganization
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для получения данных организации из реестра организаций<br/>
-Валидация JSON Schema <a href="/json-data/organization/data/organization/organization-schema.json">organization-schema.json</a><br/>
+Валидация JSON Schema <a href="/json-data/organization/data/organization-schema.json">organization-schema.json</a><br/>
 JSON пример <a href="/json-data/organization/data/organization-success-example.json">organization-success-example.json</a>
 
 @apiParam {Number} api_version Версия API, целое положительной число
