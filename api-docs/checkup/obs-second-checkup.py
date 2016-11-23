@@ -79,8 +79,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных повторного осмотра врача-акушера-гинеколога.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -93,8 +93,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheck
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных повторного осмотра врача-акушера-гинеколога.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/checkup/data/secondcheckup-all-scheme.json">secondcheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/checkup/data/secondcheckup-all-example.json">secondcheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

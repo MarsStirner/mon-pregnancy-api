@@ -112,8 +112,8 @@ Current Success.
 @apiGroup Childbirth
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для регистрации данных родоразрешения случая беременности.<br/>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/childbirth-all-scheme.json">childbirth-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/childbirth-all-example.json">childbirth-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/epicrisis/data/childbirth-all-scheme.json">childbirth-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/epicrisis/data/childbirth-all-example.json">childbirth-all-example.json</a>.
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
@@ -209,8 +209,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/childbirt
 @apiGroup Childbirth
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для изменения данных родоразрешения случая беременности.<br/>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/childbirth-all-scheme.json">childbirth-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/childbirth-all-example.json">childbirth-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/epicrisis/data/childbirth-all-scheme.json">childbirth-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/epicrisis/data/childbirth-all-example.json">childbirth-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

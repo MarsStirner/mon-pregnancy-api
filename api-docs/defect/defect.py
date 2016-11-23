@@ -62,8 +62,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных дефектуры.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/defect/data/defect-all-scheme.json">defect-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/defect/data/defect-all-example.json">defect-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/defect/data/defect-all-scheme.json">defect-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/defect/data/defect-all-example.json">defect-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -76,8 +76,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/defect/data/defect-all-e
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных дефектуры.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/defect/data/defect-all-scheme.json">defect-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/defect/data/defect-all-example.json">defect-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/defect/data/defect-all-scheme.json">defect-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/defect/data/defect-all-example.json">defect-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

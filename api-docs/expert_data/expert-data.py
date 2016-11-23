@@ -50,7 +50,7 @@ Current Errors.
 @apiVersion 0.1.0
 @apiDescription Метод предназначен для передачи экспертных показателей пациентки
 
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/expert_data/data/expert-data-scheme.json">expert-data.json</a>.
+Валидация JSON Scheme: <a href="/json-data/expert_data/data/expert-data-scheme.json">expert-data.json</a>.
 
 JSON пример: <a href="/mon-pregnancy-api/expert_data/data/expert-data-example.json">expert-data-example.json</a>
 

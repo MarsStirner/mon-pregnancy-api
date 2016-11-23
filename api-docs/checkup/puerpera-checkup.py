@@ -63,8 +63,8 @@ Current Success.
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Регистрация данных осмотра родильницы.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/puerperacheckup-all-scheme.json">puerperacheckup-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/puerperacheckup-all-example.json">puerperacheckup-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/checkup/data/puerperacheckup-all-scheme.json">puerperacheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/checkup/data/puerperacheckup-all-example.json">puerperacheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
@@ -77,8 +77,8 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/puerperache
 @apiVersion 0.1.0
 @apiPermission auth
 @apiDescription Изменение данных осмотра родильницы.</br>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/checkup/data/puerperacheckup-all-scheme.json">puerperacheckup-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/checkup/data/puerperacheckup-all-example.json">puerperacheckup-all-example.json</a>.
+Валидация JSON Scheme: <a href="/json-data/checkup/data/puerperacheckup-all-scheme.json">puerperacheckup-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/checkup/data/puerperacheckup-all-example.json">puerperacheckup-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

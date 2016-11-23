@@ -39,13 +39,13 @@ Current Success.
 
 
 """
-@api {post} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Регистрация эпикриза
+@api {post} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Завершение случая беременности
 @apiName PostEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для регистрации данных эпикриза случая беременности.<br/>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis-all-scheme.json">epicrisis-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis-all-example.json">epicrisis-all-example.json</a>.
+@apiDescription Метод предназначен для регистрации данных завершения случая беременности.<br/>
+Валидация JSON Scheme: <a href="/json-data/epicrisis/data/epicrisis-all-scheme.json">epicrisis-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/epicrisis/data/epicrisis-all-example.json">epicrisis-all-example.json</a>.
 
 
 @apiParam {Number} api_version Версия API, целое положительной число
@@ -63,24 +63,24 @@ JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis
 
 
 """
-@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Изменение эпикриза
+@api {put} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Изменение данных завершения случая беременности
 @apiName PutEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для изменения данных эпикриза случая беременности.<br/>
-Валидация JSON Scheme: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis-all-scheme.json">epicrisis-all-scheme.json</a>.<br/>
-JSON пример: <a href="/mon-pregnancy-api/api-docs/epicrisis/data/epicrisis-all-example.json">epicrisis-all-example.json</a>.
+@apiDescription Метод предназначен для изменения данных завершения случая беременности.<br/>
+Валидация JSON Scheme: <a href="/json-data/epicrisis/data/epicrisis-all-scheme.json">epicrisis-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/epicrisis/data/epicrisis-all-example.json">epicrisis-all-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.
 """
 
 """
-@api {delete} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Удаление эпикриза
+@api {delete} /risar/api/integration/<int:api_version>/card/<card_id>/epicrisis/ Удаление данных завершения случая беременности
 @apiName DeleteEpicrisis
 @apiGroup Epicrisis
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для удаления данных данных эпикриза случая беременности.
+@apiDescription Метод предназначен для удаления данных данных завершения случая беременности.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 @apiParam {Int} card_id Код карты пациента.

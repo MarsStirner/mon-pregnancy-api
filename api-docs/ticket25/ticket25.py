@@ -108,18 +108,3 @@ JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json
 """
 
 
-"""
-@api {get} /risar/api/integration/<int:api_version>/card/<card_id>/ticket25/<ticket25_id> Получение данных талона посещения
-@apiName GetTicket25
-@apiGroup Ticket25
-@apiVersion 0.1.0
-@apiDescription Метод предназначен для получения данных талона посещения<br/>
-Валидация JSON Schema <a href="/json-data/checkup/data/ticket25-schema.json">ticket25-schema.json</a><br/>
-JSON пример <a href="/json-data/checkup/data/ticket25-success-example.json">ticket25-success-example.json</a>
-
-@apiParam {Number} api_version Версия API, целое положительной число
-@apiParam {Int} card_id Код карты пациента.
-
-
-@apiUse Ticket25Success
-"""
