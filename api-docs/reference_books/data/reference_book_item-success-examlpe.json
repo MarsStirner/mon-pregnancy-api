@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+     "data": {
+        "code": "asnoe", 
+        "value": "ясное"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "reference_book_item",
+    "type": "object",
+    "description": "Запись справочника",
+    "properties": {
+        "code":{
+            "type": "string",
+            "description": "Код"
+            },
+        "value":{
+            "type": "string",
+            "description": "Значение"
+        }
+    },
+    "required": ["code", "value"]
+
+}
