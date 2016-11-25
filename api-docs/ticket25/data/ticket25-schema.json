@@ -212,5 +212,6 @@
             "description": "Врач (код врача)",
             "type": "string"
         }
-    }
+    },
+    "required":["doctor", "hospital", "diagnosis", "date_open"]
 }
