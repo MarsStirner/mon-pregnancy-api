@@ -42,6 +42,10 @@
             "description": "Детское обращение (пациентка до 14 лет - да/нет)",
             "type": "boolean"
         },
+        "visit_type": {
+            "description": "Посещение (тип), справочник rbRisarVisit_Type",
+            "type": "string"
+        },
         "finished_treatment": {
             "description": "Обращение (законченный случай лечения), справочник rbRisarFinishedTreatment",
             "type": "string"
