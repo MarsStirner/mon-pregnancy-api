@@ -14,7 +14,11 @@
             "measure_type_code": {
                 "description": "Код мероприятия, справочник Measure",
                 "type": "string"
-            }, 
+            },
+            "appointment_id":{
+                "type": "string",
+                "description": "id направления"
+            },
             "begin_datetime": {
                 "description": "Дата-время начала интервала действия мероприятия",
                 "type": "string",
