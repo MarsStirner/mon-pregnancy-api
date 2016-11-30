@@ -11,10 +11,12 @@
         "doctor": "doctor_code_012345",
         "doctors": [
             {
-              "doctor": "doctor_code_012346"
+                "doctor": "doctor_code_012346",
+                "doctor_hospital": "hospital_code_012345"
             },
             {
-              "doctor": "doctor_code_012347"
+                "doctor": "doctor_code_012347",
+                "doctor_hospital": "hospital_code_012345"
             }
         ],
         "diagnosis": "Q00.0",
