@@ -9,6 +9,7 @@
         "doctor": "doctor_code_012345",
         "patient": "patient_code_012345",
         "date": "2011-11-11",
-        "time": "15:00"
+        "time_begin": "15:00",
+        "time_end": "15:30"
     }
 }

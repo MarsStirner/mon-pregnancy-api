@@ -21,7 +21,8 @@ Current Success.
             "doctor": "doctor_code_012345",
             "patient": "patient_code_012345",
             "date": "2011-11-11",
-            "time": "15:00"
+            "time_begin": "15:00",
+            "time_end": "15:30"
         },
         {
             "schedule_ticket_id": "schedule_ticket_code_012346",
@@ -29,7 +30,8 @@ Current Success.
             "doctor": "doctor_code_012345",
             "patient": "patient_code_012345",
             "date": "2011-11-11",
-            "time": "16:00"
+            "time_begin": "16:00",
+            "time_end": "16:30"
         }
     ]
 }
@@ -92,7 +94,8 @@ JSON пример <a href="/json-data/schedule_tickets/data/schedule_tickets-suc
         "doctor": "doctor_code_012345",
         "patient": "patient_code_012345",
         "date": "2011-11-11",
-        "time": "15:00"
+        "time_begin": "15:00",
+        "time_end": "15:30"
     }
 }
 
