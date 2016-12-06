@@ -59,7 +59,10 @@ Current Errors.
 @apiName PostCard
 @apiGroup Card
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для регистрации медицинской карты и постановки на учет
+@apiDescription Метод предназначен для регистрации медицинской карты и постановки на учет</br>
+Валидация JSON Scheme: <a href="/json-data/card/data/card-all-scheme.json">card-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/card/data/card-all-example.json">card-all-example.json</a>.<br/>
+JSON пример успешный ответ: <a href="/json-data/card/data/card-all-success-example.json">card-all-success-example.json</a>.
 
 @apiParam {Number} api_version Версия API, целое положительной число
 
@@ -74,7 +77,10 @@ Current Errors.
 @apiName PutCard
 @apiGroup Card
 @apiVersion 0.1.0
-@apiDescription Метод предназначен для изменения данных медицинской карты
+@apiDescription Метод предназначен для изменения данных медицинской карты</br>
+Валидация JSON Scheme: <a href="/json-data/card/data/card-all-scheme.json">card-all-scheme.json</a>.<br/>
+JSON пример: <a href="/json-data/card/data/card-all-example.json">card-all-example.json</a>.<br/>
+JSON пример успешный ответ: <a href="/json-data/card/data/card-all-success-example.json">card-all-success-example.json</a>.
 
 @apiParam {Number} api_version Версия API от целое положительной число.
 @apiParam {String} card_id Код карты в системе БАРС.МР
