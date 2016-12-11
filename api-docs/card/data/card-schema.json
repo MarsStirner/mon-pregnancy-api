@@ -3,7 +3,7 @@
     "title": "card_schema",
     "id": "card_schema",
     "type": "object",
-    "description": "Схема, описывающая данные индивидуальной карты беременной",
+    "description": "Схема, описывающая данные индивидуальной карты пациентки",
     "properties": {
         "client_id": {
             "id": "card_register_schema/client_id",
@@ -24,7 +24,11 @@
             "type": "string",
             "id": "card_change_schema/card_LPU",
             "description": "Код ЛПУ постановки на учёт в соответствии с классификатором f003"
+        },
+        "pregnant": {
+            "type": "boolean",
+            "description": "Признак карты беременной"
         }
     },
-    "required": ["client_id", "card_set_date", "card_doctor", "card_LPU"]
+    "required": ["client_id", "card_set_date", "card_doctor", "card_LPU", "pregnant"]
 }

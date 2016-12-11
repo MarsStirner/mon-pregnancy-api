@@ -6,7 +6,8 @@
             "card_doctor": "345",
             "card_LPU": "22002",
             "card_id": "394032234433",
-            "client_id": "100"
+            "client_id": "100",
+            "pregnant": true
         }
     }
 }
