@@ -193,12 +193,7 @@ JSON пример: <a href="/json-data/epicrisis/data/childbirth-all-example.jso
       "death_time": "00:00",
       "death_reason": ""
     }
-  ],
-  "childbirth": {
-    "hospital_chief_doctor": "",
-    "hospital_doctor": "",
-    "date_close": "2011-11-11"
-  }
+  ]
 }
 """
 
