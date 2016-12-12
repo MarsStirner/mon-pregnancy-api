@@ -17,6 +17,7 @@ Current Success.
     "data": [
         {
             "schedule_ticket_id": "schedule_ticket_code_012345",
+            "schedule_id": "schedule_code_012345",
             "hospital": "hospital_code_012345",
             "doctor": "doctor_code_012345",
             "patient": "patient_code_012345",
@@ -26,6 +27,7 @@ Current Success.
         },
         {
             "schedule_ticket_id": "schedule_ticket_code_012346",
+            "schedule_id": "schedule_code_012345",
             "hospital": "hospital_code_012345",
             "doctor": "doctor_code_012345",
             "patient": "patient_code_012345",
