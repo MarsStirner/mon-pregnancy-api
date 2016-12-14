@@ -8,28 +8,18 @@
             "description": "Код мероприятия, справочник Measure",
             "type": "string"
         },
-        "diagnosis": {
-            "description": "Направительный диагноз",
+        "appointment_code":{
             "type": "string",
-            "pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"            
+            "description": "Уникальный код направления"
         },
-        "time": {
-            "description": "Время забора материала",
+        "appointed_date": {
+            "description": "Дата создания направления",
             "type": "string",
-            "pattern": "^([0-9]|0[0-9]|1[0-9]|2[0-3]):([0-5][0-9])$"
-        },
-        "date": {
-            "description": "Дата забора материала",
-            "type": "string",
-            "format": "date"            
-        },
-        "parameters": {
-            "description": "Параметры (список)",
-            "type": "string"
+            "format": "date"
         },
         "appointed_lpu":{
             "type": "string",
-            "description": "Код ЛПУ в котором было назначено мероприятие"
+            "description": "Код ЛПУ, в котором было назначено мероприятие"
         },
         "appointed_doctor":{
             "type": "string",
@@ -40,9 +30,23 @@
             "type": "string"
         },
         "referral_date": {
-            "description": "Дата направления",
+            "description": "Дата направления (запланированная дата исполнения направления)",
             "type": "string",
             "format": "date"
+        },
+        "execution_time": {
+            "description": "Запланированное время исполнения",
+            "type": "string",
+            "pattern": "^([0-9]|0[0-9]|1[0-9]|2[0-3]):([0-5][0-9])$"
+        },
+        "diagnosis": {
+            "description": "Направительный диагноз",
+            "type": "string",
+            "pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
+        },
+        "parameters": {
+            "description": "Параметры (список)",
+            "type": "string"
         },
         "comment": {
             "description": "Комментарий",
