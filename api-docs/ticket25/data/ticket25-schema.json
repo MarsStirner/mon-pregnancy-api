@@ -42,6 +42,10 @@
             "description": "Детское обращение (пациентка до 14 лет - да/нет)",
             "type": "boolean"
         },
+        "visit_place": {
+            "description": "Место посещения (оказания медицинской помощи), справочник rbRisarVisitPlace",
+            "type": "string"
+        },
         "visit_type": {
             "description": "Посещение (тип), справочник rbRisarVisit_Type",
             "type": "string"
