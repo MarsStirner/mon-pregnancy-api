@@ -25,6 +25,7 @@
         "area": "77123456789",
         "phone": "+7987200000",
         "LPU_id":"012345",
+        "FFOMSCode": "036789",        
         "TFOMSCode": "036789",
         "Department_TFOMSCode":"54321",
         "INN": "036789",
