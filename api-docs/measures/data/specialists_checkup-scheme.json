@@ -43,6 +43,10 @@
       "id": "specialists_checkup/diagnosis",
       "description": "Диагноз в формате кода МКБ"
        },
+        "results":{
+            "type": "string",
+            "description": "Результаты осмотра"
+        },
        "mis_visit_link":{
     	      "type": "string", 
     	      "id": "specialists_checkup/mis_visit_link",

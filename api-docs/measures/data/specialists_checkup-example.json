@@ -7,5 +7,6 @@
 	"doctor_code": "136",
 	"analysis_number": "105-У",
 	"diagnosis": "036.5",
+	"results":"Текстовое описание результатов осмотра",
 	"mis_visit_link": "https://www.yandex.ru/"
 }

@@ -1,0 +1,21 @@
+[
+  {
+    "measure_id": "measure_code_123",
+    "measure_type_code": "measure_type_code_123",
+    "appointment": {
+      "appointment_id": "appointment_code_123",
+      "appointment_number": "123321123312",
+      "appointed_date": "2011-11-11",
+      "appointed_lpu": "lpu_code_123",
+      "appointed_doctor": "doctor_code_123",
+      "referral_lpu": "lpu_code_321",
+      "referral_date": "2011-11-11",
+      "diagnosis": "Q00.0",
+      "indications": "Грустный внешний вид"
+    },
+    "begin_date": "2011-11-10",
+    "end_date": "2011-11-25",
+    "status": "created",
+    "result_action_id": "23321123"
+  }
+]
