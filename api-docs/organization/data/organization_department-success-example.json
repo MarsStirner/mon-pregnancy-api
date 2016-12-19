@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "code": "200",
+        "name": "OK"
+    },
+    "data": {
+        "organisation_id": "organisation_code_123",
+        "regionalCode": "department_code_123",
+        "TFOMSCode": "123456",
+        "name": "Подразделение ЛПУ",
+        "address": "г.Москва, ул.Пушкина, д.1"
+    }
+}
