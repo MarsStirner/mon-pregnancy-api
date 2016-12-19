@@ -12,6 +12,10 @@
             "description": "Место обращения (код ЛПУ)",
             "type": "string"
         },
+        "department": {
+            "description": "Место обращения (код подразделения)",
+            "type": "string"
+        },
         "date_open": {
             "description": "Дата открытия талона",
             "type": "string",
