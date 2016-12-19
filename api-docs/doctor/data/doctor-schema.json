@@ -45,7 +45,7 @@
         },
         "department":{
             "type": "string",
-            "description": "Подразделение ЛПУ врача"
+            "description": "Идентификатор подразделения ЛПУ врача"
         },
         "speciality":{
             "type": "string",
