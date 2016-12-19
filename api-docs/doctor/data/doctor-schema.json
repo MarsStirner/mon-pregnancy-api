@@ -41,7 +41,11 @@
         "organization":{
             "type": "string",
             "id": "doctor/organization",
-            "description": "ТФОМС код организации врача"
+            "description": "Идентификатор ЛПУ врача"
+        },
+        "department":{
+            "type": "string",
+            "description": "Подразделение ЛПУ врача"
         },
         "speciality":{
             "type": "string",
