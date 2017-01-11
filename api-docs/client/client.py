@@ -37,6 +37,13 @@ Current Success.
       "flat": "404",
       "locality_type": 1
     },
+    "registration_address": {
+      "KLADR_locality": "7800000000000",
+      "KLADR_street": "78000000000076900",
+      "house": "12а",
+      "flat": "404",
+      "locality_type": 1
+    },
     "blood_type_info": [
       {
         "blood_type": "B(III)Rh+"
@@ -145,6 +152,13 @@ JSON пример ответа <a href="/json-data/client/data/client-all-respon
        "flat": "404",
        "locality_type": 1
      },
+    "registration_address": {
+      "KLADR_locality": "7800000000000",
+      "KLADR_street": "78000000000076900",
+      "house": "12а",
+      "flat": "404",
+      "locality_type": 1
+    },
      "blood_type_info": [
          {
            "blood_type": "B(III)Rh+"
