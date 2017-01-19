@@ -17,8 +17,17 @@
                     "type": "string",
                     "format": "date"
                 },
+                "modify_date": {
+                    "description": "Дата последнего изменения данных осмотра",
+                    "type": "string",
+                    "format": "date"
+                },
                 "hospital": {
                     "description": "ЛПУ осмотра (код)",
+                    "type": "string"
+                },
+                "department": {
+                    "description": "Подразделение ЛПУ осмотра (код)",
                     "type": "string"
                 },
                 "doctor": {

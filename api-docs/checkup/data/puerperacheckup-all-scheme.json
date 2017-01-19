@@ -13,6 +13,11 @@
 			"type": "string",
 			"format": "date"
 		},
+		"modify_date": {
+			"description": "Дата последнего изменения данных осмотра",
+			"type": "string",
+			"format": "date"
+		},
 		"date_of_childbirth": {
 			"description": "Дата родов",
 			"type": "string",
@@ -20,6 +25,10 @@
 		},
 		"hospital": {
 			"description": "ЛПУ осмотра (код)",
+			"type": "string"
+		},
+		"department": {
+			"description": "Подразделение ЛПУ осмотра (код)",
 			"type": "string"
 		},
 		"doctor": {
