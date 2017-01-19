@@ -223,6 +223,20 @@
         "doctor": {
             "description": "Врач (код врача)",
             "type": "string"
+        },
+        "other": {
+            "description": "Прочие поля",
+            "type": "object",
+            "properties": {
+                "category": {
+                    "description": "категория",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "адрес",
+                    "type": "string"
+                }
+            }
         }
     },
     "required":["doctor", "hospital", "diagnosis", "date_open"]
