@@ -11,11 +11,11 @@
         "parent_department":{
             "type": "string",
             "description": "Идентификатор вышестоящего подразделения"
-        },      
+        },
         "regionalCode":{
             "type": "string",
             "description": "Уникальный идентификатор подразделения"
-        },       
+        },
         "TFOMSCode":{
             "type": "string",
             "id": "organization/TFOMSCode",
