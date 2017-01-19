@@ -12,7 +12,8 @@
         {
             "time_begin": "09:30",
             "time_end": "10:00",
-            "patient": "patient_id_123"
+            "patient": "patient_id_123",
+            "schedule_ticket_type": "1"
         }
     ]
 }

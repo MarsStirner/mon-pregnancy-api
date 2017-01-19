@@ -73,7 +73,7 @@
                         "type": "string" 
                     }
                  },
-                "required": ["ticket_type"]
+                "required": ["schedule_ticket_type"]
             },
             "minItems": 0
         }
