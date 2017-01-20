@@ -12,13 +12,15 @@
     },
     "birthday_date": "1990-02-12",
     "gender": 2,
-    "document": {
-      "document_type_code": 14,
-      "document_series": "4004",
-      "document_number": "342908",
-      "document_beg_date": "2004-10-31",
-      "document_issuing_authority": "ТП № 30 отдела УФМС по СПб и Лен.области"
-    },
+    "documents": [
+      {
+        "document_type_code": 14,
+        "document_series": "4004",
+        "document_number": "342908",
+        "document_beg_date": "2004-10-31",
+        "document_issuing_authority": "ТП № 30 отдела УФМС по СПб и Лен.области"
+      }
+    ],
     "residential_address": {
       "KLADR_locality": "7800000000000",
       "KLADR_street": "78000000000076900",
