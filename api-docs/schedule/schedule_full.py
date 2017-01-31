@@ -21,6 +21,7 @@ Current Success.
         "date": "2011-11-11",
         "time_begin": "09:00",
         "time_end": "10:00",
+        "quota_type": "1",
         "schedule_tickets": [
             {
                 "time_begin": "09:00",

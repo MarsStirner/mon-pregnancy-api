@@ -37,7 +37,7 @@
         },
         "quota_type": {
             "description": "Тип квоты",
-            "type": "integer"
+            "type": "string"
         },
         "appointment_permited": {
             "description": "Разрешена запись на прием",
@@ -78,5 +78,5 @@
             "minItems": 0
         }
     },
-    "required": ["hospital","doctor","date","time_begin","time_end"]
+    "required": ["hospital","doctor","date","time_begin","time_end", "quota_type"]
 }

@@ -10,6 +10,7 @@
                 {
                     "begin_time": "11:00",
                     "end_time": "13:00",
+                    "quota_type": "1",
                     "quantity": 2
                 },
                 {
@@ -25,6 +26,7 @@
                 {
                     "begin_time": "10:00",
                     "end_time": "17:00",
+                    "quota_type": "1",
                     "quantity": 4
                 }
             ]
