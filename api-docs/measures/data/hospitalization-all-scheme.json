@@ -48,6 +48,10 @@
             "type": "string",
             "pattern": "^([A-Z][0-9][0-9])(\\.([0-9]{1,2})(\\.[0-9]+)?)?$"
         },
+        "results":{
+          "description": "Результаты госпитализации"
+          "type": "string"
+        },
         "status": {
             "description": "Статус мероприятия, справочник rbMeasureStatus",
             "type": "string"
