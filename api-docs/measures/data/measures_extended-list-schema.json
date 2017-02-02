@@ -45,6 +45,10 @@
                         "description": "Направлен в (код ЛПУ)",
                         "type": "string"
                     },
+                    "referral_department": {
+                        "description": "Направлен в (код подразделения ЛПУ)",
+                        "type": "string"
+                    },
                     "referral_date": {
                         "description": "Дата направления (запланированная дата исполнения направления)",
                         "type": "string",
@@ -67,6 +71,10 @@
                     "parameters": {
                         "description": "Параметры (список)",
                         "type": "string"
+                    },
+                    "cito": {
+                        "description": "Срочность",
+                        "type": "boolean"
                     },
                     "comment": {
                         "description": "Комментарий",

@@ -52,6 +52,10 @@
             "description": "Параметры (список)",
             "type": "string"
         },
+        "cito": {
+            "description": "Срочность",
+            "type": "boolean"
+        },
         "comment": {
             "description": "Комментарий",
             "type": "string"
