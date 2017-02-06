@@ -25,7 +25,8 @@ Current Success.
         "schedule_tickets": [
             {
                 "time_begin": "09:00",
-                "time_end": "09:30"
+                "time_end": "09:30",
+                "schedule_ticket_type": "0"
             },
             {
                 "time_begin": "09:30",
