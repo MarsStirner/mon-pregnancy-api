@@ -63,7 +63,7 @@ Current Success.
       "obstetrical_forceps": "vyhodnye",
       "vacuum_extraction": false,
       "indication": "kombinirovannye",
-      "specialities": "planovoe",
+      "specialities": "Особенности операции текст",
       "anesthetization": "01",
       "hysterectomy": "boleedvuhsutokposlerodov",
       "complications": [
@@ -169,7 +169,7 @@ JSON пример: <a href="/json-data/epicrisis/data/childbirth-all-example.jso
     "obstetrical_forceps": "vyhodnye",
     "vacuum_extraction": false,
     "indication": "kombinirovannye",
-    "specialities": "planovoe",
+    "specialities": "Особенности операции текст",
     "anesthetization": "01",
     "hysterectomy": "boleedvuhsutokposlerodov",
     "complications": [

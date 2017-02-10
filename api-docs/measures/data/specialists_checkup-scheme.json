@@ -30,7 +30,6 @@
        },
       "checkup_edit_date":{
       "type": "string",
-      "id": "specialists_checkup/checkup_date",
       "description": "Дата редактирования осмотра"
        },
       "lpu_code":{
