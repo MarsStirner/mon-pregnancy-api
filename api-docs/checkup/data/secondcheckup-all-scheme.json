@@ -240,7 +240,7 @@
                         "description": "Задержка в развитии плода, справочник rbRisarFetus_Delay",
                         "type": "string"    
                     },
-                    "ctg_data": {
+                    "ctg_data_fisher": {
                         "description": "Данные КТГ",
                         "type": "object",
                         "properties": {
@@ -264,9 +264,18 @@
                                 "description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
                                 "type": "string"
                             }
-                        },
-                        "required": ["fhr", "fhr_variability_amp", "fhr_variability_freq", "fhr_acceleration", "fhr_deceleration"]
-                    }
+                        }
+                    },
+                  "ctg_data_stv":{
+                  "description": "Данные оценки КТГ по STV",
+                  "type":"object",
+                  "properties":{
+                  "value":{
+                    "description":"значение оценки по STV",
+                  "type":"integer"},
+                  "explanation":{
+                   "description":"Расшифровка оценки по STV",
+                  "type":"string"}}}
                 }
             }
         },
