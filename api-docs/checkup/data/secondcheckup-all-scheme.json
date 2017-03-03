@@ -264,18 +264,15 @@
                                 "description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
                                 "type": "string"
                             },
-                          "fisher_points":{
+                            "fisher_points":{
                             "description" : "значение оценки по Фишеру ",
                             "type": "integer"
-                          }
-                        }
-                    },
+                            }
+                    }},
                   "ctg_data_stv":{
                   "description": "Данные оценки КТГ по STV",
                   "type":"integer"
-                }
-            }
-        },
+				}}}},
         "vaginal_examination": {
 			"description": "Влагалищное исследование",
 			"type": "object",
