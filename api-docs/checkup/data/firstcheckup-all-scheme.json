@@ -176,7 +176,7 @@
 					"type": "string"
 				},
 				"bowel_and_bladder_habits": {
-					"description": "Физиологические отправления", справочник rbRisarBowelAndBladderFunctions",
+					"description": "Физиологические отправления, справочник rbRisarBowelAndBladderFunctions",
 					"type": "string"
 				},
 				"heart_rate": {
@@ -319,7 +319,7 @@
 						"type": "number",
 						"format": "double"
 					},
-                                      "ctg_data_fisher": {
+                    "ctg_data_fisher": {
                         "description": "Данные КТГ",
                         "type": "object",
                         "properties": {
@@ -342,19 +342,15 @@
                             "fhr_deceleration": {
                                 "description": "Децелерации за 30 минут, справочник rbRisarDeceleration",
                                 "type": "string"
-                            }
-                        }
+                            },
+                          "fisher_points":{
+                            "description" : "значение оценки по Фишеру ",
+                            "type": "integer"
+                          }
                     },
                   "ctg_data_stv":{
                   "description": "Данные оценки КТГ по STV",
-                  "type":"object",
-                  "properties":{
-                  "value":{
-                    "description":"значение оценки по STV",
-                  "type":"integer"},
-                  "explanation":{
-                   "description":"Расшифровка оценки по STV",
-                  "type":"string"}}}
+                  "type":"integer"
 				}
 			}
 		},
@@ -533,6 +529,6 @@
 				"diagnosis_osn"
 			]
 		}
-	},
+	}},
 	"required": ["external_id", "general_info", "somatic_status", "obstetric_status", "medical_report"]
 }
