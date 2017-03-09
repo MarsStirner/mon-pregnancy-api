@@ -62,7 +62,37 @@
           "type": "string",
           "description": "Код группы риска. Код из справочника групп рисков"
           }
-        }
+        },
+    		"regional_scale_risks_tomsk":{
+			"type": "array",
+			"id":"expert_data/regional_scale_risks",
+			"description":"Информация о степени риска пациентки по региональной шкале рисков Томской области",
+			"items":{
+				"type":"object",
+				"properties":{
+					"stage":{
+						"type":"string",
+						"id":"expert_data/regional_scale_risks/stage",
+						"description": "Этап определения риска, код"
+					},
+					"factors":{
+						"type": "array",
+						"id":"expert_data/regional_scale_risks/factors",
+						"description": "Факторы, которые сработали на этапе, список кодов",
+						"items":{
+							"type":"string",
+							"description":"Код фактора"
+						}
+					},
+					"sum":{
+						"type":"integer",
+						"id":"expert_data/regional_scale_risks/sum",
+						"description":"Сумма факторов на этапе"
+					}
+					
+				}
+			}
+		}
       }
     }
 
