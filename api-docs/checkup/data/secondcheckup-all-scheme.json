@@ -102,6 +102,13 @@
                         "type": "string"
                     }
                 },
+                "mucous":{
+              		"description": "Видимые слизистые, код по справочнику rbRisarMucous",
+                	"type": "array",
+					"items": {
+						"type": "string"
+					}
+              },
                 "skin": {
                     "description": "Кожа, справочник rbRisarSkin",
                     "type": "array",
@@ -144,20 +151,24 @@
                         "type": "string"
                     }
                 },
-                "abdomen": {
+              "respiratory_rate":{
+                	"description": "Частота дыхательных движений",
+					"type": "number"
+              },
+              "abdomen": {
                     "description": "Органы брюшной полости, справочник rbRisarStomach",
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
-                },
-                "liver": {
+              },
+               "liver": {
                     "description": "Печень, справочник rbRisarLiver",
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
-                },
+               },
                 "secretion": {
                     "description": "Выделения, справочник rbRisarSecretion",
                     "type": "string"
@@ -224,6 +235,10 @@
                         "description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
                         "type": "string"
                     },
+                    "fetus_presenting_part":{
+                      	"description": "Местонахождение предлежащей части плода, справочник rbRisarPresentingPart",
+						"type": "string"
+                    },
                     "fetus_heartbeat": {
                         "description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
                         "type": "array",
@@ -268,11 +283,15 @@
                             "description" : "значение оценки по Фишеру ",
                             "type": "integer"
                             }
-                    }},
-                  "ctg_data_stv":{
-                  "description": "Данные оценки КТГ по STV",
-                  "type":"integer"
-				}}}},
+                    }
+                    },
+                   "ctg_data_stv":{
+                  		"description": "Данные оценки КТГ по STV",
+                  		"type":"integer"
+				  }
+                }
+            }
+        },
         "vaginal_examination": {
 			"description": "Влагалищное исследование",
 			"type": "object",
@@ -281,11 +300,19 @@
 					"description": "Влагалище, справочник rbRisarVagina",
 					"type": "string"
 				},
+                "vagina_mucous":{
+                	"description": "Слизистая влагалища, код по справочнику rbRisarMucous",
+					"type": "array",
+					"items": {
+						"type": "string"
+                    }
+               },
 				"cervix": {
 					"description": "Шейка матки, справочник rbRisarCervix",
 					"type": "array",
 					"items": {
-						"type": "string"}
+						"type": "string"
+                    }
 				},
 				"cervix_length": {
 					"description": "Длина шейки матки, справочник rbRisarCervix_Length",
@@ -318,7 +345,8 @@
 					"description": "Придатки, справочник rbRisarAppendages",
                   "type": "array",
 					"items": {
-						"type": "string"}
+						"type": "string"
+                    }
 				},
                 "adnexa_left": {
 					"description": "Придатки, справочник rbRisarAppendages",
