@@ -58,6 +58,18 @@
             "type": "boolean",
             "description": "Наличие внутриматочного вмешательства в анамнезе женщины"
         },
+       "uterine_scar_quantity":{
+         	 "type": "string",
+            "description": "Количество рубцов на матке, код по справочнику rbRisarUterineScar"
+       },
+      "uterine_scar_location":{
+         	 "type": "string",
+            "description": "Расположение рубца на матке, код по справочнику rbRisarUterineScarLocation"
+       },
+      "solitary_paired":{
+     		"type": "boolean",
+            "description": "Наличие единственной почки"
+      },
         "multiple_fetation": {
             "id": "mother_anamnesis_schema/multiple_fetation",
             "type": "boolean",
@@ -180,7 +192,6 @@
         }
     },
     "required": [
-        "last_period_date",
         "marital_status"
     ]
 }
