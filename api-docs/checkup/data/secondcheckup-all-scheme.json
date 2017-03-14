@@ -419,7 +419,11 @@
                         },
                         "descr": {
                             "type": "string"
-                        }
+                        }, 
+                      "stage":{
+                      		"type": "string",
+                          	"description": "Уточнение стадии/степени заболевания, код справочника"
+                      }
                     }, 
                     "required": ["MKB"]
                 },
@@ -435,7 +439,11 @@
                             },
                             "descr": {
                                 "type": "string"
-                            }
+                            },
+                          "stage":{
+                      		"type": "string",
+                          	"description": "Уточнение стадии/степени заболевания, код справочника"
+                      }
                         }, 
                         "required": ["MKB"]
                     },
@@ -453,7 +461,11 @@
                             },
                             "descr": {
                                 "type": "string"
-                            }
+                            },
+                          "stage":{
+                      		"type": "string",
+                          	"description": "Уточнение стадии/степени заболевания, код справочника"
+                      }
                         }, 
                         "required": ["MKB"]
                     },
