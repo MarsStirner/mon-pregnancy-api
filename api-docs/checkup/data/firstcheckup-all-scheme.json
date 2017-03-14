@@ -39,11 +39,20 @@
 					"type": "number",
 					"format": "double"
 				},
+                "weight_before":{
+                    "description": "Масса до осмотра",
+					"type": "number",
+					"format": "double"
+                },
 				"weight": {
 					"description": "Масса при осмотре",
 					"type": "number",
 					"format": "double"
-				}
+				},
+              "constitution": {
+                	"description": "Особенности телосложения, код по справочнику rbRisarConstitutionalPeculiarity",
+					"type": "string"
+              }
 			},
 			"required": ["date", "hospital", "doctor", "height", "weight"]
 		},
@@ -73,6 +82,13 @@
 						"type": "string"
 					}
 				},
+              "mucous":{
+              		"description": "Видимые слизистые, код по справочнику rbRisarMucous",
+                	"type": "array",
+					"items": {
+						"type": "string"
+					}
+              },
 				"skin": {
 					"description": "Кожа, справочник rbRisarSkin",
 					"type": "array",
@@ -126,6 +142,10 @@
 						"type": "string"
 					}
 				},
+              	"respiratory_rate":{
+                	"description": "Частота дыхательных движений",
+					"type": "number"
+                },
 				"abdomen": {
 					"description": "Органы брюшной полости, справочник rbRisarStomach",
 					"type": "array",
@@ -307,6 +327,10 @@
 						"description": "Предлежащая часть плода, справочник rbRisarPresenting_Part",
 						"type": "string"
 					},
+                    "fetus_presenting_part":{
+                      	"description": "Местонахождение предлежащей части плода, справочник rbRisarPresentingPart",
+						"type": "string"
+                    },
 					"fetus_heartbeat": {
 						"description": "Сердцебиение плода, справочник rbRisarFetus_Heartbeat",
 						"type": "array",
@@ -344,14 +368,18 @@
                                 "type": "string"
                             },
                             "fisher_points":{
-                            "description" : "значение оценки по Фишеру ",
-                            "type": "integer"
+                           		"description" : "значение оценки по Фишеру ",
+                           		"type": "integer"
                             }
-                    }},
-                  "ctg_data_stv":{
-                  "description": "Данные оценки КТГ по STV",
-                  "type":"integer"
-				}}}},
+                   		}
+                	},
+                 	"ctg_data_stv":{
+                  		"description": "Данные оценки КТГ по STV",
+                  		"type":"integer"
+					}
+                }
+            }
+        },
 		"vaginal_examination": {
 			"description": "Влагалищное исследование",
 			"type": "object",
@@ -360,15 +388,23 @@
 					"description": "Влагалище, справочник rbRisarVagina",
 					"type": "string"
 				},
+              "vagina_mucous":{
+                	"description": "Слизистая влагалища, код по справочнику rbRisarMucous",
+					"type": "array",
+					"items": {
+						"type": "string"
+                    }
+              },
               "secretion": {
                     "description": "Выделения, справочник rbRisarSecretion",
                     "type": "string"
-                },
-				"cervix": {
+               },
+			   "cervix": {
 					"description": "Шейка матки, справочник rbRisarCervix",
 					"type": "array",
 					"items": {
-						"type": "string"}
+						"type": "string"
+                    }
 				},
 				"cervix_length": {
 					"description": "Длина шейки матки, справочник rbRisarCervix_Length",
@@ -401,13 +437,15 @@
 					"description": "Придатки, справочник rbRisarAppendages",
                   "type": "array",
 					"items": {
-						"type": "string"}
+						"type": "string"
+                    }
 				},
                 "adnexa_left": {
 					"description": "Придатки, справочник rbRisarAppendages",
 				"type": "array",
 					"items": {
-						"type": "string"}
+						"type": "string"
+                    }
 				},  
 				"specialities": {
 					"description": "Особенности",
@@ -417,6 +455,10 @@
 					"description": "Наружные половые органы",
 					"type": "string"
 				},
+              	"vulva_pilosis":{
+                	"description": "Оволосение, код по справочнику rbRisarVulvaPilosis",
+					"type": "string"
+                },
 				"parametrium": {
 					"description": "Околоматочное пространство, справочник rbRisarParametrium",
 					"type": "string"
