@@ -60,7 +60,7 @@
      "description": "Группы патологий пациентки",
      "items" : {
           "type": "string",
-          "description": "Код группы риска. Код из справочника групп рисков"
+          "description": "Код патологии из справочника типов патологий"
           }
         },
     		"regional_scale_risks_tomsk":{
