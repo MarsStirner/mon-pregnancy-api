@@ -60,15 +60,15 @@
         },
        "uterine_scar_quantity":{
          	 "type": "string",
-            "description": "Количество рубцов на матке, код по справочнику rbRisarUterineScar"
+            "description": "Количество рубцов на матке, код по справочнику rbRisarUterineScar. Используется для Томска"
        },
       "uterine_scar_location":{
          	 "type": "string",
-            "description": "Расположение рубца на матке, код по справочнику rbRisarUterineScarLocation"
+            "description": "Расположение рубца на матке, код по справочнику rbRisarUterineScarLocation. Используется для Саратова"
        },
       "solitary_paired":{
      		"type": "boolean",
-            "description": "Наличие единственной почки"
+            "description": "Наличие единственной почки. Атрибут используется для Томска"
       },
         "multiple_fetation": {
             "id": "mother_anamnesis_schema/multiple_fetation",
