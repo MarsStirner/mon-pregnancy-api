@@ -1,0 +1,159 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+    "description":"Схема данных экспертных показателей для пациентки, которая используется только в Саратовской области",
+	"type": "object",
+	"id": "expert_data_saratov",
+	"properties": {
+		"risk_degree": {
+			"type": "string",
+			"id": "expert_data/risk_degree",
+			"description": "Степень перинатального риска по 572 приказу. Код из справочника степеней риска"
+		},
+		"risk_diagnosis": {
+			"type": "array",
+			"id": "expert_data/risk_diagnosis",
+			"description": "Рискообразующие диагнозы пациентки",
+			"items": {
+				"type": "object",
+				"description": "Список диагнозов",
+				"properties": {
+					"diagnosis_code": {
+						"type": "string",
+						"id": "expert_data/risk_diagnosis/diagnosis_code",
+						"description": "Код МКБ диагноза"
+					},
+					"diagnosis_name": {
+						"type": "string",
+						"id": "expert_data/risk_diagnosis/diagnosis_name",
+						"description": "Наименование диагноза"
+					}
+				}
+			}
+		},
+		"established_preeclampsia": {
+			"type": "string",
+			"id": "expert_data/established_preeclampsia",
+			"description": "Степень установленной преэклампсии. Код из справочника степеней преэклампсии"
+		},
+		"suspected_preeclampsia": {
+			"type": "string",
+			"id": "expert_data/suspected_preeclampsia",
+			"description": "Степень подозреваемой преэклампсии. Код из справочника степеней преэклампсии"
+		},
+		"estimated_birth_date": {
+			"type": "string",
+			"id": "expert_data/estimated_birth_date",
+			"description": "Предполагаемая дата родов"
+		},
+		"risk_groups": {
+			"type": "array",
+			"id": "expert_data/risk_groups",
+			"description": "Группы риска пациентки",
+			"items": {
+				"type": "string",
+				"description": "Код группы риска. Код из справочника групп рисков"
+			}
+		},
+		"patology_groups": {
+			"type": "array",
+			"id": "expert_data/patology_groups",
+			"description": "Группы патологий пациентки",
+			"items": {
+				"type": "string",
+				"description": "Код группы риска. Код из справочника групп рисков"
+			}
+		},
+		"regional_scale_risks":{
+			"type": "object",
+			"description":"Информация о степени риска пациентки по региональной шкале рисков по каждому из этапов",
+			"properties":{
+				"first_stage":{
+					"type":"object",
+					"properties":{
+						"anamnestic_factors":{
+							"type": "array",
+							"description": "Анамнестические факторы",
+							"items":{
+								"type":"string",
+								"description":"Код фактора по таблице rbRadzRiskFactor"
+							}
+						},
+						"anamnestic_factors_sum":{
+							"type":"integer",
+							"description":"Сумма анамнестических факторов"
+						}
+					}
+				},
+				"second_stage":{
+					"type":"object",
+					"properties":{
+						"factors_before_35":{
+							"type": "array",
+							"description": "Факторы до 35 недель",
+							"items":{
+								"type":"string",
+								"description":"Код фактора по таблице rbRadzRiskFactor"
+							}
+						},
+						"factors_before_35_sum":{
+							"type":"integer",
+							"description":"Сумма факторов осложений беременности до 35 недель"
+						},
+						"final_before_35_sum":{
+							"type":"integer",
+							"description":"Сумма факторов осложений беременности до 35 недель, включая анамнестические"
+						}
+					}
+				},
+				"third_stage":{
+					"type":"object",
+					"properties":{
+						"factors_after_36":{
+							"type": "array",
+							"description": "Факторы после 36 недель",
+							"items":{
+								"type":"string",
+								"description":"Код фактора по таблице rbRadzRiskFactor"
+							}
+						},
+						"factors_after_36_sum":{
+							"type":"integer",
+							"description":"Сумма факторов осложений беременности после 36 недель"
+						},
+						"final_after_36_sum":{
+							"type":"integer",
+							"description":"Сумма факторов осложений беременности после 36 недель, включая анамнестические"
+						}
+					}
+				},
+				"intranatal_stage":{
+					"type":"object",
+					"properties":{
+						"intranatal_factors":{
+							"type": "array",
+							"description": "Интранатальные факторы",
+							"items":{
+								"type":"string",
+								"description":"Код фактора по таблице rbRadzRiskFactor"
+							}
+						},
+						"intranatal_factors_sum":{
+							"type":"integer",
+							"description":"Сумма интранатальных факторов"
+						},
+						"final_sum":{
+							"type":"integer",
+							"description":"Сумма факторов осложений беременности, включая анамнестические и интранатальные"
+						},
+						"intranatal_increase":{
+							"type": "number",
+							"description": "Значение интранатального прироста",
+							"format": "double"
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}

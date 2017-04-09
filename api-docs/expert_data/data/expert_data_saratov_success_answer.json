@@ -1,0 +1,40 @@
+{"meta":{
+"code":"200", 
+"result": { 
+                "risk_degree": "1",
+                "risk_diagnosis": [
+                  {
+                        "diagnosis_code": "O10.0",
+                        "diagnosis_name": "Существовавшая ранее эссенциальная гипертензия, осложняющая беременность, роды и послеродовой период"
+                  }
+                ],
+                "established_preeclampsia": "3",
+                "suspected_preeclampsia": "3",
+                "estimated_birth_date": "25-05-2015",
+                "risk_groups": ["5","6"],
+                "patology_groups": ["extragenital"],
+                "regional_scale_risks": {
+					"first_stage":{
+						"anamnestic_factors":["father_alcohol"],
+						"anamnestic_factors_sum":"2"
+					},
+					"second_stage":{
+						"factors_before_35":["edema_disease"],			
+						"factors_before_35_sum":"2",
+						"final_before_35_sum": "4",
+					},
+					"third_stage":{
+						"factors_after_36":["edema_disease"],
+						"factors_after_36_sum":"2",
+						"final_after_36_sum":"4"
+					},
+					"intranatal_stage":{
+						"intranatal_factors":[],
+						"intranatal_factors_sum":"0",
+						"final_sum":"4",
+						"intranatal_increase":"0"
+					}              
+				}
+}
+}
+}
