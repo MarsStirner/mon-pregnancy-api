@@ -140,6 +140,14 @@
                 "description": "Код наследственного заболевания по справочнику"
             }
         },
+        "birth_defect":{
+            "type": "string",
+            "description": "Уточнение врожденного порока развития, ввод вручную"
+        },
+        "hereditary_manual_input":{
+            "type": "string",
+            "description": "Наследственность, ввод вручную"
+        },
         "finished_diseases": {
             "id": "father_anamnesis_schema/finished_diseases",
             "type": "string",

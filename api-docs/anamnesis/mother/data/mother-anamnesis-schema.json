@@ -53,6 +53,11 @@
             "type": "string",
             "description": "Код значения способа оплодотворения"
         },
+        "ECO_attempt_number":{
+            "id": "mother_anamnesis_schema/ECO_attempt_number",
+            "type": "integer",
+            "description": "Номер попытки ЭКО, с которой произошла беременность"       	
+        },
         "intrauterine_operation": {
             "id": "mother_anamnesis_schema/intrauterine_operation",
             "type": "boolean",
@@ -159,6 +164,16 @@
                 "type": "string",
                 "description": "Код наследственного заболевания по справочнику"
             }
+        },
+        "birth_defect":{
+        	"id": "mother_anamnesis_schema/birth_defect",
+            "type": "string",
+            "description": "Уточнение врожденного порока развития, ввод вручную"
+        },
+        "hereditary_manual_input":{
+        	"id": "mother_anamnesis_schema/hereditary_manual_input",
+            "type": "string",
+            "description": "Наследственность, ввод вручную"
         },
         "finished_diseases": {
             "id": "mother_anamnesis_schema/finished_diseases",

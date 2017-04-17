@@ -88,6 +88,14 @@
 				"type": "string"
 			}
 		},
+        "birth_defect":{
+            "type": "string",
+            "description": "Уточнение врожденного порока развития, ввод вручную"
+        },
+        "hereditary_manual_input":{
+            "type": "string",
+            "description": "Наследственность, ввод вручную"
+        },
 		"gyn_operation": {
 			"description": "Оперативные вмешательства на половых органах",
 			"type": "string"

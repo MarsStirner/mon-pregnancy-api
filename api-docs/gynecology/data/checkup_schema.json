@@ -208,12 +208,16 @@
 					}
 				},
 				"lymph": {
-					"description": "Лимфоузлы, массив, справочник rbRisarLymph",
 					"type": "array",
+					"description":"Значение справочника rbRisarLymph, код",
 					"items": {
 						"type": "string"
 					}
 				},
+				"lymph_type":{
+					"description": "Значение поля Какие",
+					"type":"string"
+					},
 				"subcutaneous_fat": {
 					"description": "Подкожно-жировая клетчатка, справочник rbRisarSubcutaneous_Fat",
 					"type": "string"
@@ -238,6 +242,10 @@
 					"items": {
 						"type": "string"
 					}
+				},
+				"segment":{
+					"description":"В каких отделах живот напряженный или болезненный",
+					"type":"string"
 				},
 				"pilosis": {
 					"description": "Характер оволосения",
@@ -347,7 +355,18 @@
 				"vagina_paries_mirrors_other": {
 					"description": "Осмотр в зеркалах.Стенки влагалища. Другое",
 					"type": "string"
-				},				
+				},
+				"vagina_mucous": {
+					"description": "Состояние слизистой влагалища, массив, справочник rbRisarMucous",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"vagina_mucous_adds": {
+					"description": "Состояние слизистой влагалища.Другое",
+					"type": "string"
+				},
 				"cervix_uteri_mirrors": {
 					"description": "Осмотр в зеркалах.Шейка матки, справочник rbRisarCervixUteri",
 					"type": "string"
@@ -381,25 +400,6 @@
 				},
 				"vaginal_fornix_adds_mirrors": {
 					"description": "Осмотр в зеркалах.Своды влагалища.Другое",
-					"type": "string"
-				},
-				"discharge_consistency_mirrors": {
-					"description": "Осмотр в зеркалах.Выделения.Консистенция, массив, справочник rbRisarDischargeConsistency",
-					"type": "array",
-					"items": {
-						"type": "string"
-					}
-				},
-				"discharge_colour_mirrors": {
-					"description": "Осмотр в зеркалах.Выделения.Цвет, справочник rbRisarDischargeColour",
-					"type": "string"
-				},
-				"discharge_quantity_mirrors": {
-					"description": "Осмотр в зеркалах.Выделения.Количество, справочник rbRisarDischargeQuantity",
-					"type": "string"
-				},
-				"discharge_smell_mirrors": {
-					"description": "Осмотр в зеркалах.Выделения.Запах, справочник rbRisarDischargeSmell",
 					"type": "string"
 				},
 				"comments_mirrors": {
@@ -478,6 +478,10 @@
 					"items": {
 						"type": "string"
 					}
+				},
+				"bimanual_formix_other":{
+					"description": "Бимануальное исследование. Своды влагалища.Другое",
+					"type": "string"
 				},
 				"bimanual_comments": {
 					"description": "Бимануальное исследование.Дополнительная информация",
@@ -566,6 +570,10 @@
 					"items": {
 						"type": "string"
 					}
+				},
+				"rectovaginal_formix_other":{
+					"description": "Ректовагинальное исследование. Своды влагалища.Другое",
+					"type": "string"
 				},
 				"rectovaginal_comments": {
 					"description": "Ректовагинальное исследование..Дополнительная информация",
@@ -668,6 +676,10 @@
 					"items": {
 						"type": "string"
 					}
+				},
+				"rectal_formix_other":{
+					"description": "Ректальное исследование. Своды влагалища.Другое",
+					"type": "string"
 				},
 				"rectal_comments": {
 					"description": "Ректальное исследование.Дополнительная информация",

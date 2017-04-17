@@ -102,6 +102,10 @@
                         "type": "string"
                     }
                 },
+				"complaints_other":{
+					"description":"Прочие жалобы, ввод вручную",
+					"type":"string"
+				},
                 "mucous":{
               		"description": "Видимые слизистые, код по справочнику rbRisarMucous",
                 	"type": "array",
@@ -123,6 +127,10 @@
                         "type": "string"
                     }
                 },
+				"lymph_type":{
+					"description": "Значение поля Какие",
+					"type":"string"
+					},
                 "breast": {
                     "description": "Молочные железы, справочник rbRisarBreast",
                     "type": "array",
@@ -314,11 +322,19 @@
 						"type": "string"
                     }
 				},
+				"cervix_other":{
+					"description": "Шейка матки, прочее, ввод вручную",
+					"type":"string"
+				},
 				"cervix_length": {
 					"description": "Длина шейки матки, справочник rbRisarCervix_Length",
 					"type": "string"
 				},
 				"cervical_canal": {
+					"description": "Цервикальный канал, справочник rbRisarCervical_Canal",
+					"type": "string"
+				},
+				"cervical_canal_other":{
 					"description": "Цервикальный канал, справочник rbRisarCervical_Canal",
 					"type": "string"
 				},
@@ -341,6 +357,10 @@
 						"type": "string"
 					}
 				},
+				"body_of_uterus_increased":{
+					"description": "Количетсво недель, которому соответствует увеличение тела матки",
+					"type": "integer"							
+				},
 				"adnexa_right": {
 					"description": "Придатки, справочник rbRisarAppendages",
                   "type": "array",
@@ -348,12 +368,22 @@
 						"type": "string"
                     }
 				},
+				"adnexa_right_increased":{
+					"description": "Размеры, до которых увеличены придатки справа",
+					"type": "number",
+					"format":"double"
+				},
                 "adnexa_left": {
 					"description": "Придатки, справочник rbRisarAppendages",
 				"type": "array",
 					"items": {
 						"type": "string"}
 				},  
+				"adnexa_left_increased":{
+					"description": "Размеры, до которых увеличены придатки слева",
+					"type": "number",
+					"format":"double"
+				},
 				"specialities": {
 					"description": "Особенности",
 					"type": "string"
@@ -379,7 +409,7 @@
 					"type": "boolean"
 				},
 				"urethra_smear": {
-					"description": "Отделяемое и при наличии данных з уретры взято на анализ",
+					"description": "Отделяемое из уретры взято на анализ",
 					"type": "boolean"
 				}
 			}
