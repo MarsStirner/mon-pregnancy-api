@@ -435,6 +435,10 @@
 					"description": "Бимануальное исследование. Размеры. Увеличены до",
 					"type": "string"
 				},
+				"bimanual_body_of_womb_reduced": {
+					"description": "Бимануальное исследование. Размеры. Уменьшены до",
+					"type": "string"
+				},
 				"bimanual_uteri_position": {
 					"description": "Бимануальное исследование. Положение, массив, справочник rbRisarUteriPositionGenVisit",
 					"type": "array",
@@ -514,6 +518,10 @@
 				},
 				"rectovaginal_body_of_womb_enlarged": {
 					"description": "Ректовагинальное исследование. Размеры. Увеличены до",
+					"type": "string"
+				},
+				"rectovaginal_body_of_womb_reduced": {
+					"description": "Ректовагинальное исследование. Размеры. Уменьшены до",
 					"type": "string"
 				},
 				"rectovaginal_uteri_position": {
@@ -616,6 +624,10 @@
 				},
 				"rectal_body_of_womb_size": {
 					"description": "Ректальное исследование. Размеры, справочник rbRisarBody_Of_Womb_Size",
+					"type": "string"
+				},
+				"rectal_body_of_womb_reduced": {
+					"description": "Ректальное исследование.Размеры. Уменьшены до",
 					"type": "string"
 				},
 				"rectal_body_of_womb_enlarged": {
